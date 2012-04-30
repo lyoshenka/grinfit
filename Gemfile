@@ -1,8 +1,7 @@
 source :rubygems
 
 gem 'heroku'
-gem 'rake'
-gem 'rack-jekyll'
 gem 'jekyll'
+gem 'rack-jekyll'
 gem 'rdiscount'
 gem 'RedCloth'
