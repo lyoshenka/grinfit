@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
  <title>GrinFit</title>
  <link href="http://grinfit.alexgr.in/atom.xml" rel="self"/>
- <link href="http://grinfit.alexgr.in"/>
- <updated>2012-04-29T19:05:31-04:00</updated>
+ <link href="http://grinfit.alexgr.in/"/>
+ <updated>2012-04-30T09:25:49-04:00</updated>
  <id>http://grinfit.alexgr.in</id>
  <author>
    <name>Grin</name>
@@ -262,7 +261,7 @@
  </entry>
  
  <entry>
-   <title>Gym: Dips, Bench, Pull ups & Spinners Practice</title>
+   <title>Gym: Dips, Bench, Pull ups &amp; Spinners Practice</title>
    <link href="http://grinfit.alexgr.in/2012-03-17/gym-dips-bench-pull-ups-spinners-practice"/>
    <updated>2012-03-17T00:00:00-04:00</updated>
    <id>http://grinfit.alexgr.in/2012-03-17/gym-dips-bench-pull-ups-spinners-practice</id>
@@ -589,7 +588,7 @@ bad up-line throws.&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>Burpees & Pullups</title>
+   <title>Burpees &amp; Pullups</title>
    <link href="http://grinfit.alexgr.in/2011-12-30/burpees-pullups"/>
    <updated>2011-12-30T00:00:00-05:00</updated>
    <id>http://grinfit.alexgr.in/2011-12-30/burpees-pullups</id>
