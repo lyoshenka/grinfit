@@ -1,6 +1,8 @@
 source :rubygems
-gem 'jekyll'
+
 gem 'heroku'
+gem 'rake'
 gem 'rack-jekyll'
-gem "RedCloth"
-gem "rdiscount"
+gem 'jekyll'
+gem 'rdiscount'
+gem 'RedCloth'
