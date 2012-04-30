@@ -2,7 +2,7 @@
 permalink: /:year-:month-:day/:title
 
 exclude: ["README.md", "README", "config.ru", "Gemfile", "Gemfile.lock", "Procfile", "bin", "vendor", ".bundle"]
-auto: true
+auto: false
 pygments: true
 
 # Themes are encouraged to use these universal variables 
