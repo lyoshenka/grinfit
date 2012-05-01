@@ -3,7 +3,7 @@
 # Must pass date
 if [[ -z "$*" ]]; then echo "Usage: $0 DATESTRING"; exit 1; fi;
 
-DIR='_posts'
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/../_posts"
 LASTPOST=$(ls -1r $DIR/ | head -n 1);
 LASTTITLE=$(echo "$LASTPOST" | sed -ne 's|^[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}-\(.*\)$|\1|p');
 NEWDATE=$(date +%Y-%m-%d -d "$*");

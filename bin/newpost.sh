@@ -7,6 +7,6 @@ fi
 
 TITLE=`echo "$*" | tr '[:upper:]' '[:lower:]' | sed -e "s/[^a-z0-9_]\+/-/g"`
 
-FILENAME=_posts/`date +%Y-%m-%d`-"$TITLE".md
+FILENAME="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/../_posts/$(date +%Y-%m-%d)-$TITLE".md
 echo -e "---\nlayout: post\ntitle: \"$*\"\n---\n\n" >> $FILENAME
 vi $FILENAME
