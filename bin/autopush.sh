@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/../";
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )";
 #LOCKFILE="last.lck"
 #NOW=$(date +%s)
 #TIMEOUT=30 # so we only push once every 30 seconds
@@ -10,7 +10,8 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/../";
 #cd "$DIR"
 
 #if [ ! -e "$LOCKFILE" ] || (("$NOW" - $(cat "$LOCKFILE") >= "$TIMEOUT")) ; then
-if [[ "$@" =~ \.md$ ]] ; then
+#if [[ "$@" =~ \.md$ ]] ; then
+  #/home/grin/bin/solo.pl -port=44009 -silent $DIR/pushposts.sh
   $DIR/pushposts.sh
 #  echo "$NOW" > "$LOCKFILE"
-fi
+#fi
