@@ -1,0 +1,11 @@
+1. To delete a file or folder, swipe its name in the item list view and then tap the 'Delete' button.
+
+2. To count words in your document, tap its title and select 'Word Count.' You can also tap in the document text to show the Cut, Copy, Paste, and Word Count menu.
+
+3. To scroll through long documents & lists, tap and hold on the right side of the view where scroll indicator shows. Then drag to quickly scroll through your document.
+
+4. To email, print, rename or count the words in a document: Tap its name in the document title bar, and choose from the popup menu.
+
+5. To focus on your document (iPad only) tap the two-arrow icon in the lower right-hand of the screen. Exit by tapping it again.
+
+6. To move the cursor in full-screen mode (iPad only) tap the page margins to move left or right by 1 letter (1 finger tap) or 1 word (2 finger tap).
