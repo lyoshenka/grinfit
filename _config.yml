@@ -1,7 +1,7 @@
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:year-:month-:day/:title
 
-exclude: ["README.md", "config.ru", "Gemfile", "Gemfile.lock", "bin"]
+exclude: ["README.md", "config.ru", "Gemfile", "Gemfile.lock", "bin", "vendor"]
 auto: false
 pygments: true
 paginate: 10
