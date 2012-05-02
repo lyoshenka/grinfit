@@ -12,6 +12,8 @@ html {
   margin: 0 auto;
   max-width: 900px;
   padding: 10px;
+  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 header {
@@ -41,12 +43,11 @@ a {
 .pagination {
   text-align: right;
   background: #E6E4E2;
-  font-size: 16px;
-  font-size: 1.6rem;
 }
 
 
-/* 320 and Up Clearfix =================================================== */
+/* 320 and Up =================================================== */
+
 /* Clearfix =================================================== */
 .clearfix {
   *zoom: 1;
@@ -98,16 +99,9 @@ h4,.h4 {
   font-size: 1.8rem;
   line-height: 1.25;
 }
-h5,.h5 {
-  font-size: 16px;
-  font-size: 1.6rem;
-  margin-bottom: 1.5em;
-}
 
 p,ol,ul,address {
   margin-bottom: 1.5em;
-  font-size: 16px;
-  font-size: 1.6rem;
   line-height: 1.5em;
 }
 small {
@@ -120,8 +114,6 @@ ul,ol {
 }
 li ul,li ol {
   margin: 0;
-  font-size: 16px;
-  font-size: 1.6rem;
 }
 blockquote {
   margin: 0 0 1.5em -24px;
