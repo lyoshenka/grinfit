@@ -12,7 +12,7 @@ header h1{margin-bottom:0;font-size:48px;font-size:3rem;}
 header h1 a{color:#635252;}
 a{text-decoration:none;}
 .date{float:right;font-size:18px;font-size:1.8rem;margin-top:0.5em;}
-.pagination{text-align:right;background:#E6E4E2;}
+.pagination{text-align:right;background:#E6E4E2;font-size:18px;font-size:1.125rem;}
 .clearfix{*zoom:1;}
 .clearfix:before,.clearfix:after{display:table;content:"";}
 .clearfix:after{clear:both;}
