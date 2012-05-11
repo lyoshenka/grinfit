@@ -1,0 +1,1 @@
+{'url':'{{ postObject.url }}','title':'{{ postObject.title }}','content':{{ postContent | strip_html | json }}}
