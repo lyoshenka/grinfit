@@ -178,13 +178,13 @@ sub {
 a {
   text-decoration: none;
   color: @link-color;
+
+  &:hover {
+    background-color: @highlight-bg;
+  }
 }
 .content a {
   border-bottom: @link-color 1px dashed;
-}
-a:hover, 
-a:active {
-  outline: 0;
 }
 
 
