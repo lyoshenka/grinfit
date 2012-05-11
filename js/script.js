@@ -7,7 +7,7 @@ $(document).ready(function() {
   }
 
   $('.js-collapse').on('click', function() {
-    $(this).next().toggle();
+    $(this).closest('article').find('.content').toggle();
   });
 
 

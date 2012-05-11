@@ -1,6 +1,6 @@
 <article>
   <a class="date clearfix" href="{{ postObject.url }}">{{ postObject.date | date_to_long_string }}</a>
-  <h1 class="js-collapse">{{ postObject.title }}</h1>
+  <h1><a class="js-collapse">{{ postObject.title }}</a></h1>
   <div class="content js-start-hidden">
     {{ postContent }}
   </div>
