@@ -11,4 +11,4 @@ Gym Friday
 
 Spinners practice today
 
-I&#39;m still hurt but I did about 200 push ups before the core workout, and then did the core workout. Also throwing.
+I'm still hurt but I did about 200 push ups before the core workout, and then did the core workout. Also throwing.

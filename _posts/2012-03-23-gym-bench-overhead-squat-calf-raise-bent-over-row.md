@@ -8,4 +8,4 @@ title: "Gym: Bench, Overhead Squat, Calf Raise, Bent-Over Row"
 - Calf Raise: 3x15
 - Bent-over Row 3x6/70lb
 
-Still rehabbing my ankle. Tried to do cleans but the jump doesn&#39;t feel good yet.
+Still rehabbing my ankle. Tried to do cleans but the jump doesn't feel good yet.
