@@ -11,9 +11,9 @@ with Drexel and TKO.
 
 Friday: Gym
 
-Deadlift 5,6,6 @ 205,225,255lb
-Push Press 3x5 @ 95,115,115lb
-Pull Ups 4,4,3 @ 45,40,35lb
+Deadlift 5/205,6/225,6/255lb
+Push Press 5/95,5/115,5/115lb
+Pull Ups 4/45,4/40,3/35lb
 
 Saturday: Ultisquash
 

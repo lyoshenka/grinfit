@@ -5,12 +5,12 @@ title: "Gym and Disc Golf"
 
 ## Gym: Bench, Squats, Dips, Cleans
 
-- Bench: 4x170lb, 4x160lb, 4x150lb
-- Squats: 5x185lb, 5x165lb, 6x165lb (worked on my form & keeping my weight on my heels)
-- Dips: 6,6,7 x 60lb
-- Power Cleans: 3x6 x 125lb
+- Bench: 4/170lb, 4/160lb, 4/150lb
+- Squats: 5/185lb, 5/165lb, 6/165lb (worked on my form and keeping my weight on my heels)
+- Dips: 6,6,7/60lb
+- Power Cleans: 3x6/125lb
 
-*(Did dips and cleans together (alternating sets) because we were late for disc golf.)*
+*(Did dips and cleans together (alternating sets) because  we were late for disc golf.)*
 
 ## Disc Golf
 

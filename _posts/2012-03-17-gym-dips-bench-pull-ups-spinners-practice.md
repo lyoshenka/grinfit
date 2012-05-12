@@ -3,10 +3,12 @@ layout: post
 title: "Gym: Dips, Bench, Pull ups & Spinners Practice"
 ---
 
-Gym FridayDips 3x10 @ 25lb
+Gym Friday
 
-Bench 2,4,5 @ 170, 155, 145lb
+- Dips 3x10/25lb
+- Bench 2/170, 4/155, 5/145lb
+- Pull ups 4/45, 4/40, 5/30lb
 
-Pull ups 4,4,5@ 45, 40, 30lb
+Spinners practice today
 
-Spinners practice today. I&#39;m still hurt but I did about 200 push ups before the core workout, and then did the core workout. Also throwing.
+I&#39;m still hurt but I did about 200 push ups before the core workout, and then did the core workout. Also throwing.

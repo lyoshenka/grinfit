@@ -3,8 +3,6 @@ layout: post
 title: "Gym: RLESS, Bench, Cleans"
 ---
 
-RLESS 3x5 @ 130, 135, 135 lb
-
-Bench 5x160lb, 5x155lb, 6x150lb
-
-Cleans: 5x135lb, 4x125lb, 6x115lb
+- RLESS 5/130, 5/135, 5/135lb
+- Bench 5/160lb, 5/155lb, 6/150lb
+- Cleans 5/135lb, 4/125lb, 6/115lb

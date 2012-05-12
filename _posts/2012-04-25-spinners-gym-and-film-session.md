@@ -8,8 +8,8 @@ title: "Spinners Gym and Film Session"
 Did a bunch of things that we usually do, but modified it somewhat to account for my own gym yesterday. Here are the highlights.
 
 - Deadlift: 5/235lb, 5/245lb, 5/255lb
-- Pull ups: 4,4,3 / 35lb
-- Press: 3x10 / 20lb dumbbells
+- Pull ups: 4,4,3/35lb
+- Press: 3x10/20lb dumbbells
 
 I need to come up with a consistent format for listing my rounds/sets/reps. Then write an extension for Markdown to parse that and make it look nice (and easier to export later if I need to).
 
