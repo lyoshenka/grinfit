@@ -37,6 +37,3 @@ else
   # FrontMatter exists. Just replace title
   sed -i -e "s/^title: .*$/title: \"$TITLE\"/" "$FULLNAME";
 fi
-
-echo -e "\nHEAD OF FILE:"
-head "$FULLNAME";
