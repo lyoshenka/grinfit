@@ -1,7 +1,7 @@
     </div>
 
-    <script async="true" src="/js/jquery-1.7.2.min.js"></script>
-    <script async="true" src="/js/script.js"></script>
+    <script src="/js/jquery-1.7.2.min.js"></script>
+    <script src="/js/script.js"></script>
 
     <script>if(document.URL.indexOf('localhost') === -1){var _gaq=[['_setAccount','UA-31225770-1'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src='//www.google-analytics.com/ga.js';g.async=1;s.parentNode.insertBefore(g,s)}(document,'script'))}</script>
   </body>
