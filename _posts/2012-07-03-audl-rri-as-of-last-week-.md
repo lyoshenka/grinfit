@@ -3,7 +3,7 @@ layout: post
 title: "AUDL RRI (as of last week)"
 ---
 
-I finally got around to running the numbers on the AUDL games. I used [this algorithm](http://www.pro-football-reference.com/blog/?p=37). The results are almost as expected, though not the same as the win-loss standings.
+I finally got around to running the numbers on the AUDL games. I used [this algorithm](http://www.pro-football-reference.com/blog/?p=37). The results are almost the same as the win-loss standings, but take a look at Indy vs Columbus (and also Bluegrass). They are very close in RRI (the __Final Score__ column), but Columbus is ranked much lower in win-loss. In fact, they have the same record as RI, which is ranked far below them in RRI. 
 
 ## RRI
 
@@ -19,6 +19,7 @@ I finally got around to running the numbers on the AUDL games. I used [this algo
     | Detroit Mechanix         | -24        | -0.5124        | -24.5124    |
     | Buffalo Hunters          | -65        | 17.7822        | -47.2178    |
     ------------------------------------------------------------------------
+
 
 ## WIN-LOSS
 
