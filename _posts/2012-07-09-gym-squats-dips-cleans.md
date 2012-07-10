@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gym: Squats, Dips, Cleans
+title: "Gym: Squats, Dips, Cleans"
 ---
 
 - Squats: 3x5/200lb

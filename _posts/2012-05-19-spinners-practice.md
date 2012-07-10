@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spinners Practice
+title: "Spinners Practice"
 ---
 
 Ran the hunger drill and the breakside dump drill. Did them twice each. Worked on boxing out. Then scrimmaged southpaw for an hour. 

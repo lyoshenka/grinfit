@@ -31,7 +31,7 @@ head "$FULLNAME" -n 2 | grep -qe '---'
 if [[ $? -ne 0 ]]; then  
   echo "new frontmatter"
   # No FrontMatter. Add it.
-  sed -i "1i ---\nlayout: post\ntitle: ""$TITLE""\n---\n" "$FULLNAME";
+  sed -i "1i ---\nlayout: post\ntitle: \"""$TITLE""\"\n---\n" "$FULLNAME";
 else
   echo "replacing frontmatter"
   # FrontMatter exists. Just replace title
