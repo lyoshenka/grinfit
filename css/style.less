@@ -2,7 +2,8 @@
 
 @import "vendor/reset";
 
-// Base Font
+
+// Fluid Typography ===================================================
 @base-font-size: 16px;    // for 100px and up
 @base-font-small: 15px;   // for 600-1000px
 @base-font-smaller: 14px; // for under 600px
@@ -12,7 +13,27 @@
   font-size: ~"@{rem}rem";
 }
 
-// Colors
+@base-line-height: 24px;
+.line-height-for(@size) {
+  @mult: floor(@size / @base-line-height);
+  @add: ceil((@size - (@mult * @base-line-height)) / @size);
+  @height: (@mult + @add) * @base-line-height / @size;
+  line-height: ~"@{height}em";
+}
+.margin-bottom-for(@size) {
+  @margin: @base-line-height / @size;
+  margin-bottom: ~"@{margin}em";
+}
+
+.text(@size) {
+  .font-size(@size);
+  .line-height-for(@size);
+  .margin-bottom-for(@size);
+}
+
+
+
+// Colors ===================================================
 @text: #484a4c;
 @text-dark: #3E3F40;
 @text-darker: #2a2829;
@@ -23,39 +44,44 @@
 
 
 
+// Misc ===================================================
 html {
 //  font-size: 62.5%;
   font-size: @base-font-size;
+  line-height: @base-line-height;
 //  font-family: "Helvetica Neue",Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
   font-family: Verdana,Geneva,'DejaVu Sans',sans-serif;
   color: @text;
   background-color: @background;
+
+  /* Transitions for media queries */
+  @transitions: font-size,margin-bottom,line-height;
+  .transition(@transitions, 1.3s);
 }
 @media (max-width: 1000px) { html { font-size: @base-font-small; } }
 @media (max-width: 600px) { html { font-size: @base-font-smaller; } }
 
+.transition(@property, @duration) {
+  transition: @property @duration linear;
+  -webkit-transition: @property @duration;
+  -moz-transition: @property @duration linear;
+  -ms-transition: @property @duration;
+  -o-transition: @property @duration;
+}
 
 #container {
   margin: 0 auto;
   max-width: 750px;
   padding: 10px;
-
-  /* Transitions for media queries */
-  -webkit-transition: font-size 0.3s;
-  -moz-transition: font-size 0.3s;
-  -ms-transition: font-size  0.3s;
-  -o-transition: font-size 0.3s;
-  transition: font-size 0.3s;
 }
-
-
 
 .pagination {
   text-align: right;
   background: @background-dark;
-  margin-bottom: 1em;
+  .text(@base-font-size);
 }
-	
+
+
 
 // Clearfix ===================================================
 .clearfix {
@@ -74,7 +100,6 @@ html {
 
 // Headers =================================================== 
 h1,h2,h3,h4,h5,h6 {
-  margin: 0;
 //  font-family: 'Century Gothic',futura,'URW Gothic L',Verdana,sans-serif;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
@@ -82,36 +107,27 @@ h1,h2,h3,h4,h5,h6 {
   text-rendering: optimizelegibility;
 }
 h1 {
-  margin-bottom: 0.75em;
-  .font-size(30px);
-  line-height: 1.25;
+  .text(30px);
   a {
     color: @text-dark;
   }
 }
 h2 {
-  margin-bottom: 0.75em;
-  .font-size(24px);
-  line-height: 1.25;
+  .text(24px);
 }
 h3 {
-  margin-bottom: 0.5em;
-  .font-size(19px);
-  line-height: 1.5;
+  .text(19px);
 }
 h4 {
-  margin-bottom: 0.5em;
-  .font-size(16px);
+  .text(16px);
 }
 
 header {
-  padding: 30px 0;
+  margin: 30px 0 18px; // should add up to 2x@base-line-height
   text-transform: uppercase;
 
   h1 {
-    margin-bottom: 0;
-    .font-size(48px);
-  
+    .text(48px);
     a {
       color: @text-darker;
     }
@@ -120,18 +136,35 @@ header {
 
 
 
-// Text ===================================================
+// Content Text ===================================================
 p,ol,ul {
-  margin-bottom: 1.5em;
-  line-height: 1.5em;
+  .text(@base-font-size);
 }
+/*
 ul,ol {
-  margin: 0 0 1.5em -24px;
-  padding: 0 0 0 24px;
+  margin-left: -24px;
+  padding-left: 24px;
 }
+*/
 li ul,li ol {
   margin: 0;
 }
+li {
+  position: relative;
+  list-style: none;
+  padding: 0 0 0 16px;
+}
+li::before {
+  display: block;
+  content: '-';
+  //font-weight: bold;
+  position: absolute;
+  top: -2px;
+  left: 0;
+  font-size: 24px;
+}
+
+
 b, strong {
   font-weight: bold;
 }
@@ -139,15 +172,13 @@ i, em {
   font-style: italic;
 }
 pre {
-  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  .font-size(14px);
-  line-height: 1.5em;
+  font-family: Consolas, Lucida Console, DejaVu Sans Mono, Courier New, monospace;
+  .text(14px);
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
   background-color: #EEE;
   padding: 5px;
-  margin-bottom: 10px;
 }
 
 
@@ -167,7 +198,7 @@ a {
 
 a.date {
   float: right;
-  margin-top: 0.5em;
+  margin-top: 0.75em;
 }
 
 
@@ -175,7 +206,7 @@ a.date {
 // Elements ===================================================
 hr {
   display: block;
-  margin: 1em;
+  margin: 1.5em;
   padding: 0;
   height: 1px;
   border: 0;
@@ -220,16 +251,6 @@ q {
 blockquote:before,blockquote:after,q:before,q:after {
   content: '';
   content: none;
-}
-pre,code {
-  font-family: Consolas,'Lucida Console','DejaVu Sans Mono',monospace;
-  .font-size(14px);
-  line-height: 1.5em;
-}
-pre {
-  white-space: pre;
-  white-space: pre-wrap;
-  word-wrap: break-word;
 }
 sub,sup {
   position: relative;
