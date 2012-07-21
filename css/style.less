@@ -40,7 +40,8 @@
 @link: #022859;
 @highlight: #e8e6ed;
 @background: #fafafa;
-@background-dark: #eaeaea;
+//@background-dark: #eaeaea;
+@background-dark: darken(@background, 5%);
 
 
 
@@ -62,11 +63,11 @@ html {
 @media (max-width: 600px) { html { font-size: @base-font-smaller; } }
 
 .transition(@property, @duration) {
-  transition: @property @duration linear;
-  -webkit-transition: @property @duration;
-  -moz-transition: @property @duration linear;
-  -ms-transition: @property @duration;
-  -o-transition: @property @duration;
+  transition: @property @duration ease 0s;
+  -webkit-transition: @property @duration ease 0s;
+  -moz-transition: @property @duration ease 0s;
+  -ms-transition: @property @duration ease 0s;
+  -o-transition: @property @duration ease 0s;
 }
 
 #container {
@@ -81,6 +82,40 @@ html {
   .text(@base-font-size);
 }
 
+
+#search {
+  //http://www.bloggermint.com/2011/06/css3-search-box-inspired-by-apple-com/
+
+  background: url('/img/search-white.png') no-repeat 10px 8px @background;
+//  border: 1px solid #d1d1d1;
+  border: 1px solid @background-dark;
+  font-size: 14px;
+  line-height: 18px;
+  color: @text;
+  width: 150px;
+  padding: 6px 15px 6px 35px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+//  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
+
+  position: absolute;
+  top: 5px; // should line up with center of h1 
+  right: 0;
+}
+#search:focus {
+  outline: 0;
+  background: url('/img/search-dark.png') no-repeat 10px 8px lighten(@background, 10%);
+  color: #6a6f75;
+  width: 200px;
+}
 
 
 // Clearfix ===================================================
@@ -125,6 +160,7 @@ h4 {
 header {
   margin: 30px 0 18px; // should add up to 2x@base-line-height
   text-transform: uppercase;
+  position: relative;
 
   h1 {
     .text(48px);

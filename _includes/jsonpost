@@ -1,1 +1,2 @@
-{'url':'{{ postObject.url }}','title':'{{ postObject.title }}','content':{{ postContent | strip_html | json }}}
+{% capture content %}{% include post %}{% endcapture %}
+{"url":{{ postObject.url | json }},"title":{{ postObject.title | json }},"contentClean":{{ postContent | strip_html | json }},"content":{{ content | json }}}

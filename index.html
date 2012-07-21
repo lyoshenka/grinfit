@@ -3,10 +3,6 @@ layout: default
 title: Home
 ---
 
-{% comment %}
-<form method="GET" action=""><input type="text" name="query"></input></form>
-{% endcomment %}
-
 {% include pagination %}
 
 <div id="posts">
@@ -19,5 +15,6 @@ title: Home
     {% endif %}
   {% endfor %}
 </div>
+<div id="search-results"></div>
 
 {% include pagination %}
