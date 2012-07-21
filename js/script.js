@@ -65,6 +65,7 @@ $(document).ready(function() {
   });
 
   $.get('/search.json', function(data) {
+    console.log('search initialized');
     grinfit.searchCache = $.parseJSON(data);
   });
 
