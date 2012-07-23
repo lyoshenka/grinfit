@@ -1,8 +1,5 @@
 ---
 ---
 [
-{% for post in site.posts %}{% assign postObject = post %}{% assign postContent = post.content %}{% include jsonpost %},{% endfor %}
-
-false
-
-]]
+{% for post in site.posts %}{% assign postObject = post %}{% assign postContent = post.content %}{% include jsonpost %},{% endfor %}false
+]
