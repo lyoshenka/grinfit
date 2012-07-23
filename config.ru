@@ -2,7 +2,7 @@ require 'rubygems'
 require 'bundler'
 Bundler.require
 
-use Rack::EY::Solo::DomainRedirect
+#use Rack::EY::Solo::DomainRedirect
 
 use Rack::TryStatic,
     :root => "_site",
