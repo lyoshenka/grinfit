@@ -1,20 +1,15 @@
 source :rubygems
 
 gem 'rack-contrib', :require => 'rack/contrib/try_static'
-gem 'rack-redirect'
+#gem 'rack-redirect'
 gem 'thin'
 
 group :development do
+  gem 'heroku'
   gem 'jekyll'
   gem 'RedCloth'
   gem 'rdiscount'
+  gem 'therubyracer'
+  gem 'less'
+  gem 'json'
 end
-
-#gem 'heroku'
-#gem 'rdiscount'
-#gem 'RedCloth'
-#gem 'jekyll', ">=0.11.2"
-#gem 'rack-jekyll'
-gem 'therubyracer'
-gem 'less'
-gem 'json'
