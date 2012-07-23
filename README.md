@@ -1,1 +1,1 @@
-http://grinfit.alexgr.in
+http://grinfit.alexgr.ina
