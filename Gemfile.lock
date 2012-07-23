@@ -2,23 +2,15 @@ GEM
   remote: http://rubygems.org/
   specs:
     RedCloth (4.2.9)
-    addressable (2.2.8)
     albino (1.3.3)
       posix-spawn (>= 0.3.6)
     classifier (1.3.3)
       fast-stemmer (>= 1.0.0)
     commonjs (0.2.6)
+    daemons (1.1.8)
     directory_watcher (1.4.1)
-    excon (0.15.4)
+    eventmachine (0.12.10)
     fast-stemmer (1.0.1)
-    heroku (2.29.0)
-      heroku-api (~> 0.2.13)
-      launchy (>= 0.3.2)
-      netrc (~> 0.7.5)
-      rest-client (~> 1.6.1)
-      rubyzip
-    heroku-api (0.2.13)
-      excon (~> 0.15.4)
     jekyll (0.11.2)
       albino (~> 1.3)
       classifier (~> 1.3)
@@ -28,38 +20,37 @@ GEM
       maruku (~> 0.5)
     json (1.7.3)
     kramdown (0.13.7)
-    launchy (2.1.0)
-      addressable (~> 2.2.6)
     less (2.2.1)
       commonjs (~> 0.2.6)
     libv8 (3.3.10.4)
     liquid (2.3.0)
     maruku (0.6.0)
       syntax (>= 1.0.0)
-    mime-types (1.19)
-    netrc (0.7.5)
     posix-spawn (0.3.6)
     rack (1.4.1)
-    rack-jekyll (0.3.5)
-      jekyll
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
+    rack-redirect (0.0.3)
       rack
     rdiscount (1.6.8)
-    rest-client (1.6.7)
-      mime-types (>= 1.16)
-    rubyzip (0.9.9)
     syntax (1.0.0)
     therubyracer (0.10.1)
       libv8 (~> 3.3.10)
+    thin (1.4.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   RedCloth
-  heroku
-  jekyll (>= 0.11.2)
+  jekyll
   json
   less
-  rack-jekyll
+  rack-contrib
+  rack-redirect
   rdiscount
   therubyracer
+  thin

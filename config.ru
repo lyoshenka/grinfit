@@ -1,3 +1,16 @@
-require "rack/jekyll"
+require 'rubygems'
+require 'bundler'
+Bundler.require
 
-run Rack::Jekyll.new
+use Rack::EY::Solo::DomainRedirect
+
+use Rack::TryStatic,
+    :root => "_site",
+    :urls => %w[/],
+    :try => ['.html', 'index.html', '/index.html']
+
+#use Rack::Static,
+#    :root => "public",
+#    :urls => %w[/]
+
+run lambda { [404, {'Content-Type' => 'text/html'}, ['Not Found']]}

@@ -1,0 +1,34 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+html{font-size:16px;line-height:24px;font-family:Verdana,Geneva,'DejaVu Sans',sans-serif;color:#484a4c;background-color:#fafafa;transition:font-size,margin-bottom,line-height 1.3s ease 0s;-webkit-transition:font-size,margin-bottom,line-height 1.3s ease 0s;-moz-transition:font-size,margin-bottom,line-height 1.3s ease 0s;-ms-transition:font-size,margin-bottom,line-height 1.3s ease 0s;-o-transition:font-size,margin-bottom,line-height 1.3s ease 0s;}
+@media (max-width:1000px){html{font-size:15px;}}@media (max-width:600px){html{font-size:14px;}}#container{margin:0 auto;max-width:750px;padding:10px;}
+.pagination{text-align:right;background:#ededed;font-size:16px;font-size:1rem;line-height:1.5em;margin-bottom:1.5em;}
+#search{background:url('/img/search-white.png') no-repeat 10px 8px #fafafa;border:1px solid #ededed;font-size:14px;line-height:18px;color:#484a4c;width:150px;padding:6px 15px 6px 35px;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.15) inset;-moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.15) inset;box-shadow:0 1px 3px rgba(0, 0, 0, 0.15) inset;-webkit-transition:all 0.7s ease 0s;-moz-transition:all 0.7s ease 0s;-o-transition:all 0.7s ease 0s;transition:all 0.7s ease 0s;position:absolute;top:5px;right:0;}
+#search:focus{outline:0;background:url('/img/search-dark.png') no-repeat 10px 8px #ffffff;color:#6a6f75;width:200px;}
+.clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";}
+.clearfix:after{clear:both;}
+h1,h2,h3,h4,h5,h6{font-family:Georgia,"Times New Roman",Times,serif;font-weight:bold;color:#3e3f40;text-rendering:optimizelegibility;}
+h1{font-size:30px;font-size:1.875rem;line-height:1.6em;margin-bottom:0.8em;}h1 a{color:#3e3f40;}
+h2{font-size:24px;font-size:1.5rem;line-height:1em;margin-bottom:1em;}
+h3{font-size:19px;font-size:1.1875rem;line-height:1.263157894736842em;margin-bottom:1.263157894736842em;}
+h4{font-size:16px;font-size:1rem;line-height:1.5em;margin-bottom:1.5em;}
+header{margin:30px 0 18px;text-transform:uppercase;position:relative;}header h1{font-size:48px;font-size:3rem;line-height:1em;margin-bottom:0.5em;}header h1 a{color:#2a2829;}
+p,ol,ul{font-size:16px;font-size:1rem;line-height:1.5em;margin-bottom:1.5em;}
+li ul,li ol{margin:0;}
+li{position:relative;list-style:none;padding:0 0 0 16px;}
+li::before{display:block;content:'-';position:absolute;top:-2px;left:0;font-size:24px;}
+b,strong{font-weight:bold;}
+i,em{font-style:italic;}
+pre{font-family:Consolas, Lucida Console, DejaVu Sans Mono, Courier New, monospace;font-size:14px;font-size:0.875rem;line-height:1.7142857142857142em;margin-bottom:1.7142857142857142em;white-space:pre;white-space:pre-wrap;word-wrap:break-word;background-color:#EEE;padding:5px;}
+a{text-decoration:none;color:#022859;cursor:pointer;}a:hover{background-color:#e8e6ed;}
+.content a{border-bottom:#022859 1px dashed;}
+a.date{float:right;margin-top:0.75em;}
+hr{display:block;margin:1.5em;padding:0;height:1px;border:0;border-top:1px solid #e8e6ed;border-bottom:1px solid #ffffff;}
+img{max-width:100%;border-width:0;vertical-align:middle;-ms-interpolation-mode:bicubic;}
+::-moz-selection{background-color:#e8e6ed;color:#2a2829;text-shadow:none;}
+::selection{background-color:#e8e6ed;color:#2a2829;text-shadow:none;}
