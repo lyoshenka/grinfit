@@ -37,14 +37,10 @@ $(document).ready(function() {
 
         $('#posts').hide();
         $('#search-results').html('').show();
+        last = $(results).size() - 1;
         for (i in results) {
           var post = results[i];
-          $('#search-results').append(post.content + '<hr/>'
-//            '<article><a class="date clearfix" href="' + post.url + '">' + post.date + '</a>' + 
-//            '<h1><a class="js-collapse">' + post.title + '</a></h1>' + 
-//            '<div class="content js-start-hidden">' + post.content + '</div>' +
-//            '</article><hr/>'
-          );
+          $('#search-results').append(post.content + (i < last ? '<hr/>' : ''));
         }
         $('#search-results .js-start-hidden').hide();
       }
@@ -65,6 +61,7 @@ $(document).ready(function() {
   });
 
   $.get('/search.json', function(data) {
+    data.pop(); // remove the false at the end of the array
     grinfit.searchCache = data;
   });
 });
