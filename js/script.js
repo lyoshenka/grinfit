@@ -21,9 +21,10 @@ $(document).ready(function() {
     }
 
     var term = $.trim(searchTerm.toLowerCase()),
-        regex = new RegExp(term, 'im');
-        results = []
-        i = 0;
+        regex = new RegExp(term, 'im'),
+        results = [],
+        i = 0,
+        resultsDiv = $('#search-results');
 
     if (term) {
       if (term != grinfit.lastSearchTerm) {
@@ -35,19 +36,26 @@ $(document).ready(function() {
           }
         }
 
-        $('#posts').hide();
-        $('#search-results').html('').show();
-        last = $(results).size() - 1;
-        for (i in results) {
-          var post = results[i];
-          $('#search-results').append(post.content + (i < last ? '<hr/>' : ''));
+        $('.js-hide-on-search').hide();
+        $('.js-invis-on-search').css('visibility', 'hidden');
+        resultsDiv.html('').show();
+        if (results.length) {
+          last = results.length - 1;
+          for (i in results) {
+            resultsDiv.append(results[i].content + (i < last ? '<hr/>' : ''));
+          }
+          resultsDiv.find('.js-start-hidden').hide();
         }
-        $('#search-results .js-start-hidden').hide();
+        else {
+          resultsDiv.append('<div id="no-results">No results.</div>');
+          console.log('no results');
+        }
       }
     }
     else {
-      $('#search-results').hide();
-      $('#posts').show();
+      resultsDiv.hide();
+      $('.js-hide-on-search').show();
+      $('.js-invis-on-search').css('visibility', 'visible');
     }
     $('#search-progress').hide();
   };
