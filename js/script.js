@@ -1,7 +1,7 @@
 grinfit = typeof(grinfit) != "undefined" ? grinfit : {};
 grinfit.lastSearchTerm = '';
 
-$(document).ready(function() {
+$(function() {
   var width = $(window).width(),
       smallWidth = 600;
 
@@ -13,6 +13,31 @@ $(document).ready(function() {
     $(this).closest('article').find('.content').toggle();
   });
 
+
+
+  // This script fixes the shift that occurs in a centered layout when the page grows and forces scrollbars to appear.
+  // http://www.aaubry.net/fixing-jumping-content-when-scrollbars-appear.aspx
+  /*
+  var body = $("body"),
+      previousWidth = null;
+
+  var resizeBody = function () {
+    var currentWidth = body.width();
+
+    if (currentWidth != previousWidth) {
+      previousWidth = currentWidth;
+      // Measure the scrollbar size
+      body.css("overflow", "hidden");
+      var scrollBarWidth = body.width() - currentWidth;
+      body.css("overflow", "auto");
+      body.css("margin-left", scrollBarWidth + "px");
+    }
+  };
+
+  // setInterval is required because the resize event is not fired when a scrollbar appears or disappears.
+  setInterval(resizeBody, 30);
+  resizeBody();
+  */
 
   doSearch = function(searchTerm) {
     $('#search-progress').show();
