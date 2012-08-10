@@ -4,6 +4,10 @@ Bundler.require
 
 #use Rack::EY::Solo::DomainRedirect
 
+use Rack::Deflater
+use Rack::ConditionalGet
+#use Rack::ETag # this is broken
+
 use Rack::TryStatic,
     :root => "_site",
     :urls => %w[/],
