@@ -12,6 +12,7 @@ class MyHeaders
 
   def call(env)
     status, headers, body = @app.call(env)
+    headers['Connection'] = 'keep-alive'
     if headers.has_key?('Content-Type') and headers['Content-Type'] == 'text/html'
       headers['Content-Type'] = 'text/html; charset=utf-8'
     end
