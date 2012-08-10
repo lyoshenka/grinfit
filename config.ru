@@ -4,9 +4,28 @@ Bundler.require
 
 #use Rack::EY::Solo::DomainRedirect
 
+
+class MyHeaders
+  def initialize(app)
+    @app = app
+  end
+
+  def call(env)
+    status, headers, body = @app.call(env)
+    if headers.has_key?('Content-Type') and headers['Content-Type'] == 'text/html'
+      headers['Content-Type'] = 'text/html; charset=utf-8'
+    end
+#    puts headers
+    return [status, headers, body]
+  end
+end
+
+
 use Rack::Deflater
 use Rack::ConditionalGet
 #use Rack::ETag # this is broken
+
+use MyHeaders
 
 use Rack::TryStatic,
     :root => "_site",
