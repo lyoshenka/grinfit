@@ -67,6 +67,7 @@ PLATFORMS
 DEPENDENCIES
   RedCloth
   closure-compiler
+  domainatrix
   heroku
   jekyll
   json

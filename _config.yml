@@ -16,3 +16,7 @@ author:
   email: grin@grin.io
 
 production_url: http://fit.grin.io
+
+# https://github.com/robb/jekyll-embedly-client
+embedly:
+  api_key: 444a250027e54b918955f93bfe88a3b9
