@@ -57,12 +57,12 @@ class MyTryStatic
 end
 
 
-use Rack::Deflater
+#use Rack::Deflater
 use Rack::ConditionalGet
 #use Rack::ETag # this is broken
 use MyHeaders
-#use MyTryStatic, :root => "_site", :urls => %w[/], :try => ['.html', 'index.html', '/index.html']
-use Rack::TryStatic, :root => "_site", :urls => %w[/], :try => ['.html', 'index.html', '/index.html']
+use MyTryStatic, :root => "_site", :urls => %w[/], :try => ['.html', 'index.html', '/index.html']
+#use Rack::TryStatic, :root => "_site", :urls => %w[/], :try => ['.html', 'index.html', '/index.html']
 
 
 run lambda { [404, {'Content-Type' => 'text/html'}, ['Not Found']]}
