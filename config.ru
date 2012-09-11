@@ -41,6 +41,8 @@ class MyTryStatic
       resp = @static.call(env.merge!({'PATH_INFO' => full_path}))
       break if 404 != resp[0] && found = resp
     end
+
+    # TODO: only do this next part if the result requires a body (e.g. not if the response is a 304)
     if found && File.exists?(@options[:root] + '/' + full_path + '.gz') 
       gz = @static.call(env.merge!({'PATH_INFO' => full_path + '.gz'}))
       if 404 != gz[0]
