@@ -46,7 +46,7 @@ class MyTryStatic
     if found && File.exists?(@options[:root] + '/' + full_path + '.gz') 
       gz = @static.call(env.merge!({'PATH_INFO' => full_path + '.gz'}))
       if 404 != gz[0]
-        puts 'gz found - ' + full_path
+#        puts 'gz found - ' + full_path
         headers = found[1]
         headers['Content-Encoding'] = 'gzip'
         headers['Content-Length'] = gz[1]['Content-Length']
