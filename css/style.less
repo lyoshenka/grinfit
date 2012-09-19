@@ -24,7 +24,11 @@
   @margin: @base-line-height / @size;
   margin-bottom: ~"@{margin}em";
 }
-
+//.offset-left-for(@size) {
+//  @offset: @base-line-height / @size;
+//  margin-left: ~"-@{offset}em";
+//  padding-left: ~"@{offset}em";
+//}
 .text(@size) {
   .font-size(@size);
   .line-height-for(@size);
@@ -40,9 +44,8 @@
 @link: #022859;
 @highlight: #e8e6ed;
 @background: #fafafa;
-//@background-dark: #eaeaea;
 @background-dark: darken(@background, 5%);
-
+@blockquote-line: darken(@background, 25%);
 
 
 // Misc ===================================================
@@ -216,6 +219,8 @@ b, strong {
 i, em {
   font-style: italic;
 }
+
+
 pre {
   font-family: Consolas, Lucida Console, DejaVu Sans Mono, Courier New, monospace;
   .text(14px);
@@ -224,6 +229,18 @@ pre {
   word-wrap: break-word;
   background-color: #EEE;
   padding: 5px;
+}
+
+
+blockquote {
+  margin-left: 1em;
+  padding-left: 1em;
+  border-left: 2px solid @blockquote-line;
+  font-family: Cambria, Georgia, Times, "Times New Roman";
+  font-style: normal;
+}
+q {
+  quotes: none;
 }
 
 
@@ -282,21 +299,8 @@ img {
 
 
 // Unused =========================================================
+
 /*
-blockquote {
-  margin: 0 0 1.5em -24px;
-  padding-left: 24px;
-  border-left: 2px solid #c7ced6;
-  font-family: Cambria, Georgia, Times, "Times New Roman";
-  font-style: normal;
-}
-q {
-  quotes: none;
-}
-blockquote:before,blockquote:after,q:before,q:after {
-  content: '';
-  content: none;
-}
 sub,sup {
   position: relative;
   .font-size(12px);
