@@ -5,7 +5,6 @@ title: "Stairs Workout"
 
 Ran some stairs at the art museum with Diana, Patrick and the rest of the crew. Every Philly team that's vying for nationals was represented - GMG, Termites, Amp, Southpaw, even the masters team (way to go Grimes). Here's the workout:
 
-Warmup:
 - Every other suicides (one flight, two flights, etc)
 - Every step suicides from the top (all the flights, all but the last, etc)
 
