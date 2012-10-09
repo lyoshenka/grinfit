@@ -20,3 +20,5 @@ Amp went on to win the region and take the only bid to Nationals. They mounted a
 So that's it for my run at Nationals this year. This is the first year since I started playing club that I won't be playing in Sarasota in October. In some ways, it was nice to take it easy this season and relax after Spinners. I don't feel as wiped out as I normally feel after Nationals and I'll be able to start training for next year a month earlier. My plan is to try to hit the gym 2-3 days a week and do a met-con workout with Diana 1-2 days a week. Plus winter league and ultisquash. 
 
 Winter training, here I come.
+
+P.S. [Regionals results](http://scores.usaultimate.org/scores/#mixed/tournament/11319)
