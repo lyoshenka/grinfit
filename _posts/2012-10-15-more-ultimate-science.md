@@ -11,4 +11,4 @@ A short comparison of throwing techniques based on measuring several characteris
 
 ### [Power Rankings in Ultimate](https://www.leaguevine.com/blog/134/power-rankings-in-ultimate/)
 
-More talk about the ranking system. Being a data nerd, I love stuff like this (the winter league I run ranks teams using [power ranking](http://www.pro-football-reference.com/blog/?p=37), not straight results). 
+More talk about the ranking system. Being a data nerd, I love stuff like this (the winter league I run ranks teams using [this power ranking algorithm](http://www.pro-football-reference.com/blog/?p=37), not straight results). 
