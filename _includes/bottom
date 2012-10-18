@@ -1,5 +1,5 @@
       <footer>
-        <a href="mailto:grinfit@grin.io">Email me</a>
+        <a href="mailto:{{ site.author.email }}">Email me</a>
       </footer>
     </div>
 
