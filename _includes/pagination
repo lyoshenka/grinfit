@@ -4,14 +4,14 @@
     {% if paginator.previous_page == 1 %}
       <a href="/" class="newer">« Newer</a>
     {% else %}
-      <a href="/page{{paginator.previous_page}}" class="newer">« Newer</a>
+      <a href="/page{{paginator.previous_page}}" class="newer">&laquo; Newer</a>
     {% endif %}
 
     {% if paginator.next_page %} | {% endif %}
   {% endif %}
 
   {% if paginator.next_page %}
-    <a href="/page{{paginator.next_page}}" class="older">Older »</a>
+    <a href="/page{{paginator.next_page}}" class="older">Older &raquo;</a>
   {% endif %}
   </div>
 </div>
