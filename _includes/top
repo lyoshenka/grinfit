@@ -8,7 +8,7 @@
 
     <!-- <link href="/atom.xml" rel="alternate" title="{{ site.title }}" type="application/atom+xml" /> -->
     <link href="http://feeds.feedburner.com/grinfit" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
-    
+
     <link href="/css/style.css" media="screen" rel="stylesheet" type="text/css">
 
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -17,6 +17,9 @@
     <div id="container">
       <header>
         <h1><a href="/">{{ site.title }}</a></h1>
-        <input type="text" id="search"></input>
+        <span class="search-box">
+          <input type="text" id="search"></input>
+          <span class="clear-icon">&#10799;</span>
+        </span>
       </header>
       <!-- <img src="progress.gif" style="display:none" id="search-progress"/> -->

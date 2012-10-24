@@ -14,6 +14,14 @@ $(function() {
   });
 
 
+  $('#search').focus(function() {
+    $(this).addClass('js-focused').next('.clear-icon').fadeIn(750);
+  });
+
+  $('.clear-icon').click(function(){
+    $(this).prev('input').val('').focus().trigger('do-search');
+  });
+
 
   // This script fixes the shift that occurs in a centered layout when the page grows and forces scrollbars to appear.
   // http://www.aaubry.net/fixing-jumping-content-when-scrollbars-appear.aspx
@@ -40,7 +48,7 @@ $(function() {
   */
 
   doSearch = function(searchTerm) {
-    $('#search-progress').show();
+    //$('#search-progress').show();
     if (!grinfit.searchCache) {
       setTimeout(doSearch,200);
     }
@@ -73,7 +81,6 @@ $(function() {
         }
         else {
           resultsDiv.append('<div id="no-results">No results.</div>');
-          console.log('no results');
         }
       }
     }
@@ -82,10 +89,10 @@ $(function() {
       $('.js-hide-on-search').show();
       $('.js-invis-on-search').css('visibility', 'visible');
     }
-    $('#search-progress').hide();
+    //$('#search-progress').hide();
   };
 
-  $('#search').keyup(function() {
+  $('#search').on('keyup do-search', function() {
     clearTimeout(grinfit.searchTimer);
     var val = $(this).val();
     grinfit.searchTimer = setTimeout(function() {
