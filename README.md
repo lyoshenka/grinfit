@@ -1,1 +1,1 @@
-http://grinfit.alexgr.in
+http://fit.grin.io
