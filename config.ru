@@ -4,7 +4,6 @@ Bundler.require
 
 #use Rack::EY::Solo::DomainRedirect
 
-
 class MyHeaders
   def initialize(app)
     @app = app
