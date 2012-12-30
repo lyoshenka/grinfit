@@ -1,0 +1,4 @@
+#!/bin/bash
+
+FILENAME=$( "$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)/newpost_no_vi" "$@")
+[[ $? = 0 ]] && vi "$FILENAME" || echo "$FILENAME"
