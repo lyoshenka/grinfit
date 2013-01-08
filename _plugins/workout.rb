@@ -1,5 +1,5 @@
 class Workout < Liquid::Tag
-  Syntax = /((?<sets>\d+)x)?(?<reps>\d+)(\/(?<weight>\d+))?/
+  Syntax = /((?<sets>[\d\/]+)x)?(?<reps>[\d\/]+)(@(?<weight>[\d\/]+))?/
 
   def initialize(tagName, markup, tokens)
     super
@@ -21,7 +21,7 @@ class Workout < Liquid::Tag
       end
       line << '<span class="reps">' << unit[1].to_s << '</span>'
       if !unit[2].nil?
-        line << '<span class="sep">@</span> <span class="weight">' << unit[2].to_s << '</span>'
+        line << ' <span class="sep">@</span> <span class="weight">' << unit[2].to_s << 'lb</span>'
       end
       things.push(line)
     }
