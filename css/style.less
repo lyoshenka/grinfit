@@ -46,6 +46,8 @@
 @background: #fafafa;
 @background-dark: darken(@background, 5%);
 @blockquote-line: darken(@background, 25%);
+@exercise-numbers: #ab000f;
+@exercise-sep: #777777;
 
 
 // Misc ===================================================
@@ -146,6 +148,13 @@ html {
   .text(20px);
   color: lighten(@text,40%);
   font-style: italic;
+}
+
+.workout-unit {
+  color: @exercise-sep;
+  .sets, .reps, .weight {
+    color: @exercise-numbers;
+  }
 }
 
 
