@@ -1,5 +1,5 @@
 <article>
-  <a class="date clearfix" href="{{ postObject.url }}">{{ postObject.date | date: "%B %d" }}</a>
+  <a class="date clearfix" href="{{ postObject.url }}">{{ postObject.date | date: "%b %d" }}</a>
   <h1><a class="js-collapse">{{ postObject.title }}</a></h1>
   <div class="content js-start-hidden">
     {{ postContent }}
