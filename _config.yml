@@ -13,6 +13,6 @@ markdown: rdiscount
 title: GrinFit
 author:
   name:  Grin
-  email: grinfit@grin.io
+  email: grin@grin.io
 
 production_url: http://fit.grin.io
