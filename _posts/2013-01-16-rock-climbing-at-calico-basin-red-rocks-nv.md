@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Rock Climbing at Calico Basin, Red Rocks, NV"
+date: 2013-01-16 16:00:00
 ---
 
 Steve, Eddie and I climbed two routes at Calico Basin (near Las Vegas). Eddie led both routes, then Steve climbed, then I climbed and cleaned up. First, we climbed [Soupy Sales](http://www.rockclimbing.com/routes/North_America/United_States/Nevada/Red_Rock_Canyon/Calico_Basin/Moderate_Mecca/Soupy_Sales_16796.html). It's rated a 5.6, but the crux is pretty tough. I got through it eventually, but not without a bit of hanging on the rope. The second route was [Valentine's Day](http://www.rockclimbing.com/routes/North_America/United_States/Nevada/Red_Rock_Canyon/Calico_Basin/Moderate_Mecca/Valentine_s_Day_27439.html), a fun crack climb. It was tricky at parts, with one section that's very low on footholds, but I managed to send it on my first try. Steve also sent it, making it his first outdoor ascent. 
