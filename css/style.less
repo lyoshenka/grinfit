@@ -220,21 +220,22 @@ footer {
 p,ol,ul {
   .text(@base-font-size);
 }
-/*
-ul,ol {
-  margin-left: -24px;
-  padding-left: 24px;
+
+ol {
+  margin-left: 1.5em;
+  list-style-type: decimal;
 }
-*/
+
 li ul,li ol {
   margin: 0;
 }
-li {
+
+ul li {
   position: relative;
   list-style: none;
   padding: 0 0 0 16px;
 }
-li::before {
+ul li::before {
   display: block;
   content: '-';
   //font-weight: bold;
