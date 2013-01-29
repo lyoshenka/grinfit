@@ -7,6 +7,10 @@ namespace :assets do
   end
 end
 
+task :test do
+  exec('jekyll && rackup')
+end
+
 # newpost = make a new post, then edit the last post
 task :newpost => [:newpost_no_vi, :editlast] do ; end
 
