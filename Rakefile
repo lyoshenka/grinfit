@@ -11,18 +11,25 @@ task :test do
   exec('jekyll && rackup')
 end
 
-# newpost = make a new post, then edit the last post
-task :newpost => [:newpost_no_vi, :editlast] do ; end
+task :push do
+  exec('git add -A && git commit -m "New post" && git push all master')
+end
+
+task :newpost => [:newpost_no_vi, :editlast] do
+  desc 'Create a new post with the given title, then open it in vi'
+end
 
 task :editlast do
+  desc 'Open the most recent post in vi'
   filename = Dir.glob(postsDir() + '/*').max()
   exec('vi ' + filename);
 end
 
 task :newpost_no_vi do
+  desc 'Create a new post with the given title'
   args = ARGV.drop(1)
   if args.empty?
-    print "Need a post title!\n"
+    print "Usage: rake newpost This is an awesome post title!\n"
     next
   end
 
