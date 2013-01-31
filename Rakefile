@@ -21,22 +21,46 @@ end
 
 task :editlast do
   desc 'Open the most recent post in vi'
-  filename = Dir.glob(postsDir() + '/*').max()
-  exec('vi ' + filename);
+  exec('vi ' + mostRecentPostFilename());
+end
+
+task :renamelast do
+  desc 'Change the title of the most recent post'
+  title = stringFromArgs('renamelast')
+  oldFilename = mostRecentPostFilename()
+  newFilename = makeFilename(oldFilename.match(/\d{4}-\d{2}-\d{2}/)[0], title)
+
+  require 'yaml'
+  p YAML.load_file(oldFilename)
+
+  if File.exists?(newFilename)
+    print "!!! File with new name already exists !!!\n"
+    next
+  end
+
+  File.rename(oldFilename,newFilename)
+
+  print oldFilename + ' => ' + newFilename + "\n"
+
+  content = parsePostContent(File.open(newFilename, 'r') { |f| f.read })
+  content['meta']['title'] = title
+  File.open(newFilename, 'w') { |file| file.write(stringifyPostContent(content)) }
+end
+
+task :datelast do 
+  require 'date'
+  dateString = stringFromArgs('datelast')
+  date = Date.parse(`date +%Y-%m-%d -d "#{dateString}"`.strip())
+  oldFilename = mostRecentPostFilename()
+  newFilename = makeFilename(date, File.basename(oldFilename).split('-').drop(3).join('-'))
+  print oldFilename + " => " + newFilename + "\n"
+  File.rename(oldFilename,newFilename)
 end
 
 task :newpost_no_vi do
   desc 'Create a new post with the given title'
-  args = ARGV.drop(1)
-  if args.empty?
-    print "Usage: rake newpost This is an awesome post title!\n"
-    next
-  end
-
-  preventErrorsForCommandLineArgs(args)
-
-  title = args.join(' ')
-  filename =  postsDir()  + '/' + Time.now().strftime('%Y-%m-%d') + '-' + titleToFilename(title)
+  title = stringFromArgs('newpost')
+  filename =  makeFilename(Time.now(), title)
 
   if File.exists?(filename)
     print "File already exists\n"
@@ -47,12 +71,41 @@ task :newpost_no_vi do
   print filename + "\n"
 end
 
+def parsePostContent(content)
+  require 'yaml'
+  parts = content.split(/(?:^|\n)---\n/, 3)
+  if (parts.count() != 3)
+    abort('Could not parse post content')
+  end
+  Hash['meta' => YAML.load(parts[1]), 'body' => parts[2]]
+end
+
+def stringifyPostContent(postHash)
+  require 'yaml'
+  postHash['meta'].to_yaml.strip() + "\n---\n\n" + postHash['body'].sub(/^\n+/,'')
+end
+
+def stringFromArgs(taskName)
+  args = ARGV.drop(1)
+  if args.empty?
+    abort("Usage: rake " + taskName + " Title or date or whatever goes here!\n")
+  end
+  preventErrorsForCommandLineArgs(args)
+  args.join(' ')
+end
+
+def mostRecentPostFilename()
+  Dir.glob(postsDir() + '/*').max()
+end
+
 def postsDir()
   File.expand_path(File.dirname(__FILE__)) + '/_posts'
 end
 
-def titleToFilename(title)
-  title.downcase().gsub(/[^a-z0-9_]+/,'-') + '.md'
+def makeFilename(date,title)
+  postsDir() + '/' + 
+  (date.respond_to?(:strftime) ? date.strftime('%Y-%m-%d') : date) + 
+  '-' + title.gsub(/\.md$/,'').downcase().gsub(/[^a-z0-9_]+/,'-') + '.md'
 end
 
 def preventErrorsForCommandLineArgs(args)
