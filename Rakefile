@@ -8,30 +8,33 @@ namespace :assets do
 end
 
 task :test do
+  desc 'For testing stuff'
+end
+
+task :preview do
+  desc 'Build site locally and serve it at localhost:9292'
   exec('jekyll && rackup')
 end
 
 task :push do
+  desc 'Commit to git and update live site'
   exec('git add -A && git commit -m "New post" && git push all master')
 end
 
-task :newpost => [:newpost_no_vi, :editlast] do
+task :new => [:new_no_vi, :edit] do
   desc 'Create a new post with the given title, then open it in vi'
 end
 
-task :editlast do
+task :edit do
   desc 'Open the most recent post in vi'
   exec('vi ' + mostRecentPostFilename());
 end
 
-task :renamelast do
+task :rename do
   desc 'Change the title of the most recent post'
   title = stringFromArgs('renamelast')
   oldFilename = mostRecentPostFilename()
   newFilename = makeFilename(oldFilename.match(/\d{4}-\d{2}-\d{2}/)[0], title)
-
-  require 'yaml'
-  p YAML.load_file(oldFilename)
 
   if File.exists?(newFilename)
     print "!!! File with new name already exists !!!\n"
@@ -47,7 +50,8 @@ task :renamelast do
   File.open(newFilename, 'w') { |file| file.write(stringifyPostContent(content)) }
 end
 
-task :datelast do 
+task :redate do 
+  desc 'Change the date on the most recent post'
   require 'date'
   dateString = stringFromArgs('datelast')
   date = Date.parse(`date +%Y-%m-%d -d "#{dateString}"`.strip())
@@ -57,7 +61,7 @@ task :datelast do
   File.rename(oldFilename,newFilename)
 end
 
-task :newpost_no_vi do
+task :new_no_vi do
   desc 'Create a new post with the given title'
   title = stringFromArgs('newpost')
   filename =  makeFilename(Time.now(), title)
@@ -70,6 +74,7 @@ task :newpost_no_vi do
   File.open(filename, 'w') { |file| file.write("---\nlayout: post\ntitle: \"" + title + "\"\n---\n\n\n") }
   print filename + "\n"
 end
+
 
 def parsePostContent(content)
   require 'yaml'
