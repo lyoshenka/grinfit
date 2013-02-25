@@ -7,6 +7,17 @@ namespace :assets do
   end
 end
 
+#task :default do
+#  Rake.application.options.show_task_pattern = //
+#  Rake.application.display_tasks_and_comments()
+#end
+
+task :list do
+  Rake.application.tasks.each do |task|
+    print task.name() + ' ' + task.comment.to_s() + "\n"
+  end
+end
+
 task :test do
   desc 'For testing stuff'
 end
