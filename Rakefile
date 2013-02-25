@@ -7,42 +7,36 @@ namespace :assets do
   end
 end
 
-#task :default do
-#  Rake.application.options.show_task_pattern = //
-#  Rake.application.display_tasks_and_comments()
-#end
-
-task :list do
-  Rake.application.tasks.each do |task|
-    print task.name() + ' ' + task.comment.to_s() + "\n"
-  end
+desc 'List all tasks'
+task :default do
+  exec('rake -T');
 end
 
+desc 'For testing stuff'
 task :test do
-  desc 'For testing stuff'
 end
 
+desc 'Build site locally and serve it at localhost:9292'
 task :preview do
-  desc 'Build site locally and serve it at localhost:9292'
   exec('jekyll && rackup')
 end
 
+desc 'Commit to git and update live site'
 task :push do
-  desc 'Commit to git and update live site'
   exec('git add -A && git commit -m "New post" && git push all master')
 end
 
+desc 'Create a new post with the given title, then open it in vi'
 task :new => [:new_no_vi, :edit] do
-  desc 'Create a new post with the given title, then open it in vi'
 end
 
+desc 'Open the most recent post in vi'
 task :edit do
-  desc 'Open the most recent post in vi'
   exec('vi ' + mostRecentPostFilename());
 end
 
+desc 'Change the title of the most recent post'
 task :rename do
-  desc 'Change the title of the most recent post'
   title = stringFromArgs('renamelast')
   oldFilename = mostRecentPostFilename()
   newFilename = makeFilename(oldFilename.match(/\d{4}-\d{2}-\d{2}/)[0], title)
@@ -61,8 +55,8 @@ task :rename do
   File.open(newFilename, 'w') { |file| file.write(stringifyPostContent(content)) }
 end
 
+desc 'Change the date on the most recent post'
 task :redate do 
-  desc 'Change the date on the most recent post'
   require 'date'
   dateString = stringFromArgs('datelast')
   date = Date.parse(`date +%Y-%m-%d -d "#{dateString}"`.strip())
@@ -72,8 +66,8 @@ task :redate do
   File.rename(oldFilename,newFilename)
 end
 
+desc 'Create a new post with the given title'
 task :new_no_vi do
-  desc 'Create a new post with the given title'
   title = stringFromArgs('newpost')
   filename =  makeFilename(Time.now(), title)
 
