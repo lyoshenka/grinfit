@@ -9,5 +9,6 @@ Takeaways from the weekend:
 
 - I cut too close to the handlers. Need to clear earlier.
 - I have to stop clearing up the sideline and clear to the front of the stack.
+- When chasing a deep cut on D, spend less time looking for the disc and more time chasing. Otherwise I won't catch up.
 - My backhand dumps suck. Need to step out and reach farther.
 - **Team defense**. We don't play enough of that in Philly.
