@@ -1,0 +1,28 @@
+---
+title : Timeline
+---
+
+<html><body>
+<div id='chronoline'></div>
+
+<script type="text/javascript">
+
+var events = [
+
+{% for post in site.posts %}
+  {dates: [new Date(2012, 3, 9)], title: "post.title", section: 1, attrs: {}},
+{% endfor %}
+ {}
+];
+
+var timeline = new Chronoline(
+  document.getElementById("chronoline"), 
+  events,
+  {
+    animated: true
+//    ,sections: sections
+  }
+);
+
+</script>
+</body></html>
