@@ -21,6 +21,11 @@ task :preview do
   exec('jekyll && rackup')
 end
 
+desc 'List 10 recently modified posts'
+task :list do
+  exec('ls -1t ' + postsDir() + '/ | head -n 10 | nl -w 3')
+end
+
 desc 'Commit to git and update live site'
 task :push do
   exec('git add -A && git commit -m "New post" && git push all master')
@@ -30,15 +35,20 @@ desc 'Create a new post with the given title, then open it in vi'
 task :new => [:new_no_vi, :edit] do
 end
 
-desc 'Open the most recent post in vi'
+desc 'Open the nth most recent post in vi'
 task :edit do
-  exec('vi ' + mostRecentPostFilename());
+  n = ARGV[1].nil? ? 1 : ARGV[1].to_i()
+  exec('vi ' + nthPostFilename(n));
 end
 
-desc 'Change the title of the most recent post'
+desc 'Change the title of the nth most recent post'
 task :rename do
-  title = stringFromArgs('renamelast')
-  oldFilename = mostRecentPostFilename()
+  n = is_filenum?(ARGV[1]) ? ARGV[1].to_i() : nil
+  title = stringFromArgs(n.nil? ? 0 : 1)
+  if title.empty?
+    abort("Usage: rake rename [NUM] NEW TITLE GOES HERE\n")
+  end
+  oldFilename = nthPostFilename(n.nil? ? 1 : n)
   newFilename = makeFilename(oldFilename.match(/\d{4}-\d{2}-\d{2}/)[0], title)
 
   if File.exists?(newFilename)
@@ -55,12 +65,17 @@ task :rename do
   File.open(newFilename, 'w') { |file| file.write(stringifyPostContent(content)) }
 end
 
-desc 'Change the date on the most recent post'
+desc 'Change the date on the nth most recent post'
 task :redate do 
   require 'date'
-  dateString = stringFromArgs('datelast')
+  n = is_filenum?(ARGV[1]) ? ARGV[1].to_i() : nil
+  dateString = stringFromArgs(n.nil? ? 0 : 1)
+  if dateString.empty?
+    abort("Usage: rake redate [NUM] NEW DATE AS STRING\n")
+  end
+
   date = Date.parse(`date +%Y-%m-%d -d "#{dateString}"`.strip())
-  oldFilename = mostRecentPostFilename()
+  oldFilename = nthPostFilename()
   newFilename = makeFilename(date, File.basename(oldFilename).split('-').drop(3).join('-'))
   print oldFilename + " => " + newFilename + "\n"
   File.rename(oldFilename,newFilename)
@@ -68,7 +83,10 @@ end
 
 desc 'Create a new post with the given title'
 task :new_no_vi do
-  title = stringFromArgs('newpost')
+  title = stringFromArgs()
+  if title.empty?
+    abort("Usage: rake newpost POST TITLE GOES HERE\n")
+  end
   filename =  makeFilename(Time.now(), title)
 
   if File.exists?(filename)
@@ -95,17 +113,18 @@ def stringifyPostContent(postHash)
   postHash['meta'].to_yaml.strip() + "\n---\n\n" + postHash['body'].sub(/^\n+/,'')
 end
 
-def stringFromArgs(taskName)
-  args = ARGV.drop(1)
-  if args.empty?
-    abort("Usage: rake " + taskName + " Title or date or whatever goes here!\n")
-  end
-  preventErrorsForCommandLineArgs(args)
+def stringFromArgs(prevArgs=0)
+  # prevArgs is how many arguments went before this one. that is, how many to skip
+  args = ARGV.drop(1+prevArgs)
+  preventErrorsForCommandLineArgs()
   args.join(' ')
 end
 
-def mostRecentPostFilename()
-  Dir.glob(postsDir() + '/*').max()
+def nthPostFilename(n=1)
+  # n=0 means get the latest file by date. otherwise, get the nth most recently modified file
+  n == 0 ? 
+    Dir.glob(postsDir() + '/*').max() : 
+    postsDir + '/' + `#{'ls -1t ' + postsDir() + '/ | sed -n ' + n.to_s() + 'p'}`.strip()
 end
 
 def postsDir()
@@ -118,9 +137,20 @@ def makeFilename(date,title)
   '-' + title.gsub(/\.md$/,'').downcase().gsub(/[^a-z0-9_]+/,'-') + '.md'
 end
 
-def preventErrorsForCommandLineArgs(args)
+def is_filenum?(str)
+  is_i?(str) && str.to_i() >= 1 && str.to_i() <= 10
+end
+
+def is_i?(str)
+  !!(str =~ /^[-+]?[0-9]+$/)
+end
+
+def preventErrorsForCommandLineArgs()
   # Rake treats each arg as a task, so we make fake tasks for each arg. Then it wont error.
-  args.each do |arg|
-    task arg.to_sym do ; end
+  ARGV.each do |arg|
+    sym = arg.to_sym
+    if !Rake::Task.task_defined?(sym)
+      task sym do ; end
+    end
   end
 end
