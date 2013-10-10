@@ -7,33 +7,40 @@ namespace :assets do
   end
 end
 
+
 desc 'List all tasks'
 task :default do
   exec('rake -T');
 end
 
+
 desc 'For testing stuff'
 task :test do
 end
+
 
 desc 'Build site locally and serve it at localhost:9292'
 task :preview do
   exec('jekyll && rackup')
 end
 
+
 desc 'List 10 recently modified posts'
 task :list do
-  exec('ls -1t ' + postsDir() + '/ | head -n 10 | nl -w 3')
+  listPosts
 end
+
 
 desc 'Commit to git and update live site'
 task :push do
   exec('git add -A && git commit -m "New post" && git push all master')
 end
 
+
 desc 'Create a new post with the given title, then open it in vi'
 task :new => [:new_no_vi, :edit] do
 end
+
 
 desc 'Open the nth most recent post in vi'
 task :edit do
@@ -41,12 +48,15 @@ task :edit do
   exec('vi ' + nthPostFilename(n));
 end
 
+
 desc 'Change the title of the nth most recent post'
 task :rename do
   n = is_filenum?(ARGV[1]) ? ARGV[1].to_i() : nil
   title = stringFromArgs(n.nil? ? 0 : 1)
   if title.empty?
-    abort("Usage: rake rename [NUM] NEW TITLE GOES HERE\n")
+    puts "Usage: rake rename [NUM] NEW TITLE GOES HERE\n"
+    listPosts
+    abort
   end
   oldFilename = nthPostFilename(n.nil? ? 1 : n)
   newFilename = makeFilename(oldFilename.match(/\d{4}-\d{2}-\d{2}/)[0], title)
@@ -65,13 +75,16 @@ task :rename do
   File.open(newFilename, 'w') { |file| file.write(stringifyPostContent(content)) }
 end
 
+
 desc 'Change the date on the nth most recent post'
 task :redate do 
   require 'date'
   n = is_filenum?(ARGV[1]) ? ARGV[1].to_i() : nil
   dateString = stringFromArgs(n.nil? ? 0 : 1)
   if dateString.empty?
-    abort("Usage: rake redate [NUM] NEW DATE AS STRING\n")
+    puts "Usage: rake redate [NUM] NEW DATE AS STRING\n"
+    listPosts
+    abort
   end
 
   date = Date.parse(`date +%Y-%m-%d -d "#{dateString}"`.strip())
@@ -81,11 +94,12 @@ task :redate do
   File.rename(oldFilename,newFilename)
 end
 
+
 desc 'Create a new post with the given title'
 task :new_no_vi do
   title = stringFromArgs()
   if title.empty?
-    abort("Usage: rake newpost POST TITLE GOES HERE\n")
+    abort "Usage: rake newpost POST TITLE GOES HERE\n"
   end
   filename =  makeFilename(Time.now(), title)
 
@@ -97,6 +111,7 @@ task :new_no_vi do
   File.open(filename, 'w') { |file| file.write("---\nlayout: post\ntitle: \"" + title + "\"\n---\n\n\n") }
   print filename + "\n"
 end
+
 
 
 def parsePostContent(content)
@@ -129,6 +144,10 @@ end
 
 def postsDir()
   File.expand_path(File.dirname(__FILE__)) + '/_posts'
+end
+
+def listPosts()
+  exec 'ls -1t ' + postsDir() + '/ | head -n 10 | nl -w 3'
 end
 
 def makeFilename(date,title)
