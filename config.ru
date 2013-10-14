@@ -27,7 +27,7 @@ class MyTryStatic
     @try = ['', *options.delete(:try)]
     @options = options
     @static = ::Rack::Static.new(
-      lambda { [404, {}, []] }, 
+      lambda { |env| [404, {}, []] }, 
       options)
   end
 
@@ -66,4 +66,4 @@ use MyTryStatic, :root => "_site", :urls => %w[/], :try => ['.html', 'index.html
 #use Rack::TryStatic, :root => "_site", :urls => %w[/], :try => ['.html', 'index.html', '/index.html']
 
 
-run lambda { [404, {'Content-Type' => 'text/html'}, ['Not Found']]}
+run lambda { |env| [404, {'Content-Type' => 'text/html'}, ['Not Found']]}
