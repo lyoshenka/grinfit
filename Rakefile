@@ -79,7 +79,7 @@ end
 desc 'Change the date on the nth most recent post'
 task :redate do 
   require 'date'
-  n = is_filenum?(ARGV[1]) ? ARGV[1].to_i() : 1
+  n = is_filenum?(ARGV[1]) ? ARGV[1].to_i() : nil
   dateString = stringFromArgs(n.nil? ? 0 : 1)
   if dateString.empty?
     puts "Usage: rake redate [NUM] NEW DATE AS STRING\n"
@@ -88,7 +88,7 @@ task :redate do
   end
 
   date = Date.parse(`date +%Y-%m-%d -d "#{dateString}"`.strip())
-  oldFilename = nthPostFilename(n)
+  oldFilename = nthPostFilename(n.nil? ? 1 : n)
   newFilename = makeFilename(date, File.basename(oldFilename).split('-').drop(3).join('-'))
   print oldFilename + " => " + newFilename + "\n"
   File.rename(oldFilename,newFilename)
