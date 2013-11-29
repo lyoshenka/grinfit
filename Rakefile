@@ -29,6 +29,7 @@ desc 'List 10 recently modified posts'
 task :ls do
   listPosts
 end
+task :list => :ls
 
 
 desc 'Commit to git and update live site'
