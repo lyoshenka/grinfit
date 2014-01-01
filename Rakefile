@@ -21,7 +21,7 @@ end
 
 desc 'Build site locally and serve it at localhost:9292'
 task :preview do
-  exec('jekyll && rackup')
+  exec('bundle exec jekyll --server')
 end
 
 
@@ -38,28 +38,69 @@ task :push do
 end
 
 
+desc 'Add tag'
+task :tag do
+  args = parseArgs()
+  tags = args[:rest].split(' ')
+  post = getPost(args[:filename])
+  post['meta']['tags'] = post['meta']['tags'].to_a().concat(tags).uniq()
+  savePost(args[:filename], post)
+  listPosts(1)
+end
+
+
+desc 'Remove tag'
+task :untag do
+  args = parseArgs()
+  tags = args[:rest].split(' ')
+  post = getPost(args[:filename])
+  post['meta']['tags'] = tags.empty? ? [] : post['meta']['tags'].to_a().reject{ |tag| tags.include?(tag) }
+  savePost(args[:filename], post)
+  listPosts(1)
+end
+
+
 desc 'Create a new post with the given title, then open it in vi'
 task :new => [:new_no_vi, :edit] do
 end
 
 
+desc 'Create a new post with the given title'
+task :new_no_vi do
+  args = parseArgs(filenum: false)
+  title = args[:rest]
+  if title.empty?
+    abort "Usage: rake newpost POST TITLE GOES HERE\n"
+  end
+  filename = makeFilename(Time.now(), title)
+
+  if File.exists?(filename)
+    print "File already exists\n"
+    next
+  end
+
+  savePost(filename, {'meta' => {'layout' => 'post', 'title' => title}, 'body' => ''})
+  listPosts(1)
+end
+
+
 desc 'Open the nth most recent post in vi'
 task :edit do
-  n = ARGV[1].nil? ? 1 : ARGV[1].to_i()
-  exec('vi ' + nthPostFilename(n));
+  args = parseArgs(endstring: false)
+  exec('vi ' + args[:filename]);
 end
 
 
 desc 'Change the title of the nth most recent post'
 task :rename do
-  n = is_filenum?(ARGV[1]) ? ARGV[1].to_i() : nil
-  title = stringFromArgs(n.nil? ? 0 : 1)
+  args = parseArgs()
+  title = args[:rest]
   if title.empty?
     puts "Usage: rake rename [NUM] NEW TITLE GOES HERE\n"
     listPosts
     abort
   end
-  oldFilename = nthPostFilename(n.nil? ? 1 : n)
+  oldFilename = args[:filename]
   newFilename = makeFilename(oldFilename.match(/\d{4}-\d{2}-\d{2}/)[0], title)
 
   if File.exists?(newFilename)
@@ -71,17 +112,17 @@ task :rename do
 
   print oldFilename + ' => ' + newFilename + "\n"
 
-  content = parsePostContent(File.open(newFilename, 'r') { |f| f.read })
-  content['meta']['title'] = title
-  File.open(newFilename, 'w') { |file| file.write(stringifyPostContent(content)) }
+  post = getPost(newFilename)
+  post['meta']['title'] = title
+  savePost(newFilename, post)
 end
 
 
 desc 'Change the date on the nth most recent post'
-task :redate do 
+task :redate do
   require 'date'
-  n = is_filenum?(ARGV[1]) ? ARGV[1].to_i() : nil
-  dateString = stringFromArgs(n.nil? ? 0 : 1)
+  args = parseArgs()
+  dateString = args[:rest]
   if dateString.empty?
     puts "Usage: rake redate [NUM] NEW DATE AS STRING\n"
     listPosts
@@ -89,71 +130,63 @@ task :redate do
   end
 
   date = Date.parse(`date +%Y-%m-%d -d "#{dateString}"`.strip())
-  oldFilename = nthPostFilename(n.nil? ? 1 : n)
+  oldFilename = args[:filename]
   newFilename = makeFilename(date, File.basename(oldFilename).split('-').drop(3).join('-'))
   print oldFilename + " => " + newFilename + "\n"
   File.rename(oldFilename,newFilename)
 end
 
 
-desc 'Create a new post with the given title'
-task :new_no_vi do
-  title = stringFromArgs()
-  if title.empty?
-    abort "Usage: rake newpost POST TITLE GOES HERE\n"
-  end
-  filename =  makeFilename(Time.now(), title)
-
-  if File.exists?(filename)
-    print "File already exists\n"
-    next
-  end
-
-  File.open(filename, 'w') { |file| file.write("---\nlayout: post\ntitle: \"" + title + "\"\n---\n\n\n") }
-  print filename + "\n"
-end
 
 
 
-def parsePostContent(content)
+
+def getPost(filename)
   require 'yaml'
-  parts = content.split(/(?:^|\n)---\n/, 3)
+  parts = File.open(filename, 'r') { |f| f.read }.split(/(?:^|\n)---\n/, 3)
   if (parts.count() != 3)
-    abort('Could not parse post content')
+    abort('Could not parse post ' + filename.to_s)
   end
-  Hash['meta' => YAML.load(parts[1]), 'body' => parts[2]]
+  {'meta' => YAML.load(parts[1]), 'body' => parts[2]}
 end
 
-def stringifyPostContent(postHash)
+def savePost(filename, post)
   require 'yaml'
-  postHash['meta'].to_yaml.strip() + "\n---\n\n" + postHash['body'].sub(/^\n+/,'')
+  content = post['meta'].to_yaml.strip() + "\n---\n\n" + post['body'].sub(/^\n+/,'')
+  File.open(filename, 'w') { |file| file.write(content) }
 end
 
-def stringFromArgs(prevArgs=0)
-  # prevArgs is how many arguments went before this one. that is, how many to skip
-  args = ARGV.drop(1+prevArgs)
-  preventErrorsForCommandLineArgs()
-  args.join(' ')
-end
-
-def nthPostFilename(n=1)
-  # n=0 means get the latest file by date. otherwise, get the nth most recently modified file
-  n == 0 ? 
-    Dir.glob(postsDir() + '/*').max() : 
-    postsDir + '/' + `#{'ls -1t ' + postsDir() + '/ | sed -n ' + n.to_s() + 'p'}`.strip()
+def parseArgs(filenum: true, endstring: true)
+  n = filenum && is_filenum?(ARGV[1]) ? ARGV[1].to_i : nil
+  args = {:filename => nil, :rest => nil}
+  if filenum
+    args[:filename] = Dir.glob(postsDir()+'/*').sort_by{|f| File.mtime(f)}.reverse().fetch(n.nil? ? 0 : n-1).strip()
+  end
+  if endstring
+    args[:rest] = ARGV.drop(n.nil? ? 1 : 2).join(' ')
+    preventErrorsForCommandLineArgs()
+  end
+  args
 end
 
 def postsDir()
   File.expand_path(File.dirname(__FILE__)) + '/_posts'
 end
 
-def listPosts()
-  exec 'ls -1t ' + postsDir() + '/ | head -n 10 | nl -w 3'
+def listPosts(limit=10)
+  require 'colorize'
+  num = 1
+  Dir.glob(postsDir()+'/*').sort_by{|f| File.mtime(f)}.reverse().first(limit).each() do |file|
+    post = getPost(file)
+    tags = post['meta']['tags'].to_a.empty? ? '' : (' [' + post['meta']['tags'].join(' ') + ']')
+    printf "%2d)  %s%s\n" % [num, File.basename(file), tags.yellow]
+    num += 1
+  end
 end
 
 def makeFilename(date,title)
-  postsDir() + '/' + 
-  (date.respond_to?(:strftime) ? date.strftime('%Y-%m-%d') : date) + 
+  postsDir() + '/' +
+  (date.respond_to?(:strftime) ? date.strftime('%Y-%m-%d') : date) +
   '-' + title.gsub(/\.md$/,'').downcase().gsub(/[^a-z0-9_]+/,'-') + '.md'
 end
 
