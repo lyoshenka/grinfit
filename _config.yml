@@ -2,7 +2,6 @@
 permalink: /:year-:month-:day/:title
 
 exclude: ["README.md", "config.ru", "Gemfile", "Gemfile.lock", "Rakefile", "bin", "vendor"]
-auto: false
 pygments: true
 paginate: 20
 

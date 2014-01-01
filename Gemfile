@@ -1,10 +1,9 @@
-source :rubygems
+source 'https://rubygems.org'
 
 gem 'rack-contrib', :require => 'rack/contrib/try_static'
 #gem 'rack-redirect'
 gem 'thin'
 
-gem 'heroku'
 gem 'jekyll'
 gem 'RedCloth'
 gem 'rdiscount'
