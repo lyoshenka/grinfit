@@ -70,7 +70,7 @@ task :new_no_vi do
   args = parseArgs(filenum: false)
   title = args[:rest]
   if title.empty?
-    abort "Usage: rake newpost POST TITLE GOES HERE\n"
+    abort "Usage: rake new POST TITLE GOES HERE\n"
   end
   filename = makeFilename(Time.now(), title)
 
@@ -156,18 +156,31 @@ def savePost(filename, post)
   File.open(filename, 'w') { |file| file.write(content) }
 end
 
+
 def parseArgs(filenum: true, endstring: true)
-  n = filenum && is_filenum?(ARGV[1]) ? ARGV[1].to_i : nil
   args = {:filename => nil, :rest => nil}
+  skipFirstArg = false
+
   if filenum
-    args[:filename] = Dir.glob(postsDir()+'/*').sort_by{|f| File.mtime(f)}.reverse().fetch(n.nil? ? 0 : n-1).strip()
+    skipFirstArg = true
+    firstArg = ARGV[1]
+    # is firstarg a filename of an existing post
+    if !firstArg.nil? && (firstArg[0] == '/' && File.exist?(firstArg) || File.exist?(postsDir()+'/'+firstArg))
+      args[:filename] = postsDir()+'/' +File.basename(firstArg)
+    else
+      nthFile = is_i?(firstArg) && firstArg.to_i >= 1 && firstArg.to_i <= 10 ? firstArg.to_i-1 : 0
+      args[:filename] = Dir.glob(postsDir()+'/*').sort_by{|f| File.mtime(f)}.reverse().fetch(nthFile).strip()
+    end
   end
+
   if endstring
-    args[:rest] = ARGV.drop(n.nil? ? 1 : 2).join(' ')
+    args[:rest] = ARGV.drop(skipFirstArg ? 2 : 1).join(' ')
     preventErrorsForCommandLineArgs()
   end
+
   args
 end
+
 
 def postsDir()
   File.expand_path(File.dirname(__FILE__)) + '/_posts'
