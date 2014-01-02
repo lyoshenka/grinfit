@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Gym: Squats, Bench, Muscle Ups"
+title: 'Gym: Squats, Bench, Muscle Ups'
+tags:
+- gym
 ---
 
 - Squats: continued to work on squat form. I don't know where I went wrong but my squats all feel weird now

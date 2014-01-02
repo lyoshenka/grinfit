@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "Gym: Bench, Squats, Bent-Over Rows"
-tags: ["gym", "pumpatorium"]
+title: 'Gym: Bench, Squats, Bent-Over Rows'
+tags:
+- gym
+- pumpatorium
 ---
 
 - Bench: {% w 3x5@166 %}

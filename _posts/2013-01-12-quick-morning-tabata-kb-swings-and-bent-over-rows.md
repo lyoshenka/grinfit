@@ -1,6 +1,9 @@
 ---
 layout: post
-title: "Quick Morning Tabata: KB Swings and Bent-Over Rows"
+title: 'Quick Morning Tabata: KB Swings and Bent-Over Rows'
+tags:
+- cardio
+- tabata
 ---
 
 - KB Swings: {% w 10, 10, 9, 9, 9, 9, 9, 9 %}

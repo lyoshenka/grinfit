@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Gym: Deadlifts, Push Press, Pullups"
+title: 'Gym: Deadlifts, Push Press, Pullups'
+tags:
+- gym
 ---
 
 - Deadlift: 5/245lb, 5/245lb, 5/255lb

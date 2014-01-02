@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Basement Gym Workout"
+title: Basement Gym Workout
+tags:
+- gym
 ---
 
 Patrick's new house has a small gym setup in the basement, so I think I'll be working out there in the near future. Here's what I did today:

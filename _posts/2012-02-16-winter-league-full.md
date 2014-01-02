@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Winter League Full"
+title: Winter League Full
+tags:
+- ultimate
 ---
 
 Lost to RABS. We once again had 6 guys. They had their full team. They crushed us.

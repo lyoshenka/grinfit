@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Summer League and Squat Jumps"
+title: Summer League and Squat Jumps
+tags:
+- ultimate
 ---
 
 Lost 15-11 to Doc and Lexa's summer league team. Need less turns.

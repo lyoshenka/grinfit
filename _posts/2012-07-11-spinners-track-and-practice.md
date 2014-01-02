@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Spinners Track and Practice"
+title: Spinners Track and Practice
+tags:
+- ultimate
 ---
 
 ## Track

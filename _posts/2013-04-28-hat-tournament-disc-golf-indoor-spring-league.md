@@ -1,6 +1,9 @@
 ---
 layout: post
-title: "Hat Tournament, Disc Golf, Indoor Spring League"
+title: Hat Tournament, Disc Golf, Indoor Spring League
+tags:
+- ultimate
+- disc-golf
 ---
 
 A day full of ultimate. In the morning, Justin and I played a hat tourney at Edgely. Team "Favorite Nonalcoholic Beverage" played three games. The first two were close but not that serious (we won the first, lost the second). The last game was against Dre and Billy's team, which got me really fired up to win. We didn't play well at first, but went on a strong 5-point run to take half. We held our lead through the second half (though they narrowed the gap) but gave up two breaks on universe point to lose the game. Most of our team was pretty young, but we also had a few more experienced players. It was a great mix and we had a lot of fun. 

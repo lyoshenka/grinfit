@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Gym: Squats, Power Cleans, Dips"
+title: 'Gym: Squats, Power Cleans, Dips'
+tags:
+- gym
 ---
 
 - Squats: 3x5/185lb

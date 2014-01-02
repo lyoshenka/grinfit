@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Gym: Deadlift, Press, RLESS"
+title: 'Gym: Deadlift, Press, RLESS'
+tags:
+- gym
 ---
 
 - Deadlift: {% w 5@133/177/199/199 %}

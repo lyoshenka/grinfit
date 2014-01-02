@@ -1,6 +1,9 @@
 ---
 layout: post
-title: "Tabata Spiderman Pushups and V Ups"
+title: Tabata Spiderman Pushups and V Ups
+tags:
+- cardio
+- tabata
 ---
 
 Spiderman Pushups: 12, 10, 8, 8, 6, 5, 4, 3

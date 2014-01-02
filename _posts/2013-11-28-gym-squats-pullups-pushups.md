@@ -1,6 +1,8 @@
 ---
 layout: post
-title: ! 'Gym: Squats, Pullups, Pushups'
+title: 'Gym: Squats, Pullups, Pushups'
+tags:
+- gym
 ---
 
 - Squat: {% w 5@133/154/176 %}

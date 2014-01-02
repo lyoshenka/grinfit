@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "AMP's Nationals Writeup"
+title: AMP's Nationals Writeup
+tags:
+- amp
 ---
 
 Reproduced here in it's full glory.

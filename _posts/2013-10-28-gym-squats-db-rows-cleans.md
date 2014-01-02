@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Gym: Squats, DB Rows, Cleans"
+title: 'Gym: Squats, DB Rows, Cleans'
+tags:
+- gym
 ---
 
 - Squats: {% w 3x5@177 %}

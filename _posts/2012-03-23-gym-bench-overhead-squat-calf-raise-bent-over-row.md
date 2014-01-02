@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Gym: Bench, Overhead Squat, Calf Raise, Bent-Over Row"
+title: 'Gym: Bench, Overhead Squat, Calf Raise, Bent-Over Row'
+tags:
+- gym
 ---
 
 - Bench: 3/170lb,  4/160lb,  6/150lb

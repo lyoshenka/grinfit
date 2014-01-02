@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Gym: Upper Body and Lunges"
+title: 'Gym: Upper Body and Lunges'
+tags:
+- gym
 ---
 
 - Superset (Pullups,lat pull down,seated row) 10,7,7

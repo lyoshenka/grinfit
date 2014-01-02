@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Gym: Squats, Cleans, Dips, Paintbrushes"
+title: 'Gym: Squats, Cleans, Dips, Paintbrushes'
+tags:
+- gym
 ---
 
 - Squats 3x5/135 (working on my form)

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Game vs. CTC"
+title: Game vs. CTC
+tags:
+- ultimate
 ---
 
 We're on the road again this weekend, this time in Connecticut at their home opener. We played fairly well, but were behind the whole game and lost 29-23. We played well for the most part but our offense struggled and our defense didn't get enough turns back. The goal was to guard the unders and force their throwers to throw bad hucks against straight-up marks. We did that pretty well, but they ended up catching a lot of bad deep shots, sometimes even after we got a hand on the disc. We also didn't cover the incuts as well as we should have. 

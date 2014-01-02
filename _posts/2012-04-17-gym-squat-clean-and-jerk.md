@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Gym: Squat, Clean and Jerk"
+title: 'Gym: Squat, Clean and Jerk'
+tags:
+- gym
 ---
 
 - Squat: 5/190lb, 5/195lb, 5/200lb

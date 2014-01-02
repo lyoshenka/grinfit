@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Gym: Squats and Deadlift"
+title: 'Gym: Squats and Deadlift'
+tags:
+- gym
 ---
 
 - Squats: 3x5/190lb

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Spinners Gym"
+title: Spinners Gym
+tags:
+- gym
 ---
 
 - Pullups: 5/35, 4/40, 4/40

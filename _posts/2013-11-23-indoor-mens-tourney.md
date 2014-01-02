@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Indoor Mens Tourney"
+title: Indoor Mens Tourney
+tags:
+- ultimate
 ---
 
 Played a really fun and really high-level indoor tournament at MapleZone. There were 5 teams of about equal caliber:

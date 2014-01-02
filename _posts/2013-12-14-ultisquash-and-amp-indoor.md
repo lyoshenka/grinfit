@@ -1,6 +1,10 @@
 ---
 layout: post
-title: "Ultisquash and Amp Indoor"
+title: Ultisquash and Amp Indoor
+tags:
+- ultimate
+- ultisquash
+- amp
 ---
 
 ## Ultisquash

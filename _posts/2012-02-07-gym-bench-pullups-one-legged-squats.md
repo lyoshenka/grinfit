@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Gym: Bench, Pullups, One-Legged Squats"
+title: 'Gym: Bench, Pullups, One-Legged Squats'
+tags:
+- gym
 ---
 
 - Bench 3x5/145lb

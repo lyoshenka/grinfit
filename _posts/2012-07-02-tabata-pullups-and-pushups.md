@@ -1,6 +1,9 @@
 ---
 layout: post
-title: "Tabata Pullups and Pushups"
+title: Tabata Pullups and Pushups
+tags:
+- cardio
+- tabata
 ---
 
 - Pullups: 9,6,5,4,4,5,5,4

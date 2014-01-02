@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Gym: Squats, Pullups"
+title: 'Gym: Squats, Pullups'
+tags:
+- gym
 ---
 
 - Squats: 5/175,5/175,5/185

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Gym: RLESS, Bench, Cleans"
+title: 'Gym: RLESS, Bench, Cleans'
+tags:
+- gym
 ---
 
 - RLESS 5/130, 5/135, 5/135lb

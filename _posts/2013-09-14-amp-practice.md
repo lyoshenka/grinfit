@@ -1,6 +1,9 @@
 ---
 layout: post
-title: "AMP Practice"
+title: AMP Practice
+tags:
+- amp
+- ultimate
 ---
 
 4 hours of practice at Ballfields. I played offense most of the time, which was a nice change. I think I played pretty well, though I had two back-to-back turnovers that should have both been easy goals. Besides that, I did a reasonably good job cutting, throwing and scoring. Raha even said she felt I played well. 

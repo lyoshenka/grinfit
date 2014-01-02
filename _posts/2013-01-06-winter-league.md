@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Winter League"
+title: Winter League
+tags:
+- ultimate
 ---
 
 We played the winter league season opener against Butter's team. We played OK in the first half, they played better. In the second half, we really started to suck. Our team is pretty tall, so the deep game should have been good, but we overthrew our receivers 3 out of 4 times (or maybe more) while our in-cuts were wide open. Our defense was also lacking. Overall, a poor showing. We lost 27-14 after being down 14-10 at half.

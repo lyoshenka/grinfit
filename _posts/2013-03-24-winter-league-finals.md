@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Winter League Finals"
+title: Winter League Finals
+tags:
+- ultimate
 ---
 
 Picked up with Butter's core team for a game against Dallas. We went up early and didn't take it very seriously, but then they came back and won by 1 or 2. It was a very fun game even though we didn't win - very spirited and pretty high level. 

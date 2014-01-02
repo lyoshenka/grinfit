@@ -1,6 +1,9 @@
 ---
 layout: post
-title: "Tabata KB Swings, Flex-Extend Planks and Full-Body Situps"
+title: Tabata KB Swings, Flex-Extend Planks and Full-Body Situps
+tags:
+- cardio
+- tabata
 ---
 
 - KB Swings: {% w 8x12@35 %}

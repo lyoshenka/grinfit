@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Gym: Squats, Deadlifts, Ball Push Tuck Jumps, Pullups"
+title: 'Gym: Squats, Deadlifts, Ball Push Tuck Jumps, Pullups'
+tags:
+- gym
 ---
 
 Lifted with Raha at the Pumpatorium. She doesn't log her workouts, so I'll put it here.

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Spinners Gym and Film Session"
+title: Spinners Gym and Film Session
+tags:
+- gym
 ---
 
 ## Part 1 - Gym

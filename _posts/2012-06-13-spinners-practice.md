@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Spinners Practice"
+title: Spinners Practice
+tags:
+- ultimate
 ---
 
 - 3-line marking drill

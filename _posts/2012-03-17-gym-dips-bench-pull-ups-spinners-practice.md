@@ -1,6 +1,9 @@
 ---
 layout: post
-title: "Gym: Dips, Bench, Pull ups & Spinners Practice"
+title: 'Gym: Dips, Bench, Pull ups & Spinners Practice'
+tags:
+- gym
+- ultimate
 ---
 
 Gym Friday

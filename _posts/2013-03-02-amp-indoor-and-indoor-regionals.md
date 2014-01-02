@@ -1,6 +1,9 @@
 ---
 layout: post
-title: "AMP Indoor and Indoor Regionals"
+title: AMP Indoor and Indoor Regionals
+tags:
+- ultimate
+- amp
 ---
 
 First, played an hour of indoor with AMP. I tried out my abbreviated warmups and I think they went well. I just need to speak louder and demonstrate the new exercises up front. 

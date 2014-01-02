@@ -27,7 +27,7 @@ end
 
 desc 'List 10 recently modified posts'
 task :ls do
-  listPosts
+  listPosts(10)
 end
 task :list => :ls
 
@@ -168,7 +168,7 @@ def parseArgs(filenum: true, endstring: true)
     if !firstArg.nil? && (firstArg[0] == '/' && File.exist?(firstArg) || File.exist?(postsDir()+'/'+firstArg))
       args[:filename] = postsDir()+'/' +File.basename(firstArg)
     else
-      nthFile = is_i?(firstArg) && firstArg.to_i >= 1 && firstArg.to_i <= 10 ? firstArg.to_i-1 : 0
+      nthFile = is_i?(firstArg) && firstArg.to_i >= 1 ? firstArg.to_i-1 : 0
       args[:filename] = Dir.glob(postsDir()+'/*').sort_by{|f| File.mtime(f)}.reverse().fetch(nthFile).strip()
     end
   end

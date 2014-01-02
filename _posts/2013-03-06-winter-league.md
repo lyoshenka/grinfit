@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Winter League"
+title: Winter League
+tags:
+- ultimate
 ---
 
 Played Bill's team (SHREK). We won by a good amount. We only had 5 guys, but I think that worked well for us.

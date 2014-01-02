@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Ultisquash"
+title: Ultisquash
+tags:
+- ultisquash
 ---
 
 Ultisquash

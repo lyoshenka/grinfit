@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "AMP Beach Weekend"
+title: AMP Beach Weekend
+tags:
+- amp
 ---
 
 A fun and useful weekend of practices, beach play and hanging out. The schedule:

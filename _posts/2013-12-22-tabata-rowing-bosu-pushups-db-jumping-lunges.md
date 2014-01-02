@@ -1,6 +1,9 @@
 ---
 layout: post
-title: "Tabata Rowing, Bosu Pushups, DB Jumping Lunges"
+title: Tabata Rowing, Bosu Pushups, DB Jumping Lunges
+tags:
+- cardio
+- tabata
 ---
 
 - Rowing: don't know how far, the screen didn't work

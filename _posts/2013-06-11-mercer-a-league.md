@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Mercer A League"
+title: Mercer A League
+tags:
+- ultimate
 ---
 
 Played my first game of Mercer A League this year. We played Illuminati in a pretty easy game. We won 15-4, then played some more pickup after the game.

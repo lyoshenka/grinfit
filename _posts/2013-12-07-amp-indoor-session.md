@@ -1,6 +1,9 @@
 ---
 layout: post
-title: "AMP Indoor Session"
+title: AMP Indoor Session
+tags:
+- amp
+- ultimate
 ---
 
 An awesome 2 hours. We did some short stretches and drills, then scrimmaged a lot. First drill was a give-and-go drill with 3 stationary receivers and one cutter running down the middle of the field. I liked the drill, but I'm unsure about the in-game usefulness. Going from catch to throw quickly was good practice. But when I try to do this move in a real game, the hardest part is throwing to a moving cutter while also moving. 

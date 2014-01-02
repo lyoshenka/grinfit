@@ -1,6 +1,9 @@
 ---
 layout: post
-title: "Tabata: Handstand Pushups, Pullups, Scissor Jumps"
+title: 'Tabata: Handstand Pushups, Pullups, Scissor Jumps'
+tags:
+- cardio
+- tabata
 ---
 
 - Handstand Pushups: 5,2,1,1,1,1,1,0

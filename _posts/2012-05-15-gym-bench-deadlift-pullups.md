@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Gym: Bench, Deadlift, Pullups"
+title: 'Gym: Bench, Deadlift, Pullups'
+tags:
+- gym
 ---
 
 - Bench 7/135, 5/170, 6/165, 4/165

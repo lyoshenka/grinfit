@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Disc Golf and Dodgeball"
+title: Disc Golf and Dodgeball
+tags:
+- disc-golf
 ---
 
 Wednesday: Disc golf at Sedgely. I played really well on the front 18. I was -2 for a long time and finished -1. I've never even hit par before. The back back 9 went worse than usual, but we played the reds so that's to be expected. I think I was +3 for the back back (compared to -5 from the yellows the time before, but that was probably a major fluke).
