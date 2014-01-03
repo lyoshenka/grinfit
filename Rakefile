@@ -167,9 +167,12 @@ def parseArgs(filenum: true, endstring: true)
     # is firstarg a filename of an existing post
     if !firstArg.nil? && (firstArg[0] == '/' && File.exist?(firstArg) || File.exist?(postsDir()+'/'+firstArg))
       args[:filename] = postsDir()+'/' +File.basename(firstArg)
+    elsif is_i?(firstArg)
+      nthFile = firstArg.to_i >= 1 ? firstArg.to_i-1 : 0
+      args[:filename] = getPostsInOrder.fetch(nthFile).strip
     else
-      nthFile = is_i?(firstArg) && firstArg.to_i >= 1 ? firstArg.to_i-1 : 0
-      args[:filename] = Dir.glob(postsDir()+'/*').sort_by{|f| File.mtime(f)}.reverse().fetch(nthFile).strip()
+      args[:filename] = getPostsInOrder.first.strip
+      skipFirstArg = false
     end
   end
 
@@ -189,12 +192,16 @@ end
 def listPosts(limit=10)
   require 'colorize'
   num = 1
-  Dir.glob(postsDir()+'/*').sort_by{|f| File.mtime(f)}.reverse().first(limit).each() do |file|
+  getPostsInOrder().first(limit).each() do |file|
     post = getPost(file)
     tags = post['meta']['tags'].to_a.empty? ? '' : (' [' + post['meta']['tags'].join(' ') + ']')
     printf "%2d)  %s%s\n" % [num, File.basename(file), tags.yellow]
     num += 1
   end
+end
+
+def getPostsInOrder()
+  Dir.glob(postsDir()+'/*').sort_by{|f| File.mtime(f)}.reverse()
 end
 
 def makeFilename(date,title)
