@@ -71,6 +71,7 @@ PLATFORMS
 
 DEPENDENCIES
   RedCloth
+  bundler
   closure-compiler
   colorize
   jekyll
