@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "2.0.0"
 
 gem 'rack-contrib', :require => 'rack/contrib/try_static'
 #gem 'rack-redirect'
