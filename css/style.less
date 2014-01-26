@@ -8,21 +8,23 @@
 @base-font-small: 16px;   // for 600-1000px
 @base-font-smaller: 15px; // for under 600px
 .font-size (@size) {
-  font-size: @size;
-  @rem: @size / @base-font-size;
-  font-size: ~"@{rem}rem";
+  @rem: unit(@size) / unit(@base-font-size);
+  font-size: unit(@size,px);
+  font-size: unit(@rem,rem);
 }
 
 @base-line-height: 26px;
 .line-height-for(@size) {
-  @mult: floor(@size / @base-line-height);
-  @add: ceil((@size - (@mult * @base-line-height)) / @size);
-  @height: (@mult + @add) * @base-line-height / @size;
-  line-height: ~"@{height}em";
+  @s: unit(@size);
+  @lh: unit(@base-line-height);
+  @mult: floor(@s / @lh);
+  @add: ceil((@s - (@mult * @lh)) / @s);
+  @height: (@mult + @add) * @lh / @s;
+  line-height: unit(@height,em);
 }
 .margin-bottom-for(@size) {
-  @margin: @base-line-height / @size;
-  margin-bottom: ~"@{margin}em";
+  @m: unit(@base-line-height) / unit(@size);
+  margin-bottom: unit(@m,em);
 }
 //.offset-left-for(@size) {
 //  @offset: @base-line-height / @size;
