@@ -1,6 +1,17 @@
 // REMEMBER: files in vendor folder are ignored by Jekyll, but they can still be imported by Less
 
-@import "vendor/reset";
+@import "vendor/normalize.css";
+
+// http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+* { -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
 
 
 // Fluid Typography ===================================================
@@ -13,7 +24,7 @@
   font-size: unit(@rem,rem);
 }
 
-@base-line-height: 26px;
+@base-line-height: 24px;
 .line-height-for(@size) {
   @s: unit(@size);
   @lh: unit(@base-line-height);
@@ -40,9 +51,9 @@
 
 
 // Colors ===================================================
-@text: #484a4c;
-@text-dark: #3E3F40;
-@text-darker: #2a2829;
+@text: #555;
+@text-dark: #333;
+@text-darker: #222;
 @link: #022859;
 @highlight: #e8e6ed;
 @background: #fcfcfc;
@@ -54,11 +65,10 @@
 
 // Misc ===================================================
 html {
-//  font-size: 62.5%;
   font-size: @base-font-size;
   line-height: @base-line-height;
 //  font-family: "Helvetica Neue",Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
-  font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+  font-family: 'PT Sans', Verdana, Geneva, 'DejaVu Sans', sans-serif;
   color: @text;
   background-color: @background;
 
@@ -79,7 +89,7 @@ html {
 
 #container {
   margin: 0 auto;
-  max-width: 650px;
+  max-width: 670px;
   padding: 10px;
 }
 
@@ -104,7 +114,7 @@ html {
     .font-size(14px);
     line-height: 18px;
     color: @text;
-    width: 150px;
+    width: 215px;
     padding: 6px 27px 6px 35px;
     margin: 0;
     -webkit-border-radius: 20px;
@@ -123,7 +133,7 @@ html {
     outline: 0;
     background: url('/img/search-dark.png') no-repeat 10px 8px lighten(@background, 10%);
     color: #6a6f75;
-    width: 200px;
+    width: 265px;
   }
 
   .clear-icon {
@@ -184,17 +194,17 @@ h1,h2,h3,h4,h5,h6 {
   text-rendering: optimizelegibility;
 }
 h1 {
-  .text(30px);
+  .text(28px);
 //  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
   a {
     color: @text-dark;
   }
 }
 h2 {
-  .text(24px);
+  .text(22px);
 }
 h3 {
-  .text(19px);
+  .text(16px);
 }
 h4 {
   .text(16px);
@@ -269,7 +279,7 @@ pre, code {
 
 
 blockquote {
-  margin-left: 1em;
+  margin: 1em 2em 1em 1em;
   padding-left: 1em;
   border-left: 2px solid @blockquote-line;
   font-family: Cambria, Georgia, Times, "Times New Roman";
@@ -291,12 +301,23 @@ a {
   }
 }
 .content a {
-  border-bottom: @link 1px dashed;
+//  border-bottom: @link 1px dashed;
+  background-color: darken(@background, 2%);
+  &:hover {
+    background-color: @highlight;
+  }
+  
+  &:before {
+    content: "[";
+  }
+  &:after {
+    content: "]";
+  }
 }
 
 a.date {
   float: right;
-  margin-top: 0.75em;
+  margin-top: 0.5em;
   margin-left: 0.75em;
 }
 
@@ -333,21 +354,3 @@ img {
   text-shadow: none;
 }
 
-
-
-// Unused =========================================================
-
-/*
-sub,sup {
-  position: relative;
-  .font-size(12px);
-  line-height: 0;
-  vertical-align: baselineheight;
-}
-sup {
-  top: -0.5em;
-}
-sub {
-  bottom: -0.25em;
-}
-*/

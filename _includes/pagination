@@ -2,7 +2,7 @@
   <div class="js-invis-on-search">
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-      <a href="/" class="newer">« Newer</a>
+      <a href="/" class="newer">&laquo; Newer</a>
     {% else %}
       <a href="/page{{paginator.previous_page}}" class="newer">&laquo; Newer</a>
     {% endif %}
