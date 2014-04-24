@@ -15,6 +15,7 @@ I've been really lazy for the past two weeks: combination of rehabbing and being
 - 1 pushup, 10 squats
 
 Total: 55 pushups, 55 squats
-Time: {% w 3:07 %}
+
+Time: 3:07
 
 The time makes sense considering I can do 40 burpees in just over 2 minutes.
