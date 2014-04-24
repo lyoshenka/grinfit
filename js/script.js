@@ -5,7 +5,7 @@ $(function() {
   var width = $(window).width(),
       smallWidth = 600;
 
-  if (width <= smallWidth) {
+  if (width <= smallWidth && $('.js-start-hidden').length > 1) {
     $('.js-start-hidden').hide();
   }
 

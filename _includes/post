@@ -1,6 +1,8 @@
 <article>
-  <a class="date clearfix" href="{{ postObject.url }}" title="{{ postObject.date | date: "%B %d, %Y" }}">{{ postObject.date | date: "%b %d" }}</a>
-  <h1><a class="js-collapse">{{ postObject.title }}</a></h1>
+  <h1>
+    <a class="js-collapse">{{ postObject.title }}</a>
+    <a class="date" href="{{ postObject.url }}"><small title="{{ postObject.date | date: "%B %d, %Y" }}">{{ postObject.date | date: "%b %d" }}</small></a>
+  </h1>
   <div class="content js-start-hidden">
     {{ postContent }}
   </div>
