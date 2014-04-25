@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-{% include pagination %}
-
 <div id="posts" class="js-hide-on-search">
   {% for post in paginator.posts %}
     {% assign postObject = post %}

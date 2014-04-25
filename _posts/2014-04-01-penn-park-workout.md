@@ -25,7 +25,7 @@ Ran the one side give-n-go drill a few times. There were 4 stationary players, a
 
 ## Short Cutting Box
 
-Sut up a 10m box with a disc in the middle. Cut to the center, then out to a corner, then back to the center, then the next corner, etc. 3 reps of this.
+Set up a 10m box with a disc in the middle. Cut to the center, then out to a corner, then back to the center, then the next corner, etc. 3 reps of this.
 
 ## Defensive Footwork Drill
 
