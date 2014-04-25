@@ -5,6 +5,9 @@
 // http://www.paulirish.com/2012/box-sizing-border-box-ftw/
 * { -moz-box-sizing: border-box; box-sizing: border-box; }
 
+
+
+// Resets ===================================================
 body {
   margin: 0;
 }
@@ -64,23 +67,37 @@ ul {
 @exercise-sep: #777777;
 
 
+
+// Font Families ===================================================
+
+//@text-font: "Helvetica Neue",Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+//@text-font: 'PT Sans', Verdana, Geneva, 'DejaVu Sans', sans-serif;
+//@text-font: 'Open Sans', Verdana, Geneva, 'DejaVu Sans', sans-serif;
+@text-font: 'Droid Sans', 'Open Sans', Verdana, Geneva, 'DejaVu Sans', sans-serif;
+
+//font-family: 'Droid Sans', 'sans-serif';
+//font-family: 'Noto Serif', 'serif';
+//font-family: 'Ubuntu', 'sans-serif';
+//font-family: 'Bitter', 'serif';
+
+//font-family: 'Asap', 'sans-serif';
+//font-family: 'Open Sans', 'sans-serif';
+//font-family: 'Roboto', 'sans-serif';
+//font-family: 'Varela Round', 'sans-serif';
+//font-family: 'Vollkorn', 'serif';
+//font-family: 'Telex', 'sans-serif';
+
+
+@header-font: Georgia, "Times New Roman", Times, serif;
+//@header-font: 'Roboto', Georgia, "Times New Roman", Times, serif;
+
+@quote-font: Cambria, Georgia, Times, "Times New Roman";
+
+@mono-font: Consolas, Lucida Console, DejaVu Sans Mono, Courier New, monospace;
+
+
+
 // Misc ===================================================
-html {
-  font-size: @base-font-size;
-  line-height: @base-line-height;
-//  font-family: "Helvetica Neue",Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
-//  font-family: 'PT Sans', Verdana, Geneva, 'DejaVu Sans', sans-serif;
-  font-family: 'Open Sans', Verdana, Geneva, 'DejaVu Sans', sans-serif;
-  color: @text;
-  background-color: @background;
-
-  /* Transitions for media queries */
-  @transitions: font-size,margin-bottom,line-height;
-  .transition(@transitions, 1.3s);
-}
-@media (max-width: 1000px) { html { font-size: @base-font-small; } }
-@media (max-width: 600px) { html { font-size: @base-font-smaller; } }
-
 .transition(@property, @duration) {
   transition: @property @duration ease 0s;
   -webkit-transition: @property @duration ease 0s;
@@ -89,9 +106,23 @@ html {
   -o-transition: @property @duration ease 0s;
 }
 
+html {
+  font-size: @base-font-size;
+  line-height: @base-line-height;
+  font-family: @text-font;
+  color: @text;
+  background-color: @background;
+
+  /* Transitions for media queries */
+  @transitions: font-size,margin-bottom,line-height;
+  .transition(@transitions, 1.3s);
+}
+//@media (max-width: 1000px) { html { font-size: @base-font-small; } }
+//@media (max-width: 600px) { html { font-size: @base-font-smaller; } }
+
 #container {
   margin: 0 auto;
-  max-width: 670px;
+  max-width: 600px;
   padding: 10px;
 }
 
@@ -112,7 +143,6 @@ html {
 
     background: url('/img/search-white.png') no-repeat 10px 8px @background;
     border: 1px solid @background-dark;
-  //  font-size: 14px;
     .font-size(14px);
     line-height: 18px;
     color: @text;
@@ -189,7 +219,7 @@ html {
 
 // Headers ===================================================
 h1,h2,h3,h4,.h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: @header-font;
   font-weight: bold;
   color: @text-dark;
   text-rendering: optimizelegibility;
@@ -275,7 +305,7 @@ i, em {
 
 
 pre, code {
-  font-family: Consolas, Lucida Console, DejaVu Sans Mono, Courier New, monospace;
+  font-family: @mono-font;
   .text(14px);
   white-space: pre;
   white-space: pre-wrap;
@@ -290,7 +320,7 @@ blockquote {
   margin: 1em 2em 1em 1em;
   padding-left: 1em;
   border-left: 2px solid @blockquote-line;
-  font-family: Cambria, Georgia, Times, "Times New Roman";
+  font-family: @quote-font;
   font-style: normal;
 }
 q {
