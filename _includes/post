@@ -1,9 +1,13 @@
-<article>
+<article itemscope itemtype="http://schema.org/BlogPosting">
   <h1>
-    <a class="js-collapse">{{ postObject.title }}</a>
-    <a href="{{ postObject.url }}"><time datetime="{{ postObject.date | date: "%F %T" }}" title="{{ postObject.date | date: "%B %d, %Y" }}">{{ postObject.date | date: "%b %d" }}</time></a>
+    <a class="js-collapse" itemprop="name">{{ postObject.title }}</a>
+    <a href="{{ postObject.url }}">
+      <time datetime="{{ postObject.date | date: "%F %T" }}" title="{{ postObject.date | date: "%B %d, %Y" }}" itemprop="datePublished">
+        {{ postObject.date | date: "%b %d" }}
+      </time>
+    </a>
   </h1>
-  <div class="content js-start-hidden">
+  <div class="content js-start-hidden" itemprop="articleBody">
     {{ postContent }}
   </div>
 </article>
