@@ -1,7 +1,7 @@
 <article>
   <h1>
     <a class="js-collapse">{{ postObject.title }}</a>
-    <a class="date" href="{{ postObject.url }}"><small title="{{ postObject.date | date: "%B %d, %Y" }}">{{ postObject.date | date: "%b %d" }}</small></a>
+    <a href="{{ postObject.url }}"><time datetime="{{ postObject.date | date: "%F %T" }}" title="{{ postObject.date | date: "%B %d, %Y" }}">{{ postObject.date | date: "%b %d" }}</time></a>
   </h1>
   <div class="content js-start-hidden">
     {{ postContent }}
