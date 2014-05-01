@@ -72,14 +72,18 @@ task :new_no_vi do
   if title.empty?
     abort "Usage: rake new POST TITLE GOES HERE\n"
   end
-  filename = makeFilename(Time.now(), title)
+
+  setTZ()
+  now = Time.now()
+  
+  filename = makeFilename(now, title)
 
   if File.exists?(filename)
     print "File already exists\n"
     next
   end
 
-  savePost(filename, {'meta' => {'layout' => 'post', 'title' => title}, 'body' => ''})
+  savePost(filename, {'meta' => {'layout' => 'post', 'title' => title, 'date' => now.strftime('%F %T')}, 'body' => ''})
   listPosts(1)
 end
 
@@ -146,10 +150,15 @@ task :retime do
 end
 
 
+
+
+def setTZ()
+  ENV["TZ"] = "America/New_York"
+end
+
 def changeDateTime(filename, string, dateOrTime)
   require 'chronic'
-
-  ENV["TZ"] = "America/New_York"
+  setTZ()
 
   post = getPost(filename)
 
@@ -178,8 +187,6 @@ def changeDateTime(filename, string, dateOrTime)
     File.rename(filename,newFilename);
   end
 end
-
-
 
 def getPost(filename)
   require 'yaml'
