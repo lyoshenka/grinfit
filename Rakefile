@@ -120,7 +120,6 @@ end
 
 desc 'Change the date on the nth most recent post'
 task :redate do
-  require 'date'
   args = parseArgs()
   dateString = args[:rest]
   if dateString.empty?
@@ -129,15 +128,56 @@ task :redate do
     abort
   end
 
-  date = Date.parse(`date +%Y-%m-%d -d "#{dateString}"`.strip())
-  oldFilename = args[:filename]
-  newFilename = makeFilename(date, File.basename(oldFilename).split('-').drop(3).join('-'))
-  print oldFilename + " => " + newFilename + "\n"
-  File.rename(oldFilename,newFilename)
+  changeDateTime(args[:filename], dateString, :date)
 end
 
 
+desc 'Change the time on the nth most recent post'
+task :retime do
+  args = parseArgs()
+  timeString = args[:rest]
+  if timeString.empty?
+    puts "Usage: rake retime [NUM] NEW TIME AS STRING\n"
+    listPosts
+    abort
+  end
 
+  changeDateTime(args[:filename], timeString, :time)
+end
+
+
+def changeDateTime(filename, string, dateOrTime)
+  require 'chronic'
+
+  ENV["TZ"] = "America/New_York"
+
+  post = getPost(filename)
+
+  # get date from metadata. if thats not there, get it from filename
+  postDateTime = Chronic.parse(post['meta']['date'] || File.basename(filename).split('-').first(3).join('-'))
+
+  parsed = Chronic.parse(string, :context => :past)
+
+  if (dateOrTime == :date)
+    newDateTimeString = parsed.strftime('%F') + ' ' + postDateTime.strftime('%T')
+  elsif (dateOrTime == :time)
+    newDateTimeString = postDateTime.strftime('%F') + ' ' + parsed.strftime('%T')
+  else
+    raise "dateOrTime arg must be :date or :time"
+  end
+
+  newDateTime = Chronic.parse(newDateTimeString);
+
+  post['meta']['date'] = newDateTime.strftime('%F %T');
+  puts postDateTime.strftime("%F %T") + ' => ' + newDateTime.strftime('%F %T')
+  savePost(filename, post)
+
+  if (dateOrTime == :date)
+    newFilename = makeFilename(newDateTime, post['meta']['title']);
+    puts "#{filename} => #{newFilename}"
+    File.rename(filename,newFilename);
+  end
+end
 
 
 
