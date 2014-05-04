@@ -34,7 +34,7 @@ task :list => :ls
 
 desc 'Commit to git and update live site'
 task :push do
-  exec('git add -A && git commit -m "New post" && git push all master')
+  exec('git add -A && git commit -m "New post" && git push')
 end
 
 
