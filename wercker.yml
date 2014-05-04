@@ -1,24 +1,14 @@
 box: wercker/rvm
 build:
   steps:
-    - bundle-install
-
     - script:
-        name: jekyll doctor
-        code: bundle exec jekyll doctor
+        name: echo ruby information
+        code: |
+          echo "ruby version $(ruby --version) running"
+          echo "from location $(which ruby)"
+          echo -p "gem list: $(gem list)"
 
-    - script:
-        name: generate site
-        code: bundle exec jekyll build --trace
-
-    - script:
-        name: postcompile assets
-        code: rake assets:postcompile
-    
 deploy:
   steps:
-    - s3sync:
-        key_id: $KEY
-        key_secret: $SECRET
-        bucket_url: $BUCKET
-        source_dir: _site/
+    - heroku-deploy:
+        heroku_key: HEROKU_KEY
