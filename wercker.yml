@@ -1,0 +1,24 @@
+box: wercker/rvm
+build:
+  steps:
+    - bundle-install
+
+    - script:
+        name: jekyll doctor
+        code: bundle exec jekyll doctor
+
+    - script:
+        name: generate site
+        code: bundle exec jekyll build --trace
+
+    - script:
+        name: postcompile assets
+        code: rake assets:postcompile
+    
+deploy:
+  steps:
+    - s3sync:
+        key_id: $KEY
+        key_secret: $SECRET
+        bucket_url: $BUCKET
+        source_dir: _site/
