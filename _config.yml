@@ -15,3 +15,6 @@ author:
   email: grin@grin.io
 
 production_url: http://fit.grin.io
+
+gems:
+  - jekyll-sitemap
