@@ -28,6 +28,8 @@ GEM
       redcarpet (~> 2.3.0)
       safe_yaml (~> 0.9.7)
       toml (~> 0.1.0)
+    jekyll-sitemap (0.3.0)
+      jekyll (~> 1.4)
     json (1.8.1)
     less (2.5.0)
       commonjs (~> 0.2.7)
@@ -77,6 +79,7 @@ DEPENDENCIES
   closure-compiler
   colorize
   jekyll
+  jekyll-sitemap
   json
   less
   rack-contrib
