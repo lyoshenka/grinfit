@@ -12,3 +12,4 @@ deploy:
   steps:
     - heroku-deploy:
         heroku_key: HEROKU_KEY
+        key-name: HEROKU_KEY
