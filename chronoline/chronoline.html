@@ -1,0 +1,28 @@
+---
+title: Chronoline
+---
+
+<html><body>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.0.1/jquery.qtip.min.css" />
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.0.1/jquery.qtip.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="chronoline.css" />
+<script type="text/javascript" src="raphael-min.js"></script>
+<script type="text/javascript" src="chronoline.js"></script>
+
+<div id="target1" style="width: 800px; margin 20px"></div>
+
+<script>
+
+var events = [
+{% for post in site.posts %}{dates: [new Date({{ post.date | date: "%Y, %-m-1, %-d" }})], title: "{{ post.title }}"}{% unless forloop.last %},{% endunless %}
+{% endfor %}];
+
+var timeline = new Chronoline(document.getElementById("target1"), events,
+    {animated: true, draggable: true, tooltips: true, eventHeight: 20});
+
+</script>
+
+</body></html>
