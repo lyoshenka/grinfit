@@ -14,4 +14,6 @@ tags:
 
 Did them all in 23-24 seconds. Felt kinda slow on the last 20-40 yards of each, and my times are down two seconds from last shuttles workout.
 
+## Throwing
+
 Then Bulb and I threw for about 20 min. My mid-range throws are coming along nicely but I still have a bad tendency to throw them too low. Need to aim higher, even if it seems weird to me. My deep throws were not great, prolly because I was tired and not very focused. Scoober is coming along nicely - need to not throw so far from my body and need to think about throwing it into a trash can.
