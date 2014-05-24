@@ -17,7 +17,7 @@
   <body>
     <div id="container">
       <header>
-        <div class="h1"><a href="/">{{ site.title }}</a></div>
+        <h1><a href="/">{{ site.title }}</a></h1>
         <span class="search-box">
           <input type="text" id="search"></input>
           <span class="clear-icon">&#10799;</span>

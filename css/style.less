@@ -1,13 +1,14 @@
 // REMEMBER: files in vendor folder are ignored by Jekyll, but they can still be imported by Less
 
-@import "vendor/normalize.less";
-
 // http://www.paulirish.com/2012/box-sizing-border-box-ftw/
 * { -moz-box-sizing: border-box; box-sizing: border-box; }
+
+@import "vendor/normalize.less";
 
 
 
 // Resets ===================================================
+
 body {
   margin: 0;
 }
@@ -17,57 +18,36 @@ ul {
 }
 
 
+
 // Fluid Typography ===================================================
-@base-font-size: 18px;    // for 1000px and up
-@base-font-small: 16px;   // for 600-1000px
-@base-font-smaller: 15px; // for under 600px
-.font-size (@size) {
-  @rem: unit(@size) / unit(@base-font-size);
-  font-size: unit(@size,px);
-  font-size: unit(@rem,rem);
-}
 
-@base-line-height: 27px;
-.line-height-for(@size) {
-  @s: unit(@size);
-  @lh: unit(@base-line-height);
-  @mult: floor(@s / @lh);
-  @add: ceil((@s - (@mult * @lh)) / @s);
-  @height: (@mult + @add) * @lh / @s;
-  line-height: unit(@height,em);
-}
-.margin-bottom-for(@size) {
-  @m: unit(@base-line-height) / unit(@size);
-  margin-bottom: unit(@m,em);
-}
-//.offset-left-for(@size) {
-//  @offset: @base-line-height / @size;
-//  margin-left: ~"-@{offset}em";
-//  padding-left: ~"@{offset}em";
-//}
+@base-font-size: 18px;
+@base-line-height: @base-font-size * 1.5;
+
 .text(@size) {
-  .font-size(@size);
-//  .line-height-for(@size);
-//  .margin-bottom-for(@size);
+  @rem: unit(@size) / unit(@base-font-size);
+  font-size: unit(@rem,rem);
+  & when (@size > @base-line-height) {
+    line-height: unit(@rem,rem);
+  }
 }
 
 
 
-// Colors ===================================================
+// Colors & Variables ===================================================
+
 @text: #3A3738;
 @text-dark: darken(@text, 5%);
-//@text-dark: #333;
-//@text-darker: #222;
 @header: #275EA3;
 @text-light: #807d7e;
-@link: #c5600c;
+@link: #e04c0d;
 @highlight: #e8e6ed;
 @background: #f5f4ef;
-@background-dark: darken(@background, 8%);
-//@blockquote-line: darken(@background, 25%);
-@blockquote-line: @text-light;
+@background-dark: darken(@background, 5%);
 @exercise-numbers: #ab000f;
 @exercise-sep: #777777;
+
+@date-column-width: 70px;
 
 
 
@@ -75,7 +55,7 @@ ul {
 
 @text-font: 'Droid Sans', 'Open Sans', Verdana, Geneva, 'DejaVu Sans', sans-serif;
 @header-font: Georgia, "Times New Roman", Times, serif;
-@quote-font: Cambria, Georgia, Times, "Times New Roman";
+@quote-font: @header-font;
 @mono-font: Consolas, Lucida Console, DejaVu Sans Mono, Courier New, monospace;
 
 
@@ -91,31 +71,13 @@ html {
 }
 
 #container {
-  margin: 0 auto;
-  max-width: 600px;
-  padding: 10px;
+  margin: 1rem auto 0;
+  max-width: 600px + @date-column-width;
+  padding: 20px;
 }
 
 .pagination {
-  .text(@base-font-size);
   margin-bottom: 40px;
-}
-
-
-// put search bar under title on iphones in portrait mode
-@media (max-width: 479px) {
-  .search-box {
-    position: relative;
-    top: auto;
-    right: auto;
-  }
-}
-
-
-#no-results {
-  .text(20px);
-  color: lighten(@text,40%);
-  font-style: italic;
 }
 
 .workout-unit {
@@ -125,80 +87,124 @@ html {
   }
 }
 
+img {
+  max-width: 100%;
+  border-width: 0;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+}
+
 
 
 // Headers ===================================================
-h1,h2,h3,h4,.h1 {
+// Modular Scale: 18px @ 1:1.333,  27px @ 1:1.333
+// http://modularscale.com/scale/?px1=18&px2=27&ra1=1.333&ra2=0
+
+h1,h2,h3 {
   font-family: @header-font;
-  font-weight: bold;
+//  font-weight: bold;
   color: @text-dark;
   text-rendering: optimizelegibility;
-  margin: 0;
+  margin: 0 0 0.75rem;
 }
-h1,.h1 {
-  .text(30px);
-  line-height: 30px;
+
+header {
+  margin-bottom: 2.665rem; // 48px
+  text-transform: uppercase;
+  position: relative;
+
+  h1 {
+    .text(48px);
+  }
+}
+
+h1 {
+  .text(32px);
+  color: @header;
+
+  &.post-header {
+    margin-left: @date-column-width;
+  }
 
   a {
-    color: @header;
+    color: @header; // so link color doesnt override it
   }
+
   a.time-link {
     width: 60px;
     margin-left: -67px;
     display: inline-block;
-  }
-  time {
-    .font-size(15px); 
-    color: @text-light; 
-    vertical-align: top;
-    white-space: nowrap;
+    color: @text-light;
+    time {
+      .text(15px);
+      vertical-align: top;
+      white-space: nowrap;
+    }
   }
 }
 h2 {
-  .text(24px);
+ .text(24px);
 }
 h3 {
-  .text(21px);
-}
-h4 {
-  .text(18px);
+ .text(18px);
 }
 
-header {
-  margin: 30px 0 42px; // should add up to 2.5x@base-line-height
-  text-transform: uppercase;
-  position: relative;
-
-  .h1 {
-    .text(48px);
-    line-height: 48px;
-  }
-}
-
-footer {
-  .text(@base-font-size);
-}
 
 
 // Content ===================================================
+
 article {
-  margin-bottom: 40px;
+  margin-bottom: 1.5rem;
 }
 
-p,ol,ul {
-  .text(@base-font-size);
+p, .content {
+  margin-top: 0;
+}
+
+.content {
+  margin-left: @date-column-width;
+}
+
+pre {
+  padding: 5px 10px;
+  line-height: 1rem;
+}
+
+pre, code {
+  font-family: @mono-font;
+  font-size: .844rem; // about 15px
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: @background-dark;
+}
+
+blockquote {
+  font-family: @quote-font;
+}
+
+hr {
+  margin: 1rem 0;
+  border: 0;
+  .text(18px);
+  height: 1rem;
+  text-align: center;
+
+  &:before {
+    content: "~~~";
+  }
+}
+
+
+
+// Lists ===================================================
+
+ol,ul {
   margin-top: 20px;
 }
-p:first-child {
-  margin-top: 15px;
-}
 
-ol {
-  margin-left: 1.5em;
-  list-style-type: decimal;
-}
-
-li ul,li ol {
+li ul, li ol {
   margin: 0;
 }
 
@@ -218,27 +224,9 @@ ul li::before {
 }
 
 
-pre, code {
-  font-family: @mono-font;
-  .text(14px);
-  white-space: pre;
-  white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
-  background-color: #EEE;
-  padding: 5px;
-}
-
-
-blockquote {
-  font-family: @quote-font;
-}
-q {
-  quotes: none;
-}
-
 
 // Links ===================================================
+
 a {
   text-decoration: none;
   color: @link;
@@ -251,17 +239,16 @@ a {
 
 
 
-// Elements ===================================================
-img {
-  max-width: 100%;
-  border-width: 0;
-  vertical-align: middle;
-  -ms-interpolation-mode: bicubic;
+// Search Box ===================================================
+
+.transition(@property, @duration) {
+  transition: @property @duration ease 0s;
+  -webkit-transition: @property @duration ease 0s;
+  -moz-transition: @property @duration ease 0s;
+  -ms-transition: @property @duration ease 0s;
+  -o-transition: @property @duration ease 0s;
 }
 
-
-
-// Search Box ===================================================
 .search-box {
   position: absolute;
   top: 7px; // should line up with center of h1
@@ -272,7 +259,7 @@ img {
 
     background: url('/img/search-white.png') no-repeat 10px 8px @background;
     border: 1px solid @background-dark;
-    .font-size(14px);
+    .text(14px);
     line-height: 18px;
     color: @text;
     width: 215px;
@@ -285,6 +272,7 @@ img {
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    .transition(all, 0.7s);
   }
 
   // js-focused gets added on first focus so we can lock the searchbar in the open position
@@ -302,8 +290,21 @@ img {
     display: none;
     cursor: pointer;
     margin-right: -12px;
-    .font-size(16px);
+    .text(16px);
   }
 }
 
+// put search bar under title on iphones in portrait mode
+@media (max-width: 479px) {
+  .search-box {
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+}
 
+#no-results {
+  .text(20px);
+  color: lighten(@text,40%);
+  font-style: italic;
+}
