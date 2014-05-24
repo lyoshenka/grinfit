@@ -47,6 +47,7 @@ ul {
 @exercise-sep: #777777;
 
 @date-column-width: 70px;
+@small-screen-width: 550px; // anything less, and the searchbar overlaps the title
 
 
 
@@ -114,6 +115,10 @@ header {
     .text(48px);
     text-transform: uppercase;
   }
+
+  .tagline {
+    margin-bottom: .75em;
+  }
 }
 
 h1 {
@@ -161,6 +166,11 @@ p, .content {
 
 .content {
   margin-left: @date-column-width;
+}
+@media (max-width: @small-screen-width) {
+  .content {
+    margin-left: 0;
+  }
 }
 
 pre {
@@ -297,12 +307,10 @@ a {
   }
 }
 
-// put search bar under title on iphones in portrait mode
-@media (max-width: 479px) {
+// put search bar under title on narrow screens
+@media (max-width: @small-screen-width) {
   .search-box {
-    position: relative;
-    top: auto;
-    right: auto;
+    position: static;
   }
 }
 
