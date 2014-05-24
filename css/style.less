@@ -108,11 +108,11 @@ h1,h2,h3 {
 
 header {
   margin-bottom: 2.665rem; // 48px
-  text-transform: uppercase;
   position: relative;
 
   h1 {
     .text(48px);
+    text-transform: uppercase;
   }
 }
 
@@ -232,6 +232,11 @@ a {
 
   &:hover {
     background-color: @highlight;
+  }
+
+  &.email {
+    float: right;
+    clear: right;
   }
 }
 

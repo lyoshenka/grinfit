@@ -10,6 +10,7 @@ paginate: 20
 markdown: rdiscount
 
 title: GrinFit
+tagline: "Sprints, weights, ultimate."
 author:
   name:  Grin
   email: grin@grin.io

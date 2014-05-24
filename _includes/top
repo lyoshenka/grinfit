@@ -18,6 +18,8 @@
     <div id="container">
       <header>
         <h1><a href="/">{{ site.title }}</a></h1>
+        {{ site.tagline }}
+        <a class="email" href="mailto:{{ site.author.email }}">@</a>
         <span class="search-box">
           <input type="text" id="search"></input>
           <span class="clear-icon">&#10799;</span>
