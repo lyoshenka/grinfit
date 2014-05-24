@@ -75,7 +75,7 @@ $(function() {
         if (results.length) {
           last = results.length - 1;
           for (i in results) {
-            resultsDiv.append(results[i].content + (i < last ? '<hr/>' : ''));
+            resultsDiv.append(results[i].content);
           }
           resultsDiv.find('.js-start-hidden').hide();
         }

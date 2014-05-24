@@ -8,9 +8,6 @@ title: Home
     {% assign postObject = post %}
     {% assign postContent = post.content %}
     {% include post %}
-    {% if forloop.rindex0 > 0 %}
-      <hr/>
-    {% endif %}
   {% endfor %}
 </div>
 <div id="search-results"></div>
