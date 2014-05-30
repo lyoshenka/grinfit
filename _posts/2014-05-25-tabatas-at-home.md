@@ -6,6 +6,6 @@ tags:
 - tabata
 ---
 
-- Pullups: {% w 7, 4, 3, 2, 2, 1, 2, 2 %}
+- Pullups: {% w 7, 4, 3, 2, 2, 1, 2, 2 %} (23)
 - KB Swings: {% w about 10-12 each rep %}
-- Pushups: {% w 16, 9, 8, 6, 4, 4, 2, 5 %}
+- Pushups: {% w 16, 9, 8, 6, 4, 4, 2, 5 %} (54)
