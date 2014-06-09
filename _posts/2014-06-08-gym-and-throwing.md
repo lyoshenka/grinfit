@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gym, then Throwing
+title: Gym and Throwing
 date: '2014-06-08 18:35:38'
 ---
 
