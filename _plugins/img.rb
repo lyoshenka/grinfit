@@ -2,12 +2,29 @@ class ImgTag < Liquid::Tag
 
   def initialize(tagName, markup, tokens)
     super
-    @text = markup
+   
+    parts = markup.split(' ', 3)
+
+    @link = false
+    @filename = parts.shift
+
+    if @filename == ':link'
+      @link = true
+      @filename = parts.shift
+    end
+
+    @text = parts.join(' ').strip
+
+    puts [@link, @filename, @text]
   end
 
   def render(context)
-    link = 'http://i.grin.io/' + @text
-    '<a href="' + link + '"><img src="' + link + '" /></a>'
+    url = 'http://i.grin.io/' + @filename
+    if @link
+      '<a href="%s">%s</a>' % [url, @text]
+    else
+      '<a href="%s"><img src="%s" alt="%s" /></a>' % [url, url, @text]
+    end
   end
 
   Liquid::Template.register_tag "img", self
