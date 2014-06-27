@@ -9,4 +9,4 @@ tags:
 
 Threw a bunch of long throws at Left Bank. Then worked on around flicks and backhands. Finished with a few ab exercises and this selfie:
 
-![Hanging Selfie](https://i.grin.io/amp-selfie.jpg)
+{% img amp-selfie.jpg %}
