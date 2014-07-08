@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "A Week in Europe"
+title: A Week in Europe
+tags:
+- vacation
 ---
 
 I spent the last week traveling and sightseeing in Europe with Diana. Here's some of the things I did that may count as workouts:
