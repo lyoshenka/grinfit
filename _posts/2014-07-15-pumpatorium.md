@@ -2,6 +2,8 @@
 layout: post
 title: Pumpatorium
 date: '2014-07-15 22:30:30'
+tags:
+- gym
 ---
 
 - Deadlift: {% w 3x5@135/185/225/225/225lb %}
