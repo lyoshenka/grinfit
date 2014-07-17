@@ -15,7 +15,7 @@ class ImgTag < Liquid::Tag
 
     @text = parts.join(' ').strip
 
-    puts [@link, @filename, @text]
+#    puts [@link, @filename, @text]
   end
 
   def render(context)
