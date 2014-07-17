@@ -23,7 +23,7 @@ class ImgTag < Liquid::Tag
     if @link
       '<a href="%s">%s</a>' % [url, @text]
     else
-      '<a href="%s"><img src="%s" alt="%s" /></a>' % [url, url, @text]
+      '<a href="%s"><img src="%s" alt="%s" title="%s" /></a>' % [url, url, @text, @text]
     end
   end
 

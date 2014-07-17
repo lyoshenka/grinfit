@@ -13,3 +13,14 @@ deploy:
     - heroku-deploy:
         heroku_key: HEROKU_KEY
         key-name: HEROKU_KEY
+
+  after-steps:
+    - email-notify:
+        on: failed
+        failed-subject: Grinfit deploy failed
+        from: alerts@wercker.com
+        to: grinfit@grin.io
+        username: grin@grin.io
+        password: $EMAIL_PASSWORD
+        host: smtp.gmail.com:587
+        
