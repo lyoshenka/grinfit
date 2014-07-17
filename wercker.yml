@@ -20,7 +20,7 @@ deploy:
         failed-subject: Grinfit deploy failed
         from: alerts@wercker.com
         to: grinfit@grin.io
-        username: grin@grin.io
+        username: grinfit@grin.io
         password: $EMAIL_PASSWORD
         host: smtp.gmail.com:587
         
