@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Skills and Scrimmage Practice
 date: '2014-06-07 17:13:57'
 tags:

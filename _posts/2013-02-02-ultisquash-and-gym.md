@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Ultisquash and Gym
 tags:
 - gym

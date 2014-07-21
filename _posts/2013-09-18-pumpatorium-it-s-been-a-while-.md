@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Pumpatorium. It's been a while."
 ---
 

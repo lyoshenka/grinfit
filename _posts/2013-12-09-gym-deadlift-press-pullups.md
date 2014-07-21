@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Deadlift, Press, Pullups'
 tags:
 - gym

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Phoenix Training Camp"
 ---
 

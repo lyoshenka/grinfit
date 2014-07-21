@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Indoor Ultimate
 tags:
 - ultimate

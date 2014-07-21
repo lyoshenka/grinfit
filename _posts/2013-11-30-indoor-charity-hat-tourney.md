@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Indoor Charity Hat Tourney
 tags:
 - ultimate

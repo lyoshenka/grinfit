@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Haiku Stairs
 tags:
 - hawaii

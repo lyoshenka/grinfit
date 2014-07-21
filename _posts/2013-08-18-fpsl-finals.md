@@ -1,5 +1,4 @@
 ---
-layout: post
 title: FPSL Finals
 tags:
 - ultimate

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Penn Park Agility Workout"
 ---
 

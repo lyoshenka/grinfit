@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Goalty with TopScore
 date: '2014-07-09 22:00:00'
 tags:

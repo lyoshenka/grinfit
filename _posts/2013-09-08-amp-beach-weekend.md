@@ -1,5 +1,4 @@
 ---
-layout: post
 title: AMP Beach Weekend
 tags:
 - amp

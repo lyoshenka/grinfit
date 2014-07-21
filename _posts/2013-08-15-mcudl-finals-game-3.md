@@ -1,5 +1,4 @@
 ---
-layout: post
 title: MCUDL Finals Game 3
 tags:
 - ultimate

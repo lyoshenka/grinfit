@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Squats, Bench, Muscle Ups'
 tags:
 - gym

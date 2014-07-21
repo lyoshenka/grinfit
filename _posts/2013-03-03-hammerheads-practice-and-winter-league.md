@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Hammerheads Practice and Winter League
 tags:
 - ultimate

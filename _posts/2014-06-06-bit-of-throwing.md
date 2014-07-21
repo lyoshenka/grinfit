@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Bit of Throwing
 date: '2014-06-06 21:00:00'
 tags:

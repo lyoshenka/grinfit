@@ -1,5 +1,4 @@
 ---
-layout: post
 title: One-sentence Summaries of Exercise Studies
 ---
 

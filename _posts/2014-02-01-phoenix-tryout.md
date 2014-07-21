@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Phoenix Tryout
 tags:
 - indoor

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Bench, Pull Ups, Dips, Toes to Bar'
 tags:
 - gym

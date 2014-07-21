@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Winter League Full
 tags:
 - ultimate

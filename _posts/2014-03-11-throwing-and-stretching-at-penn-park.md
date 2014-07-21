@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Throwing and Stretching at Penn Park
 ---
 

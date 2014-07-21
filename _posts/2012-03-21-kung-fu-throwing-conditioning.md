@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Kung Fu Throwing + Conditioning"
 ---
 

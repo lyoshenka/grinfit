@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Amp Wins Bellcrack
 date: '2014-05-18 19:00:00'
 tags:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Core Play-in game
 ---
 

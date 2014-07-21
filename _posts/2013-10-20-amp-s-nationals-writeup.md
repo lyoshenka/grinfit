@@ -1,5 +1,4 @@
 ---
-layout: post
 title: AMP's Nationals Writeup
 tags:
 - amp

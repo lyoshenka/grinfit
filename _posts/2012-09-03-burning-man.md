@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Burning Man
 tags:
 - vacation

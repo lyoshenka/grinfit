@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Upper Body and Lunges'
 tags:
 - gym

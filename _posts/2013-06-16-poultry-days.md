@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Poultry Days"
 ---
 

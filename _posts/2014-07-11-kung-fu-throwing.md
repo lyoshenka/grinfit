@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Kung Fu Throwing
 date: '2014-07-11 14:21:13'
 tags:

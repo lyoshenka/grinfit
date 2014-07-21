@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "A Bit of Throwing at Penn Park"
 ---
 

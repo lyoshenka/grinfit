@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Throwing and 500 at Edgely"
 ---
 

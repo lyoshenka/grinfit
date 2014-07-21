@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Spinners Sprints, Tape and Gym
 tags:
 - gym

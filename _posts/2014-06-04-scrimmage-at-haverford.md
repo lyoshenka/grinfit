@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Scrimmage at Haverford
 date: '2014-06-04 22:00:00'
 tags:

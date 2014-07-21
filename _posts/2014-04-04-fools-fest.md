@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Fools Fest
 tags:
 - ultimate

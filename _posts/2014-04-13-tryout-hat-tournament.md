@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tryout Hat Tournament
 tags:
 - ultimate

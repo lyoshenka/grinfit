@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Quick Pre-bed Workout"
 ---
 

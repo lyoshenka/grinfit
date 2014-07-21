@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Pumpatorium
 date: '2014-07-07 19:00:00'
 tags:

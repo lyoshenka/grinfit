@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Wednesday: Spinners Gym Workout'
 tags:
 - gym

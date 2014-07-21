@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: RLESS, Bench, Cleans'
 tags:
 - gym

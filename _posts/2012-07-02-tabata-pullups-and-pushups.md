@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tabata Pullups and Pushups
 tags:
 - cardio

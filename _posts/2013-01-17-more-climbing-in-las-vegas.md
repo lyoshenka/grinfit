@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "More Climbing In Las Vegas"
 ---
 

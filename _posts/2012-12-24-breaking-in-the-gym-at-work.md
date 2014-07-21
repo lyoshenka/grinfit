@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Breaking in the Gym at Work
 tags:
 - gym

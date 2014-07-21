@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tabata Spiderman Pushups and V Ups
 tags:
 - cardio

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Basement Gym Workout
 tags:
 - gym

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Bench, Squats, Bent-Over Rows'
 tags:
 - gym

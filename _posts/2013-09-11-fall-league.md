@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Fall League
 tags:
 - ultimate

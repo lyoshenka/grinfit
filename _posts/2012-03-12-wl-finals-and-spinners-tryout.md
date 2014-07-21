@@ -1,5 +1,4 @@
 ---
-layout: post
 title: WL Finals and Spinners Tryout
 tags:
 - ultimate

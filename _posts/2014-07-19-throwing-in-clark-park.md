@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Throwing in Clark Park
 date: '2014-07-19 10:01:48'
 tags:

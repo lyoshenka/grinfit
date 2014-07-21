@@ -1,5 +1,4 @@
 ---
-layout: post
 title: T25 Cardio and Swimming
 date: '2014-06-30 11:28:23'
 tags:

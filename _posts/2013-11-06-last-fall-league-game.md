@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Last Fall League Game
 tags:
 - ultimate

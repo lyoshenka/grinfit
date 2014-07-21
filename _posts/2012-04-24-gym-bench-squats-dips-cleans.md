@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Gym and Disc Golf
 tags:
 - gym

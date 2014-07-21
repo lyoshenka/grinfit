@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Goalty with Amp
 date: '2014-07-16 21:00:00'
 tags:

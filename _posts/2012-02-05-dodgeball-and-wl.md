@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Dodgeball and WL
 tags:
 - ultimate

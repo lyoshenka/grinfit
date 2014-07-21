@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Cool Trick to Prevent Choking"
 ---
 

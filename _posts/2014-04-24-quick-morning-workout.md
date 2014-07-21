@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Quick Morning Workout
 tags:
 - metcon

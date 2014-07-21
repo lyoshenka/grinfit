@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tabatas at Home
 date: '2014-05-25 15:30:42'
 tags:

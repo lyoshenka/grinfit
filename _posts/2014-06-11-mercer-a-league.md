@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Mercer A League
 date: '2014-06-11 00:10:13'
 tags:

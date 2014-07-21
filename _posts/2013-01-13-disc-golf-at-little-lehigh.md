@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Disc Golf at Little Lehigh
 tags:
 - disc-golf

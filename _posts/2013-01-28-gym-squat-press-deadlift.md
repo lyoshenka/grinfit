@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Squat, Press, Deadlift'
 tags:
 - gym

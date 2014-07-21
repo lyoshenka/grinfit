@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Mini at Penn Park"
 tags: ['mini', 'ultimate']
 ---

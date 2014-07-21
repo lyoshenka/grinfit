@@ -1,5 +1,4 @@
 ---
-layout: post
 title: WL Core Victory
 tags:
 - indoor

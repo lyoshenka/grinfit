@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Quick Morning Tabata: KB Swings and Bent-Over Rows'
 tags:
 - cardio

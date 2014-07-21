@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Pullups, Paleo
 tags:
 - pullups

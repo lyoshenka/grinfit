@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Penn Park Shuttles
 date: '2014-06-03 21:31:56'
 tags:

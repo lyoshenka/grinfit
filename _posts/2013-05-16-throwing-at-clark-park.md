@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Throwing at Clark Park
 ---
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: First Summer League Game
 tags:
 - ultimate

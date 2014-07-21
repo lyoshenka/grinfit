@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Indoor Double Header
 tags:
 - indoor

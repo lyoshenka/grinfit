@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Squats, Deadlifts, Ball Push Tuck Jumps, Pullups'
 tags:
 - gym

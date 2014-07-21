@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Throwing and Abs at Left Bank
 date: '2014-06-24 21:00:00'
 tags:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Dips, Bench, Pull ups & Spinners Practice'
 tags:
 - gym

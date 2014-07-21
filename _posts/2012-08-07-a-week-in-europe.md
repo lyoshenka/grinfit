@@ -1,5 +1,4 @@
 ---
-layout: post
 title: A Week in Europe
 tags:
 - vacation

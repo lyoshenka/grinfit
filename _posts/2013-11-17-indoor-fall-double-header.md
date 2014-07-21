@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Indoor Fall Double Header
 tags:
 - ultimate

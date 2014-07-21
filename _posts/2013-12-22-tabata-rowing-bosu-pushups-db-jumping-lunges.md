@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tabata Rowing, Bosu Pushups, DB Jumping Lunges
 tags:
 - cardio

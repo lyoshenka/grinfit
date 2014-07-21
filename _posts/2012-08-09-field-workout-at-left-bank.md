@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Field Workout at Left Bank"
 ---
 

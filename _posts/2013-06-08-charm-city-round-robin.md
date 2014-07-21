@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Charm City Round Robin"
 ---
 

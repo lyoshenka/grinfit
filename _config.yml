@@ -2,20 +2,29 @@
 permalink: /:year-:month-:day/:title
 
 exclude: ["README.md", "config.ru", "Gemfile", "Gemfile.lock", "Rakefile", "wercker.yml", "bin", "vendor"]
-pygments: true
+highlighter: pygments
 paginate: 20
 
 # maruku has a bug with the first line in the post starting with a colon
 # https://github.com/mojombo/jekyll/issues/126
 markdown: rdiscount
 
-title: GrinFit
+title: "GrinFit"
 tagline: "Sprints, weights, ultimate."
 author:
   name:  Grin
   email: grin@grin.io
+timezone: "America/New_York"
 
 production_url: http://fit.grin.io
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "post"
+    values:
+      layout: "post"
 
 gems:
   - jekyll-sitemap

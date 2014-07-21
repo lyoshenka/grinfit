@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Mercer A League
 tags:
 - ultimate

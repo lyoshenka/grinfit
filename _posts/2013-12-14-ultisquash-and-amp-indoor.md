@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Ultisquash and Amp Indoor
 tags:
 - ultimate

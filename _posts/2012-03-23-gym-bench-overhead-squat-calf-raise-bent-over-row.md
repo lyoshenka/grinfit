@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Bench, Overhead Squat, Calf Raise, Bent-Over Row'
 tags:
 - gym

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Spinners Gym Workout
 tags:
 - gym

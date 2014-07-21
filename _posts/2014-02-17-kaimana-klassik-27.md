@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Kaimana Klassik 27
 tags:
 - ultimate

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Summer League and Shuttles
 date: '2014-06-19 23:08:09'
 tags:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Squat Jumps and Throwing"
 ---
 

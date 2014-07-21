@@ -1,5 +1,4 @@
 ---
-layout: post
 title: AMP Scrimmage
 date: '2014-05-14 22:42:23'
 tags:

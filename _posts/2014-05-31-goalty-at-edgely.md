@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Goalty at Edgely
 date: '2014-05-31 16:00:00'
 tags:

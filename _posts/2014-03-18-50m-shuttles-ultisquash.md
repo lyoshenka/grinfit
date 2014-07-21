@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 50m Shuttles, Ultisquash
 tags:
 - track

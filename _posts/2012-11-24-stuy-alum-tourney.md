@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Stuy Alum Tourney"
 ---
 

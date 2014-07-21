@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Gym and Throwing
 date: '2014-06-08 18:35:38'
 tags:

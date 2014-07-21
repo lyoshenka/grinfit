@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Amp Meeting, Spinners Practice
 tags:
 - amp

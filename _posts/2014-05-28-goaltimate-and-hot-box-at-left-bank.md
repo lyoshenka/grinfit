@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Goaltimate and Hot Box at Left Bank
 date: '2014-05-28 21:02:27'
 tags:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Elite Ultisquash, Spinners Practice
 tags:
 - ultisquash

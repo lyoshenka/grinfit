@@ -1,5 +1,4 @@
 ---
-layout: post
 title: First Drills Tryout
 tags:
 - ultimate

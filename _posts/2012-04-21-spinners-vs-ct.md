@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Practice 8-11am, then Game vs. CTC"
 ---
 

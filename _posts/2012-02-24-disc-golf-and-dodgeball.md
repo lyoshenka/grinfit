@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Disc Golf and Dodgeball
 tags:
 - disc-golf

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Bench, Pullups, One-Legged Squats'
 tags:
 - gym

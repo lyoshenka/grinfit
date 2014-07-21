@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Spinners Workout, Scrimmage, Disc Golf
 tags:
 - disc-golf

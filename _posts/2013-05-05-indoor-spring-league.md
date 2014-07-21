@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Indoor Spring League
 tags:
 - ultimate

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Scrimmage with/vs Haverford
 tags:
 - ultimate

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Morning Pullups
 date: '2014-05-01 09:00:00'
 ---

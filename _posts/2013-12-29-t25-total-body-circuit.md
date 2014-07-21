@@ -1,5 +1,4 @@
 ---
-layout: post
 title: T25 Total Body Circuit
 tags:
 - cardio

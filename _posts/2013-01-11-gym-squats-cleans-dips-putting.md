@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Squats, Cleans, Dips, Putting'
 tags:
 - gym

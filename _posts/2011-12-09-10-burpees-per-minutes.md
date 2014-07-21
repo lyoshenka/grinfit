@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "10 Burpees per Minutes"
 ---
 

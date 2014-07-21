@@ -1,5 +1,4 @@
 ---
-layout: post
 title: First AMP Practice After Cuts
 date: '2014-06-01 17:23:09'
 tags:

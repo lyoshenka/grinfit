@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "48th and Woodland Workout"
 ---
 

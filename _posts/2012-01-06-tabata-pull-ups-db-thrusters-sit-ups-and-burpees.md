@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tabata Pull Ups, DB Thrusters, Sit Ups and Burpees
 tags:
 - cardio

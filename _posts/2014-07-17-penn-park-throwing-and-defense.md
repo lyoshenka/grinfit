@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Penn Park Throwing and Defense
 date: '2014-07-17 22:38:33'
 tags:

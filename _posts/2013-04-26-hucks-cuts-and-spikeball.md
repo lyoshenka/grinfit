@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Hucks, Cuts and Spikeball"
 ---
 

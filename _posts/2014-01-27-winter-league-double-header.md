@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Winter League double header
 tags:
 - indoor

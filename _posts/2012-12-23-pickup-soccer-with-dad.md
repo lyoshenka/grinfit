@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Pickup Soccer with Dad"
 ---
 

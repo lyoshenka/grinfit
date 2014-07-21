@@ -1,5 +1,4 @@
 ---
-layout: post
 title: More Ultisquash
 tags:
 - ultisquash

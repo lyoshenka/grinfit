@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Field Workout
 date: '2014-05-06 21:15:15'
 tags:

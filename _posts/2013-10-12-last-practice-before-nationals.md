@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Last Practice Before Nationals
 tags:
 - ultimate

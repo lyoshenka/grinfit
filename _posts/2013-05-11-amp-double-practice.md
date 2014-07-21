@@ -1,5 +1,4 @@
 ---
-layout: post
 title: AMP Double Practice
 tags:
 - amp

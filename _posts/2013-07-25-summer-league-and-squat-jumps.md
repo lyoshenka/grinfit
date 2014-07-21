@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Summer League and Squat Jumps
 tags:
 - ultimate

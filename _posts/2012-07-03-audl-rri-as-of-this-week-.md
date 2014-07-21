@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "AUDL RRI (as of this week)"
 ---
 

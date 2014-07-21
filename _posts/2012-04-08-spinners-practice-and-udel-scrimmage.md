@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Spinners Practice and UDel Scrimmage
 tags:
 - ultimate

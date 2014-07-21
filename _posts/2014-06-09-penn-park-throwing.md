@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Penn Park Throwing
 date: '2014-06-09 20:33:14'
 tags:

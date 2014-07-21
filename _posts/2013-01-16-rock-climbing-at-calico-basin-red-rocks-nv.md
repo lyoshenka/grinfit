@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Rock Climbing at Calico Basin, Red Rocks, NV"
 date: 2013-01-16 16:00:00
 ---

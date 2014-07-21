@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Just Throw It To The Open Cut"
 ---
 

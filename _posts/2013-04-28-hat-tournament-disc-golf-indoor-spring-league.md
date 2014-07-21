@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Hat Tournament, Disc Golf, Indoor Spring League
 tags:
 - ultimate

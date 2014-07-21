@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Summer League Playoffs
 tags:
 - ultimate

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Wl Playoffs
 tags:
 - indoor

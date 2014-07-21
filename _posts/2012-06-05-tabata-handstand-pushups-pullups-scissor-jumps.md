@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Tabata: Handstand Pushups, Pullups, Scissor Jumps'
 tags:
 - cardio

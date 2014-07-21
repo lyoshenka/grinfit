@@ -1,5 +1,4 @@
 ---
-layout: post
 title: First SL Game
 date: '2014-05-19 22:00:00'
 tags:

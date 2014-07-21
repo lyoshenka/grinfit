@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "300 Crunches with Diana"
 date: 2012-05-13 22:00:00
 ---

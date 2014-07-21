@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Penn Park Workout
 date: '2014-05-26 19:00:29'
 tags:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Spinners Gym and Film Session
 tags:
 - gym

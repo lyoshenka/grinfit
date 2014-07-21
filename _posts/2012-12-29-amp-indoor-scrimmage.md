@@ -1,5 +1,4 @@
 ---
-layout: post
 title: AMP Indoor Scrimmage
 tags:
 - ultimate

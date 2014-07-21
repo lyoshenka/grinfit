@@ -1,5 +1,4 @@
 ---
-layout: post
 title: AMP Indoor, Pullups
 tags:
 - amp

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: AMP Practice
 date: '2014-05-10 16:27:53'
 tags:

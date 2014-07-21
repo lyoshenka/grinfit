@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Winter League Semis
 tags:
 - ultimate

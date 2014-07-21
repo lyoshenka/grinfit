@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Squats, DB Rows, Cleans'
 tags:
 - gym

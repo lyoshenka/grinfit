@@ -1,5 +1,4 @@
 ---
-layout: post
 title: AMP Practice and Summer League
 date: '2014-06-28 11:30:53'
 tags:

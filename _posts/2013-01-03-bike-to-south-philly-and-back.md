@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Bike To South Philly And Back"
 ---
 

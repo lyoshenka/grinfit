@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Gym: Deadlifts, Press, Cleans, Dips, Seated Row"
 ---
 

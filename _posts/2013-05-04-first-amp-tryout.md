@@ -1,5 +1,4 @@
 ---
-layout: post
 title: First AMP Tryout
 tags:
 - amp

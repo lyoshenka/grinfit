@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Superbowl and Ab Rollouts"
 ---
 

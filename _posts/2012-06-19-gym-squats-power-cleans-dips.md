@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Squats, Power Cleans, Dips'
 tags:
 - gym

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Squat, Clean and Jerk'
 tags:
 - gym

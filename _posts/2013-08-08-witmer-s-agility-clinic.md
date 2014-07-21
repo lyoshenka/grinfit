@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Witmer's Agility Clinic"
 ---
 

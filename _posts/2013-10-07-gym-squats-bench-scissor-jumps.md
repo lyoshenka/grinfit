@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Squats, Bench, Scissor Jumps'
 tags:
 - gym

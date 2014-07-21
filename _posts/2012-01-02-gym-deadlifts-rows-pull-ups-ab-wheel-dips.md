@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Deadlifts, Rows, Pull Ups, Ab Wheel, Dips'
 tags:
 - gym

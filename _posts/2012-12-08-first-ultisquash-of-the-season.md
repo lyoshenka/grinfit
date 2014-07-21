@@ -1,5 +1,4 @@
 ---
-layout: post
 title: First Ultisquash of the Season
 tags:
 - ultisquash

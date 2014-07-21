@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Penn Park Pickup and Cleat Test
 date: '2014-05-02 20:00:00'
 tags:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Ben Wiggins AMA on Reddit"
 ---
 

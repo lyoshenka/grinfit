@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Melt Method Workshop"
 ---
 

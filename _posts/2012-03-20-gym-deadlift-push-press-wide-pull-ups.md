@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Deadlift, Push Press, Wide Pull Ups'
 tags:
 - gym

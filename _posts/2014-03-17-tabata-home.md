@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tabata @ Home
 tags:
 - tabata

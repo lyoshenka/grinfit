@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Gym: Squats, Cleans, Dips, Paintbrushes'
 tags:
 - gym

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Amp Scrimmage
 tags:
 - amp

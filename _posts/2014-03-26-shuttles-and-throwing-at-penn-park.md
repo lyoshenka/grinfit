@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Shuttles and Throwing at Penn Park
 tags:
 - shuttles
