@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Summer League + Some Drills
 date: '2014-07-22 22:43:06'
 tags:

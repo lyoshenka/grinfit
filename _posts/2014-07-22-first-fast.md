@@ -1,5 +1,4 @@
 ---
-layout: post
 title: First Fast
 date: '2014-07-22 14:07:35'
 tags:

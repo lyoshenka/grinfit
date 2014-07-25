@@ -85,7 +85,7 @@ task :new_no_vi do
     next
   end
 
-  savePost(filename, {'meta' => {'layout' => 'post', 'title' => title, 'date' => now.strftime('%F %T')}, 'body' => ''})
+  savePost(filename, {'meta' => {'title' => title, 'date' => now.strftime('%F %T')}, 'body' => ''})
   listPosts(1)
 end
 
