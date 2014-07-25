@@ -7,4 +7,4 @@ tags:
 
 - Deadlift: {% w 5@135/185/205/225lb %}
 - Pullups: {% w 3x5@20lb %}
-- Press: {% w 3x5@65/75/80lb %}
+- Press: {% w 5@65/75/80lb %}

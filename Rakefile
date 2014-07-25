@@ -27,7 +27,9 @@ end
 
 desc 'List 10 recently modified posts'
 task :ls do
-  listPosts(10)
+  #preventErrorsForCommandLineArgs()
+  listPosts(is_i?(ARGV[1]) ? ARGV[1].to_i : 20)
+  preventErrorsForCommandLineArgs()
 end
 task :list => :ls
 
