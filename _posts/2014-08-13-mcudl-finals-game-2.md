@@ -1,6 +1,6 @@
 ---
 title: MCUDL Finals - Game 2
-date: '2013-08-13 23:00:00'
+date: '2014-08-13 23:00:00'
 tags:
 - mercer
 - ultimate
