@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.1.0"
+ruby "2.1.2"
 
 gem 'bundler'
 gem 'rack-contrib', :require => 'rack/contrib/try_static'
