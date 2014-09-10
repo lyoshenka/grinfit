@@ -105,3 +105,4 @@ $(function() {
     grinfit.searchCache = data;
   });
 });
+
