@@ -1,9 +1,9 @@
 ---
 title: Pullups, Paleo
 tags:
-- pullups
-- paleo
 - diet
+- paleo
+- pullups
 ---
 
 Started the "Master the Pullup" plan on [Lift](https://lift.do). I skipped the first week, so today's workout was:

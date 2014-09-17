@@ -1,5 +1,6 @@
 ---
-title: "Quick Home Workout"
+title: Quick Home Workout
+tags: []
 ---
 
 AMRAP in 6 minutes:

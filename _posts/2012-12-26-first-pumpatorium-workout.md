@@ -1,5 +1,6 @@
 ---
-title: "First Pumpatorium Workout"
+title: First Pumpatorium Workout
+tags: []
 ---
 
 Did my first workout at the basement gym. Ashley and I did the following:

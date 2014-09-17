@@ -1,5 +1,6 @@
 ---
-title: "Penn Park Workout"
+title: Penn Park Workout
+tags: []
 ---
 
 Did some exercises from [this workout](http://ponyshape.blogspot.com/2011/05/wow-050911.html) and mixed in a few of our own.

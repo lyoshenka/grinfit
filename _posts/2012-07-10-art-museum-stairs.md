@@ -1,5 +1,6 @@
 ---
-title: "Art Museum Stairs"
+title: Art Museum Stairs
+tags: []
 ---
 
 Ran the art museum stairs, then took a dip in the fountain across the street and threw for a bit. Biked there and back. Here's the stairs workout:

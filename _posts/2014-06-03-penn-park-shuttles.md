@@ -2,8 +2,8 @@
 title: Penn Park Shuttles
 date: '2014-06-03 21:31:56'
 tags:
-- shuttles
 - penn-park
+- shuttles
 ---
 
 Lexa and I ran the following shuttles:

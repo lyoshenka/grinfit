@@ -1,5 +1,6 @@
 ---
-title: "Spinners Track"
+title: Spinners Track
+tags: []
 ---
 
 Spinners ran a track workout and then scrimmaged. I'm still resting my quad so I didn't run. Instead I did pushups, crunches, leg raises, and an exercise for my back where you're in a plank position and you alternate bringing one knee up toward your shoulder, then the other knee. I don't know what it's called but it's pretty tiring.

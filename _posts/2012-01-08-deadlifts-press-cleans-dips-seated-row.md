@@ -1,5 +1,6 @@
 ---
-title: "Gym: Deadlifts, Press, Cleans, Dips, Seated Row"
+title: 'Gym: Deadlifts, Press, Cleans, Dips, Seated Row'
+tags: []
 ---
 
 - Deadlift 5,5,3/275lb

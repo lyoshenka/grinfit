@@ -1,5 +1,6 @@
 ---
-title: "48th and Woodland Workout"
+title: 48th and Woodland Workout
+tags: []
 ---
 
 Norm and I did a short field workout at 48th and Woodland.

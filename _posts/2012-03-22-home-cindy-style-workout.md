@@ -1,5 +1,6 @@
 ---
-title: "Kung Fu Throwing + Conditioning, Home Cindy-style Workout"
+title: Kung Fu Throwing + Conditioning, Home Cindy-style Workout
+tags: []
 ---
 
 AMRAP in 20 min: 

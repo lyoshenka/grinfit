@@ -2,9 +2,9 @@
 title: Shuttles @ Penn Park
 date: '2014-09-15 21:55:52'
 tags:
+- penn-park
 - shuttles
 - throwing
-- penn-park
 ---
 
 - 1x150yd (50yd course)

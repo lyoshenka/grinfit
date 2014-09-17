@@ -1,5 +1,6 @@
 ---
-title: "Shuffle Ladder Workout"
+title: Shuffle Ladder Workout
+tags: []
 ---
 
 Place two cones 25m apart. 1 rep = 6 cone-to-cone sprints (150m total). Time each set, then rest X times your time, where X is the number of reps in that set.

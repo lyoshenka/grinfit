@@ -1,5 +1,6 @@
 ---
-title: "Spinners vs RI"
+title: Spinners vs RI
+tags: []
 ---
 
 Last game of the regular season. We beat RI 29-20 or something like that. They only brought 12 guys, so they weren't taking this game seriously. We only played man on D because we didn't want to give away our defenses before the playoffs game. Overall, we played pretty well. We had trouble getting the disc off the sideline sometimes. Personally, I had a layout D and a blade for a goal in the same point, along with one or two caught goals. I played pretty well but got beat up the line and to the force-side cone a few times. Need to improve in those respects. I also had an up-line throw to Harrison that got Ded but he caught it anyway. 

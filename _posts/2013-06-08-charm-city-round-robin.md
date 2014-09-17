@@ -1,5 +1,6 @@
 ---
-title: "Charm City Round Robin"
+title: Charm City Round Robin
+tags: []
 ---
 
 Played a one-day round-robin in Baltimore. I had two turns (both high-release backhands) and two or three Ds. I didn't play much because I'm still trying to rest my shoulder. As a team, we played pretty well against weaker teams and not very well against AG. We struggled to move the disc to the break side (something we've been focusing on a lot this season) and we didn't do a good job taking away their deep shots (we emphasized this before the game started). We gave up fewer deep goals in the second half, but only broke them once, which wasn't enough.

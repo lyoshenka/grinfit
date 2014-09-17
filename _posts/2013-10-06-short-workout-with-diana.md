@@ -1,5 +1,6 @@
 ---
-title: "Short Workout With Diana"
+title: Short Workout With Diana
+tags: []
 ---
 
 - 2x3 pushing sprints

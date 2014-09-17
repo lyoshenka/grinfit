@@ -2,8 +2,8 @@
 title: Backpacking in the Cascades
 date: '2014-09-02 13:49:17'
 tags:
-- hiking
 - camping
+- hiking
 - trip
 ---
 

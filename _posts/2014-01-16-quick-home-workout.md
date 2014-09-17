@@ -1,5 +1,6 @@
 ---
 title: Quick Home Workout
+tags: []
 ---
 
 - 30 pushups

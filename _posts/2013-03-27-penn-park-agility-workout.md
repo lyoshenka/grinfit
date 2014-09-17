@@ -1,5 +1,6 @@
 ---
-title: "Penn Park Agility Workout"
+title: Penn Park Agility Workout
+tags: []
 ---
 
 Did some sprints, cutting drills and throwing at Penn Park. We did:

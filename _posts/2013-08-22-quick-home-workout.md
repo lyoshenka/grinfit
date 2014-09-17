@@ -1,5 +1,6 @@
 ---
-title: "Quick Home Workout"
+title: Quick Home Workout
+tags: []
 ---
 
 3x10 of: Alternate leg split jumps, haMstring curls, Pushups.

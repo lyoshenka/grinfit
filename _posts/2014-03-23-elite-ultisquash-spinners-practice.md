@@ -1,10 +1,10 @@
 ---
 title: Elite Ultisquash, Spinners Practice
 tags:
-- ultisquash
-- spinners
 - practice
+- spinners
 - ultimate
+- ultisquash
 ---
 
 ## Ultisquash

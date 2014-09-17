@@ -2,9 +2,9 @@
 title: Penn Park Throwing and Defense
 date: '2014-07-17 22:38:33'
 tags:
+- defense
 - penn-park
 - shuttles
-- defense
 ---
 
 Second workout of the day. I skipped out on most of the sprints, shuttles and hill sprints because I lifted earlier. Instead I threw with Gabe and Maddie. Then I worked on defensive positioning and threw some more.

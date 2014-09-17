@@ -1,5 +1,6 @@
 ---
-title: "Penn Park Acceleration Workout"
+title: Penn Park Acceleration Workout
+tags: []
 ---
 
 Did an agility/acceleration workout with Papa, Miggs and Nick.

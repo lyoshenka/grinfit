@@ -1,5 +1,6 @@
 ---
-title: "AMRAP House Workout"
+title: AMRAP House Workout
+tags: []
 ---
 
 5 rounds of AMRAP of:

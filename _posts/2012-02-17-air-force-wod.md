@@ -1,5 +1,6 @@
 ---
-title: "Air Force WOD"
+title: Air Force WOD
+tags: []
 ---
 
 Start a clock. Every minute on the minute (including the first minute), do 4 burpees. For the rest of the minute, make your way through the following exercises.

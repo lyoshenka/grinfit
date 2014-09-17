@@ -1,5 +1,6 @@
 ---
-title: "More Ultimate Science"
+title: More Ultimate Science
+tags: []
 ---
 
 Two recent sciency articles related to ultimate:

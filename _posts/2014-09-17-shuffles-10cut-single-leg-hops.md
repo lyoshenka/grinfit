@@ -2,8 +2,8 @@
 title: Shuffles, 10cut, Single-Leg Hops
 date: '2014-09-17 17:38:59'
 tags:
-- shuffles
 - agility
+- shuffles
 ---
 
 Gorgeous day outside. Snuck in a quick workout with Diana at the highrises:

@@ -1,5 +1,6 @@
 ---
-title: "Penn Park Workout"
+title: Penn Park Workout
+tags: []
 ---
 
 Back-to-back penn park workouts. Here's what we did tonight:

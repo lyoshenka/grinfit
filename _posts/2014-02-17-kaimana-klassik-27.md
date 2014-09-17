@@ -1,9 +1,9 @@
 ---
 title: Kaimana Klassik 27
 tags:
-- ultimate
 - kaimana
 - tournament
+- ultimate
 ---
 
 3 days of gorgeous weather, high-level ultimate and awesome partying ... or at least that's the pitch. Unfortunately, this year did not live up to expectations. 

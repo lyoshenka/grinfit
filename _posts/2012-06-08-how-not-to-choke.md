@@ -1,5 +1,6 @@
 ---
-title: "How Not To Choke"
+title: How Not To Choke
+tags: []
 ---
 
 [Interesting article](http://www.newyorker.com/online/blogs/frontal-cortex/2012/06/the-new-neuroscience-of-choking.html) on the science of choking. Here's how to avoid it: 

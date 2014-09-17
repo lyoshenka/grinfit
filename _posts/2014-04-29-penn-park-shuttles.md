@@ -1,8 +1,8 @@
 ---
 title: Penn Park Shuttles
 tags:
-- sprints
 - penn-park
+- sprints
 date: '2014-04-29 22:00:00'
 ---
 

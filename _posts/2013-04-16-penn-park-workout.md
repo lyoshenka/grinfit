@@ -1,5 +1,6 @@
 ---
-title: "Penn Park Workout"
+title: Penn Park Workout
+tags: []
 ---
 
 ## Part 1 - Sprints

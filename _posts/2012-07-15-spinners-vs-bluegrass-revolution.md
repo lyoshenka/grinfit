@@ -1,5 +1,6 @@
 ---
-title: "Spinners vs Bluegrass Revolution"
+title: Spinners vs Bluegrass Revolution
+tags: []
 ---
 
 From Indy, we went to Lexington, KY to play the Revolution. They were missing their best player and looked weak overall. We won 27-17. I played a good amount, especially at the end when we were up a lot. Again, no turns but no Ds (though we got several team Ds from our wolf). I scored two goals and cut fairly well most of the time.

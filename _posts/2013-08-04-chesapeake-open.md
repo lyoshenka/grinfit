@@ -1,5 +1,6 @@
 ---
-title: "Chesapeake Open"
+title: Chesapeake Open
+tags: []
 ---
 
 Won Chesapeake Open yesterday. The competition was pretty weak, so we only played one team that really challenged us. That was Termite's Entourage, whom we played in the finals. The weather was pretty windy and we failed to score many break opportunities. Some points, we would get 3 or 4 or 5 Ds but fail to convert them. We ended up winning the game 12-11 but we did not play our system well. I had two throwaways on wide-open throws that I rushed, including one in our last D point immediately after getting the D.

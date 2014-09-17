@@ -1,5 +1,6 @@
 ---
-title: "Regionals"
+title: Regionals
+tags: []
 ---
 
 ## Day 1

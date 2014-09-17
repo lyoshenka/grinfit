@@ -3,8 +3,8 @@ title: First AMP Practice After Cuts
 date: '2014-06-01 17:23:09'
 tags:
 - amp
-- practice
 - backflips
+- practice
 ---
 
 Had our first practice with the final roster. Butter was there but he had just had shoulder surgery yesterday morning so he was not 100%. I took over clapping duties and some play calling when I was in. We worked on the usual things: attacking vertically and to the break side, playing defense, etc. The main new elements were working on Sauce, getting out of a hard sideline trap, and our 3on3 redzone set. The trap work was particularly useful - we do get stuck there sometimes and its good for everyone to know how to get out. I rally enjoyed playing the thrower role (5 for 5 on goals) and also attacking upline from the dump. I also really liked marking Owen. Even though I felt that I gave up the inside break too much, the sideline was happy with the mark.

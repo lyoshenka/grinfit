@@ -1,5 +1,6 @@
 ---
-title: "Kaimana Sunday"
+title: Kaimana Sunday
+tags: []
 ---
 
 Pretty good day. First up, we played Freaks - the Japanese team. They are all very fast and athletic and they play a different style of ultimate that I'm used to. Instead of cuts coming primarily from the stack and toward the handlers, their first look is either to an upline handler cut or to a short cut from the front of the stack and then a leading dishie to a handler. It's very interesting - their momentum is always toward the endzone they are attacking and almost never away from it. This lets them always see the field and sets them up for great flow. However, no one on their team was over 6 feet tall and that really limits their deep game. They tried to throw it deep past us a few times but it rarely worked. That let us focus on taking away their short game and really limited their options. On O, we took advantage of the height mismatches and their need to back us and double/triple team us on deep cuts. I think we were up the whole game and ended up winning by 2.

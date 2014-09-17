@@ -1,9 +1,9 @@
 ---
 title: Penn Park Workout
 tags:
-- sprints
 - mini
 - penn-park
+- sprints
 ---
 
 Great workout at Penn Park. We had at least 10 people. Did a bunch of things:

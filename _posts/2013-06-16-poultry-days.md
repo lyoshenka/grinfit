@@ -1,5 +1,6 @@
 ---
-title: "Poultry Days"
+title: Poultry Days
+tags: []
 ---
 
 The legendary Poultry Days tournament. Camping, carnival, chicken, beer, partying, chicken, ultimate and lots of chicken. The team names are chicken-themed, dinner is chicken and even the brick marks are chickens. The weather was awesome all weekend and the level of play varied from really low (I think we bageled our first opponents) to top-notch (finals was Team USA vs Team Canada). We had a relatively easy Saturday, only facing one team (Breasts and Thighs) that really gave us a game. But we pulled out a win to finish the day 5-0 and earn a first-round bye on Sunday. We also fit in a game of SpikeJam and many many games of Spikeball. 

@@ -3,9 +3,9 @@ title: Skills and Scrimmage Practice
 date: '2014-06-07 17:13:57'
 tags:
 - amp
+- goals
 - practice
 - skills
-- goals
 ---
 
 Today's practice focused mostly on training several important skills: upline cutting and defense, around backhand breaks, breaking out of a sideline trap, and the shape of our cuts. We scrimmaged a bit at the end to consolidate those skills and put them into use. I think my cuts and upline stuff was decent (though I got beat in the sideline drill once), but my throws definitely need work. Some of my around backhands are good, some were pretty bad, and my hucks are just awful overall. 

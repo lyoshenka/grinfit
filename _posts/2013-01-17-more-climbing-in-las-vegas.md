@@ -1,5 +1,6 @@
 ---
-title: "More Climbing In Las Vegas"
+title: More Climbing In Las Vegas
+tags: []
 ---
 
 Did 3 more climbs today, including one lead.

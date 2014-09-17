@@ -49,6 +49,14 @@ task :tag do
   listPosts(1)
 end
 
+desc 'Retag'
+task :retag do
+  Dir.glob("_posts/*").each {|file|
+    post = getPost(file)
+    post['meta']['tags'] = post['meta']['tags'].to_a().sort()
+    savePost(file, post)
+  }
+end
 
 desc 'Remove tag'
 task :untag do

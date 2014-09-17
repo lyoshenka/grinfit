@@ -1,9 +1,9 @@
 ---
 title: Ultisquash and Amp Indoor
 tags:
+- amp
 - ultimate
 - ultisquash
-- amp
 ---
 
 ## Ultisquash

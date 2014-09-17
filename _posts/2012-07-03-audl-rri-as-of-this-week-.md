@@ -1,5 +1,6 @@
 ---
-title: "AUDL RRI (as of this week)"
+title: AUDL RRI (as of this week)
+tags: []
 ---
 
 I finally got around to running the numbers on the AUDL games. I used [this algorithm](http://www.pro-football-reference.com/blog/?p=37). The results are almost the same as the win-loss standings, but take a look at Indy vs Columbus (and also Bluegrass). They are very close in RRI (the _Final Score_ column), but Columbus is ranked much lower in win-loss. In fact, Columbus has the same record as Rhode Island, which is ranked far below them in RRI. 

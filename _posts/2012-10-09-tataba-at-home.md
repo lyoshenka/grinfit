@@ -1,5 +1,6 @@
 ---
-title: "Tataba at Home"
+title: Tataba at Home
+tags: []
 ---
 
 Diana convinced me to start waking up early with her on Tuesdays and Thursdays to work out at home. Today we did tabatas:

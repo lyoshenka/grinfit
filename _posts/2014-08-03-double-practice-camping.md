@@ -3,9 +3,9 @@ title: Double Practice + Camping
 date: '2014-08-03 20:00:00'
 tags:
 - amp
-- practice
 - camping
 - fun
+- practice
 ---
 
 ## Practice

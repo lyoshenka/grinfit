@@ -1,5 +1,6 @@
 ---
-title: "Regionals"
+title: Regionals
+tags: []
 ---
 
 Crushed Regionals this weekend. We had a fairly easy Saturday, winning our pools games by a lot. We played Ant Madness in semis and had a close first half (8-6), but only gave up 1 point in the second half to win 15-7. Our finals was Sunday at 1, where we played Ambiguously Grey. We started the game with 3 straight breaks, took half 8-5 and won 14-8.

@@ -1,5 +1,6 @@
 ---
 title: One-sentence Summaries of Exercise Studies
+tags: []
 ---
 
 A list of one-or-two-sentence summaries from some recent [S&CR.com](http://www.strengthandconditioningresearch.com) posts:

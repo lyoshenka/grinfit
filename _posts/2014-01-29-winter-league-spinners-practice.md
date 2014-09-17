@@ -2,8 +2,8 @@
 title: Winter League, Spinners Practice
 tags:
 - indoor
-- ultimate
 - spinners
+- ultimate
 ---
 
 Lots of utlimate tonight: core winter league at Ampro, then Spinners practice at Tee's. I got lucky and found rides from/to everything.

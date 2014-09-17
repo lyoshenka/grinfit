@@ -1,5 +1,6 @@
 ---
-title: "Home Workout"
+title: Home Workout
+tags: []
 ---
 
 - KB Swings: {% w 3x10@35 %}

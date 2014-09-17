@@ -1,5 +1,6 @@
 ---
-title: "Quick Pre-bed Workout"
+title: Quick Pre-bed Workout
+tags: []
 ---
 
 3 sets of 10 reps of:

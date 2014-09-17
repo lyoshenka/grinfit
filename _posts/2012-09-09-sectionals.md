@@ -1,5 +1,6 @@
 ---
-title: "Sectionals"
+title: Sectionals
+tags: []
 ---
 
 Sectionals is always a bit of a weak tournament, but our lack of preparation helped make things interesting. Saturday was mostly a walk in the park, though we managed to let the 2 seed in our pool give us a close game. Sunday, we went up 12-8 against Muff'n Men but then lost our shit and gave up 5 quick, easy goals in a row to let them win on universe. Dropping into the 2nd-place bracket, we beat Jagged Ice handily but played down to Jug Handle and had to score on D on universe point to win the game (which we did). That took us to a rematch against Muff'n Men (who lost 14-6 to Amp in the 1st place game). They seemed more tired and we didn't make the same rusty party-till-4am mistakes. We went up early and won the game 12-9. 

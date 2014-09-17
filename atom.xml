@@ -1,5 +1,5 @@
 ---
-layout: nil
+layout: null
 title : Atom Feed
 ---
 <?xml version="1.0" encoding="utf-8"?>
@@ -23,5 +23,5 @@ title : Atom Feed
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
- 
+
 </feed>

@@ -1,5 +1,6 @@
 ---
-title: "Penn Park Workout"
+title: Penn Park Workout
+tags: []
 ---
 
 Group workout at Penn Park. Did a bunch of plyos and agility work. Here's what I remember:

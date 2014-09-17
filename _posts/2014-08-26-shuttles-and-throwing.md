@@ -2,9 +2,9 @@
 title: Shuttles and Throwing
 date: '2014-08-26 19:46:39'
 tags:
+- penn-park
 - shuttles
 - throwing
-- penn-park
 ---
 
 Week 2 shuttle workout. 150 second rest between each shuttle. 

@@ -1,5 +1,6 @@
 ---
-title: "Stairs Workout"
+title: Stairs Workout
+tags: []
 ---
 
 Ran stairs at the Art Museum with Miggs, Glazer, Patrick and Leon.

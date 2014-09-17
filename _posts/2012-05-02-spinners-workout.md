@@ -1,5 +1,6 @@
 ---
-title: "Spinners Workout"
+title: Spinners Workout
+tags: []
 ---
 
 ## Track 

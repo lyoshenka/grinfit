@@ -2,9 +2,9 @@
 title: Phoenix Tryout
 tags:
 - indoor
-- ultimate
-- tryouts
 - phoenix
+- tryouts
+- ultimate
 ---
 
 3 hours of Phoenix tryouts at Maple Zone. We spent most of the time doing drills. The first few drills were pretty cool - 4 stations, each with a different set of cuts, and you run the cuts as fast as you can. There was a straight 40, a 10yard incut followed by a 40 deep, and two drills with 2 short cuts each. We ran each set of cuts once and were timed. 

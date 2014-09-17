@@ -1,5 +1,6 @@
 ---
-title: "Gender Blender"
+title: Gender Blender
+tags: []
 ---
 
 Played one of the most ridiculous tournaments ever. Most of the teams we played were pretty weak, but our last game on Saturday was against a bunch of GOAT players and some strong women. They didn't play the best defense, but when you're scoring every point on O in about 6 or 7 throws, you don't have to. Besides that game, we won the rest easily. 

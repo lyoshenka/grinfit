@@ -3,8 +3,8 @@ title: Penn Park Practice, Shuffles
 date: '2014-09-10 13:15:06'
 tags:
 - amp
-- practice
 - penn-park
+- practice
 - shuffles
 ---
 

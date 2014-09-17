@@ -1,5 +1,6 @@
 ---
-title: "Penn Park Workout"
+title: Penn Park Workout
+tags: []
 ---
 
 - 3 rounds of 8 sets of jog 40 yards, sprint 40 yards

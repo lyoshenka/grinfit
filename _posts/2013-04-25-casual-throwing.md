@@ -1,5 +1,6 @@
 ---
-title: "Casual Throwing"
+title: Casual Throwing
+tags: []
 ---
 
 Gorgeous day today. Went to Clark Park and threw with Diana for about 20 minutes.

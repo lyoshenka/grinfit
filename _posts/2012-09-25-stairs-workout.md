@@ -1,5 +1,6 @@
 ---
-title: "Stairs Workout"
+title: Stairs Workout
+tags: []
 ---
 
 Ran some stairs at the art museum with Diana, Patrick and the rest of the crew. Every Philly team that's vying for nationals was represented - GMG, Termites, Amp, Southpaw, even the masters team (way to go Grimes). Here's the workout:

@@ -1,5 +1,6 @@
 ---
-title: "40 Burpees for Time"
+title: 40 Burpees for Time
+tags: []
 ---
 
 Time: 2:15

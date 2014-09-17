@@ -1,5 +1,6 @@
 ---
-title: "Air Force WOD"
+title: Air Force WOD
+tags: []
 ---
 
 Using a 65lb bar, for time:

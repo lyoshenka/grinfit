@@ -1,5 +1,6 @@
 ---
-title: "Home Workout: Squats, Push Ups, Sit Ups"
+title: 'Home Workout: Squats, Push Ups, Sit Ups'
+tags: []
 ---
 
 Norm and Eddie talked me into doing a quick workout on my way home from work:
