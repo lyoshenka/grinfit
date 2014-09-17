@@ -1,14 +1,10 @@
 <div class="pagination js-invis-on-search">
   {% if paginator.next_page %}
-    <a href="/page{{paginator.next_page}}" class="older">&laquo; earlier</a>
+    <a href="/page{{paginator.next_page}}" class="older">&laquo; older</a>
     {% if paginator.previous_page %} | {% endif %}
   {% endif %}
  
   {% if paginator.previous_page %}
-    {% if paginator.previous_page == 1 %}
-      <a href="/" class="newer">later &raquo;</a>
-    {% else %}
-      <a href="/page{{paginator.previous_page}}" class="newer">later &raquo;</a>
-    {% endif %}
+    <a href="/{% if paginator.previous_page != 1 %}page{{paginator.previous_page}}{% endif %}" class="newer">newer &raquo;</a>
   {% endif %}
 </div>
