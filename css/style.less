@@ -22,7 +22,7 @@ ul {
 // Fluid Typography ===================================================
 
 @base-font-size: 18px;
-@base-line-height: @base-font-size * 1.5;
+@base-line-height: @base-font-size * 1.45;
 
 .text(@size) {
   @rem: unit(@size) / unit(@base-font-size);
@@ -169,6 +169,18 @@ p, .content {
 @media (max-width: @small-screen-width) {
   .content {
     margin-left: 0;
+  }
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.tags {
+  .text(16px);
+  color: @text-light;
+  a {
+    color: @text-light;
   }
 }
 

@@ -9,5 +9,6 @@
   </h1>
   <div class="content js-start-hidden" itemprop="articleBody">
     {{ postContent }}
+    {% include tags %}
   </div>
 </article>
