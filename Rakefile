@@ -27,7 +27,6 @@ end
 
 desc 'List 10 recently modified posts'
 task :ls do
-  #preventErrorsForCommandLineArgs()
   listPosts(is_i?(ARGV[1]) ? ARGV[1].to_i : 20)
   preventErrorsForCommandLineArgs()
 end
@@ -45,7 +44,7 @@ task :tag do
   args = parseArgs()
   tags = args[:rest].split(' ')
   post = getPost(args[:filename])
-  post['meta']['tags'] = post['meta']['tags'].to_a().concat(tags).uniq()
+  post['meta']['tags'] = post['meta']['tags'].to_a().concat(tags).uniq().sort()
   savePost(args[:filename], post)
   listPosts(1)
 end
