@@ -2,10 +2,11 @@
 title: Shuttles, Shuffles, Pickup
 date: '2014-08-19 18:00:00'
 tags:
-- throwing
-- shuttles
-- pickup
 - penn-park
+- pickup
+- shuffles
+- shuttles
+- throwing
 ---
 
 Did the first of the new BenJ workouts with Ben at penn park.
