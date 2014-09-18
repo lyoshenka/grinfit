@@ -1,10 +1,12 @@
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <h1 class="post-header">
-    <a class="time-link" href="{{ postObject.url }}">
-      <time datetime="{{ postObject.date | date: "%F %T" }}" title="{{ postObject.date | date: "%B %d, %Y" }}" itemprop="datePublished">
-        {{ postObject.date | date: "%b %d" }}
-      </time>
-    </a>
+    <div class="time-link">
+      <a href="{{ postObject.url }}">
+        <time datetime="{{ postObject.date | date: "%F %T" }}" title="{{ postObject.date | date: "%B %d, %Y" }}" itemprop="datePublished">
+          {{ postObject.date | date: "%b %d" }}
+        </time>
+      </a>
+    </div>
     <a class="js-collapse" itemprop="name">{{ postObject.title }}</a>
   </h1>
   <div class="content js-start-hidden" itemprop="articleBody">

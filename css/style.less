@@ -40,7 +40,7 @@ ul {
 @text-light: #807d7e;
 @header: #275EA3;
 @link: #ab000f;  // #e04c0d;
-@highlight: #e8e6ed;
+@highlight: #ffd61f; //#e8e6ed;
 @background: #f5f4ef;
 @background-dark: darken(@background, 5%);
 @exercise-numbers: #ab000f;
@@ -132,15 +132,17 @@ h1 {
     color: @header; // so link color doesnt override it
   }
 
-  a.time-link {
+  .time-link {
     width: 60px;
-    margin-left: -67px;
+    margin-left: -@date-column-width + 3;
     display: inline-block;
-    color: @text-light;
-    time {
-      .text(15px);
-      vertical-align: top;
-      white-space: nowrap;
+    a {
+      color: @text-light;
+      time {
+        .text(15px);
+        vertical-align: top;
+        white-space: nowrap;
+      }
     }
   }
 }
