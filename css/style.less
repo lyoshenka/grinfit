@@ -275,6 +275,33 @@ a {
   }
 }
 
+// Styles for Print Version ======================================
+
+@media print {
+  * { color: #151515 !important }
+  a.email, .search-box { display: none; }
+  @page {
+    margin: 1.5cm 1.5cm 1.5cm 2.5cm;
+    padding: 0;
+  }
+  body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+  code, pre { font-size: 11pt }
+  code {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    font-weight: bold;
+  }
+  ul li { list-style: inside disc; }
+  ul li::before { display: none; }
+}
+
 
 
 // Search Box ===================================================
