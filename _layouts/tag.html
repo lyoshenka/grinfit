@@ -1,11 +1,10 @@
 ---
 layout: default
 ---
-{% if site.tags.[page.filter_tag] %}
-  {% for postObject in site.tags.[page.filter_tag] %}
-    {% assign postContent = postObject.content %}
-    {% include post %}
-  {% endfor %}
-{% else %}
-  <div id="no-results">No results.</div>
-{% endif %}
+
+{% for postObject in paginator.posts %}
+  {% assign postContent = postObject.content %}
+  {% include post %}
+{% endfor %}
+
+{% include pagination %}
