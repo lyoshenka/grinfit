@@ -38,6 +38,29 @@ task :push do
   exec('git add -A && git commit -m "New post" && git push')
 end
 
+desc 'List tags'
+task :tags do
+  tagCounts = {}
+  maxLength = 0
+  getPostsInOrder().each() do |file|
+    post = getPost(file)
+    post['meta']['tags'].to_a().each() do |tag|
+      if !tagCounts.has_key?(tag)
+        tagCounts[tag] = 0
+      end
+      tagCounts[tag] += 1
+      if tag.length > maxLength
+        maxLength = tag.length
+      end
+    end
+  end
+
+  maxLength += 1 # extra padding
+  tagCounts.sort_by{ |tag,count| count }.reverse().each() do |tag,count|
+    printf ("%-" + maxLength.to_s + "s %d\n") % [tag, count]
+  end
+end
+
 
 desc 'Add tag'
 task :tag do

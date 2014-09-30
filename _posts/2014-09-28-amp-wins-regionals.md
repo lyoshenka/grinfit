@@ -1,6 +1,14 @@
 ---
 title: Amp Wins Regionals
 date: '2014-09-28 09:07:29'
+tags:
+- advice
+- amp
+- assessment
+- notes
+- regionals
+- tips
+- ultimate
 ---
 
 We cruised through regionals, winning all our games by a good margin. No team made it to double digits against us. Our O line didn’t get broken once all
