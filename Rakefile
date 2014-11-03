@@ -21,6 +21,14 @@ task :test do
   end
 end
 
+desc 'Touch last 20 posts so they are listed in date order'
+task :retouch do
+  puts "This is gonna take 20 seconds"
+  Dir.glob(postsDir()+'/*').sort_by{|f| f}.last(20).each() do |file|
+    FileUtils.touch(file)
+    sleep(1)
+  end
+end
 
 desc 'Build site locally and serve it at localhost:9292'
 task :preview do
@@ -230,7 +238,7 @@ def savePost(filename, post)
   if (!post['meta'].has_key?('id'))
 #    require 'digest/md5'
 #    post['meta']['id'] = Digest::MD5.hexdigest(rand().to_s)
-    post['meta']['id'] = rand(10 ** 16).to_s.rjust(16,'0')
+    post['meta']['id'] = rand(10 ** 16).to_s.ljust(16,'0')
   end
 
   # alphabetize metadata
@@ -252,7 +260,7 @@ def parseArgs(filenum: true, endstring: true)
     if !firstArg.nil? && (firstArg[0] == '/' && File.exist?(firstArg) || File.exist?(postsDir()+'/'+firstArg))
       args[:filename] = postsDir()+'/' +File.basename(firstArg)
     elsif is_i?(firstArg)
-      postId = firstArg.to_i >= 1 ? firstArg.to_i-1 : 0
+      postId = firstArg.to_i >= 1 ? firstArg : nil
       args[:filename] = getPostById(postId).strip
     else
       args[:filename] = getPostsInOrder.first.strip
@@ -269,9 +277,11 @@ def parseArgs(filenum: true, endstring: true)
 end
 
 def getPostById(id)
-  post = getPost(file)
-  if post['meta']['id'].starts_with(id)
-    return file
+  getPostsInOrder().each() do |file|
+    post = getPost(file)
+    if post['meta']['id'].start_with?(id.to_s)
+      return file
+    end
   end
 
   puts "Post with id #{id} does not exist"
@@ -288,7 +298,7 @@ def listPosts(limit=10)
   getPostsInOrder().first(limit).each() do |file|
     post = getPost(file)
     tags = post['meta']['tags'].to_a.empty? ? '' : (' [' + post['meta']['tags'].join(' ') + ']')
-    printf "%s  %s%s\n" % [post['meta']['id'].slice(0,8), File.basename(file), tags.yellow]
+    printf "%s %s%s\n" % [post['meta']['id'].slice(0,6).blue, File.basename(file), tags.yellow]
   end
 end
 
