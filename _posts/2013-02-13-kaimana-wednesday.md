@@ -1,6 +1,7 @@
 ---
 id: '9966218101353808'
-tags: []
+tags:
+- kaimana
 title: Kaimana Wednesday
 ---
 

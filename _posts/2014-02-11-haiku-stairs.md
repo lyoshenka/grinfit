@@ -1,7 +1,7 @@
 ---
 id: '3209499818741481'
 tags:
-- hawaii
+- kaimana
 title: Haiku Stairs
 ---
 

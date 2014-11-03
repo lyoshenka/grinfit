@@ -44,7 +44,7 @@ end
 task :list => :ls
 
 
-desc 'Commit to git and update live site'
+desc 'Commit to git and push'
 task :push do
   exec('git add -A && git commit -m "New post" && git push')
 end
@@ -66,9 +66,19 @@ task :tags do
     end
   end
 
+  tagBuckets = {}
+  tagCounts.each() do |tag,count|
+    if (!tagBuckets.has_key?(count))
+      tagBuckets[count] = []
+    end
+    tagBuckets[count].push(tag)
+  end
+
   maxLength += 1 # extra padding
-  tagCounts.sort_by{ |tag,count| count }.reverse().each() do |tag,count|
-    printf ("%-" + maxLength.to_s + "s %d\n") % [tag, count]
+  tagBuckets.sort_by{ |count,tags| count }.reverse().each() do |count,tags|
+    tags.sort.each() do |tag|
+      printf ("%-" + maxLength.to_s + "s %d\n") % [tag, count]
+    end
   end
 end
 

@@ -3,7 +3,7 @@ date: '2014-07-16 21:00:00'
 id: '6683785791307500'
 tags:
 - amp
-- goalty
+- goaltimate
 title: Goalty with Amp
 ---
 

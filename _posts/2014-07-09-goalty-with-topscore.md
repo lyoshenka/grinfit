@@ -2,7 +2,7 @@
 date: '2014-07-09 22:00:00'
 id: '4686339013562203'
 tags:
-- goalty
+- goaltimate
 - topscore
 title: Goalty with TopScore
 ---

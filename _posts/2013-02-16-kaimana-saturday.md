@@ -1,6 +1,7 @@
 ---
 id: '6464135326812635'
-tags: []
+tags:
+- kaimana
 title: Kaimana Saturday
 ---
 

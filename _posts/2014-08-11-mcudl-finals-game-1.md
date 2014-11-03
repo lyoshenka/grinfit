@@ -3,7 +3,7 @@ date: '2014-08-11 10:03:29'
 id: '4100782352531581'
 tags:
 - finals
-- mercer
+- mcudl
 - roots
 - ultimate
 title: MCUDL Finals - Game 1

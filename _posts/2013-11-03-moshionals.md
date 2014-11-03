@@ -1,6 +1,7 @@
 ---
 id: '2573525963586160'
-tags: []
+tags:
+- mosh
 title: Moshionals
 ---
 
