@@ -1,9 +1,10 @@
 ---
-title: Nationals
 date: '2014-10-18 21:34:03'
+id: '7206888490853470'
 tags:
 - amp
 - nationals
+title: Nationals
 ---
 
 Nationals this year was good and bad in a lot of ways. We played very well during most of our games, we won more games than any previous year, and we beat

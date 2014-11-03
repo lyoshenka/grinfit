@@ -1,10 +1,11 @@
 ---
-title: Last Practice Before Nationals
 date: '2014-10-12 16:00:00'
+id: '9771332940695707'
 tags:
 - amp
 - practice
 - scrimmage
+title: Last Practice Before Nationals
 ---
 
 Practice was supposed to be Saturday, but it got rained out and moved to Sunday. We split the practice up into 4 sections: one for each of our Thursday

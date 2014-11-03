@@ -1,8 +1,9 @@
 ---
-title: Tabata Rowing, Bosu Pushups, DB Jumping Lunges
+id: '5239522308053969'
 tags:
 - cardio
 - tabata
+title: Tabata Rowing, Bosu Pushups, DB Jumping Lunges
 ---
 
 - Rowing: don't know how far, the screen didn't work

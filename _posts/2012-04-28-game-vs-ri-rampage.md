@@ -1,6 +1,7 @@
 ---
-title: Game vs RI Rampage
+id: '4565882081297133'
 tags: []
+title: Game vs RI Rampage
 ---
 
 Woke up at 4:30am to drive to RI for our first away game. Bus ride was pretty fun. Dustin knows a LOT of puzzle games.

@@ -1,7 +1,8 @@
 ---
-title: 'Gym: Squats, Power Cleans, Dips'
+id: '7288693991266680'
 tags:
 - gym
+title: 'Gym: Squats, Power Cleans, Dips'
 ---
 
 - Squats: 3x5/185lb

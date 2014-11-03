@@ -1,9 +1,10 @@
 ---
-title: Ultisquash and Amp Indoor
+id: '6285958179401923'
 tags:
 - amp
 - ultimate
 - ultisquash
+title: Ultisquash and Amp Indoor
 ---
 
 ## Ultisquash

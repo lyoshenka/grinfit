@@ -1,7 +1,8 @@
 ---
-title: Gym (Deadlift, Push Press, Pull Ups)
+id: '2024189864015232'
 tags:
 - gym
+title: Gym (Deadlift, Push Press, Pull Ups)
 ---
 
 - Deadlift 5/205,6/225,6/255lb

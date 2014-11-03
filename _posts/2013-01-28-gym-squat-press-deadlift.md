@@ -1,7 +1,8 @@
 ---
-title: 'Gym: Squat, Press, Deadlift'
+id: '4312290198331980'
 tags:
 - gym
+title: 'Gym: Squat, Press, Deadlift'
 ---
 
 - Squat: {% w 3x5@177 %}

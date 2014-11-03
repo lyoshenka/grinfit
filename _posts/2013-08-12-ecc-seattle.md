@@ -1,6 +1,7 @@
 ---
-title: ECC Seattle
+id: '6986141098056805'
 tags: []
+title: ECC Seattle
 ---
 
 Played our last regular season tournament: ECC in Seattle. We finished 3rd and played pretty well most of the time, but had too many unforced turns in the semis against Wildcard. I made good progress on my defensive focus, especially in that game, but still had two poor throwing decisions and did not play at 100% on every single point. I'd give myself an 8 out of 10 for the weekend.

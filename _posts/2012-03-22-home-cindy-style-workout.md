@@ -1,6 +1,7 @@
 ---
-title: Kung Fu Throwing + Conditioning, Home Cindy-style Workout
+id: '4739968815118442'
 tags: []
+title: Kung Fu Throwing + Conditioning, Home Cindy-style Workout
 ---
 
 AMRAP in 20 min: 

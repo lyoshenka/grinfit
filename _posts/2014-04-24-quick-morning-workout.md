@@ -1,9 +1,10 @@
 ---
-title: Quick Morning Workout
+id: '1912699222981775'
 tags:
 - home
 - metcon
 - quick
+title: Quick Morning Workout
 ---
 
 I've been really lazy for the past two weeks: combination of rehabbing and being busy at work. So to get back in the habit, I'm gonna start trying to work out in the morning. That way I'll make sure I'm getting it done.

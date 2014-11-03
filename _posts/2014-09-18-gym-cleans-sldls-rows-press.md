@@ -1,8 +1,9 @@
 ---
-title: 'Gym: Cleans, SLDLs, Rows, Press'
 date: '2014-09-18 10:01:55'
+id: '7540547541904403'
 tags:
 - gym
+title: 'Gym: Cleans, SLDLs, Rows, Press'
 ---
 
 - Power Clean: {% w 3x5@125lb %}

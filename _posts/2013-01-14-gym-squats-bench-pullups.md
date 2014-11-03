@@ -1,7 +1,8 @@
 ---
-title: 'Gym: Squats, Bench, Pullups'
+id: '3713391529767067'
 tags:
 - gym
+title: 'Gym: Squats, Bench, Pullups'
 ---
 
 - Squats: {% w 3x5@133 %}

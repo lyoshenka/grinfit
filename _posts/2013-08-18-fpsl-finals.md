@@ -1,7 +1,8 @@
 ---
-title: FPSL Finals
+id: '2394780196371218'
 tags:
 - ultimate
+title: FPSL Finals
 ---
 
 A great weekend for ultimate. The weather was perfect, our team was underrated, and we were poised to ruin some dreams. Our first game was Saturday afternoon against Bill and Stacy. We didn't come out strong, but victory was rarely in question. We kept it close through most of the game before pulling away to win 15-11. This put us in E pool and set up the long-awaited Vinny vs. Flagger matchup (on the showcase field, no less). Both teams were fairly drunk at this point, though Diana was actually sobering up after a very sloppy Game 1 BAC level. Turns out we play better when we're drunk (and when Ellis is there). I think we were up the whole game and won by a lot. I played one point with two giant cardboard hands taped to my hands, and Diana threw me the goal. Our victory put is in E pool semis, the first time I've ever played on Sunday of Finals. Diana and I both finished the day at +2.

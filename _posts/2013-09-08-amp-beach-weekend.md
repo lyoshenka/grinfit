@@ -1,7 +1,8 @@
 ---
-title: AMP Beach Weekend
+id: '8487081094803060'
 tags:
 - amp
+title: AMP Beach Weekend
 ---
 
 A fun and useful weekend of practices, beach play and hanging out. The schedule:

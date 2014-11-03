@@ -1,8 +1,9 @@
 ---
-title: Winter League double header
+id: '9103490348061862'
 tags:
 - indoor
 - ultimate
+title: Winter League double header
 ---
 
 Played the first game with my high schooler team. We worked on setting goals that are within our control: always having a dump and not getting beat to the force-side cone. For the first half, we didn't have those explicit goals and we played pretty poorly. After half, our focus improved and we matched Gooch's team point for point. But we didn't really convert any breaks and they rode their first-half lead to the win.

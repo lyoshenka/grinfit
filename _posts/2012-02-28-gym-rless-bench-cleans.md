@@ -1,7 +1,8 @@
 ---
-title: 'Gym: RLESS, Bench, Cleans'
+id: '1640541801338943'
 tags:
 - gym
+title: 'Gym: RLESS, Bench, Cleans'
 ---
 
 - RLESS 5/130, 5/135, 5/135lb

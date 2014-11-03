@@ -1,7 +1,8 @@
 ---
-title: 'Gym: Squats, Bench, Scissor Jumps'
+id: '4074862746129636'
 tags:
 - gym
+title: 'Gym: Squats, Bench, Scissor Jumps'
 ---
 
 - Squats: {% w 5@110/132/154 %}

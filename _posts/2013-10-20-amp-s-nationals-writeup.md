@@ -1,7 +1,8 @@
 ---
-title: AMP's Nationals Writeup
+id: '6199108769920930'
 tags:
 - amp
+title: AMP's Nationals Writeup
 ---
 
 Reproduced here in it's full glory.

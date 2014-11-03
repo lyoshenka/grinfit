@@ -1,6 +1,7 @@
 ---
-title: 10 Burpees a Minute
+id: '3172436593016965'
 tags: []
+title: 10 Burpees a Minute
 ---
 
 Do 10 burpees every minute on the minute. If you finish early, rest until the next minute starts. Stop when you can't finish 10 in the minute.

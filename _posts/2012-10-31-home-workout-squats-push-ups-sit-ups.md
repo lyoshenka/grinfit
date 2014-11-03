@@ -1,6 +1,7 @@
 ---
-title: 'Home Workout: Squats, Push Ups, Sit Ups'
+id: '6019593939819665'
 tags: []
+title: 'Home Workout: Squats, Push Ups, Sit Ups'
 ---
 
 Norm and Eddie talked me into doing a quick workout on my way home from work:

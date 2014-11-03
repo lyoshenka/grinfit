@@ -1,7 +1,8 @@
 ---
-title: 'Gym: RLESS, Bench, Power Cleans, Dips'
+id: '1322688416028324'
 tags:
 - gym
+title: 'Gym: RLESS, Bench, Power Cleans, Dips'
 ---
 
 - RLESS 3x5/140lbs

@@ -1,10 +1,11 @@
 ---
-title: AMP Practice
 date: '2014-09-13 21:40:57'
+id: '4515298655811242'
 tags:
 - amp
 - practice
 - rain
+title: AMP Practice
 ---
 
 A pretty good 5-hour practice. We some skills work and scrimmaged a lot. We spent a good amount of time focusing on our redzone offense. We worked on the gravity cut, which turns out to be very hard to defend if you’re close to the endzone. The third cut (to the cone, back across for the break, then force side to the back cone) is especially tricky to cover. If you don’t sell out to get the IO, it’s pretty easy to throw something in that area. If you do, the cut to the back cone is open. Doing this drill on O and on D really let us experiment with making the cut different ways and defending it different ways, and it really proved to me how hard it is to cover (if the thrower is close enough).

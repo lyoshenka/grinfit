@@ -1,8 +1,9 @@
 ---
-title: Pumpatorium
 date: '2014-07-15 22:30:30'
+id: '7279933828786127'
 tags:
 - gym
+title: Pumpatorium
 ---
 
 - Deadlift: {% w 3x5@225lb %}

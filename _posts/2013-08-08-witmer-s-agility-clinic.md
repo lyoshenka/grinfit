@@ -1,6 +1,7 @@
 ---
-title: Witmer's Agility Clinic
+id: '5281815989326727'
 tags: []
+title: Witmer's Agility Clinic
 ---
 
 Went to Melissa Witmer's agility clinc at Edgely. It was focused very much on the hips and glutes. We started with a three-part warmup: moderate-speed longer-distance stuff to get our heart rate up, then dynamic stretching, then high-speed stuff to get our nervous system ready for full intensity. The last part was pretty new to me. It was very short-distance (15 yards max). The exercises were similar to what I'm used to (carioca, shuffles, butt kicks, skips, etc), but the focus is on speed and explosiveness. 

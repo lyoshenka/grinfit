@@ -1,10 +1,11 @@
 ---
-title: Amp Wins Bellcrack
 date: '2014-05-18 19:00:00'
+id: '6389860094006717'
 tags:
 - amp
 - mvp
 - tournament
+title: Amp Wins Bellcrack
 ---
 
 Excellent weekend of ultimate. I haven't won a non-playoffs tournament since Philly Invite last year. Also, I really felt like our team grew and learned a lot this weekend. We had a lot of subs on Saturday and won all our pool play games (none were very challenging). Then we lost our crossover to SHUYAMOUF because we did not defend the deeps well. We started strong, going up 5-2. Then they scored 10 points in a row. We came back some with a run of our own, but it wasn't enough to win the game.

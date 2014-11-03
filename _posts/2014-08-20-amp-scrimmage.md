@@ -1,9 +1,10 @@
 ---
-title: AMP Scrimmage
 date: '2014-08-20 22:00:00'
+id: '2258706305644300'
 tags:
 - amp
 - scrimmage
+title: AMP Scrimmage
 ---
 
 Midweek practice with AMP. We did a short warmup, then did the gauntlet D positioning drill, then went to scimmaging. 

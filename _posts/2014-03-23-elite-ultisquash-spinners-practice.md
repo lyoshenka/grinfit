@@ -1,10 +1,11 @@
 ---
-title: Elite Ultisquash, Spinners Practice
+id: '5913490084376610'
 tags:
 - practice
 - spinners
 - ultimate
 - ultisquash
+title: Elite Ultisquash, Spinners Practice
 ---
 
 ## Ultisquash

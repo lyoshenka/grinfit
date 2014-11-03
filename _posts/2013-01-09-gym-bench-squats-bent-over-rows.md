@@ -1,8 +1,9 @@
 ---
-title: 'Gym: Bench, Squats, Bent-Over Rows'
+id: '7753454338351847'
 tags:
 - gym
 - pumpatorium
+title: 'Gym: Bench, Squats, Bent-Over Rows'
 ---
 
 - Bench: {% w 3x5@166 %}

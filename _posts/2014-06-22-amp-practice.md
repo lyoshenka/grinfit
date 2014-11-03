@@ -1,10 +1,11 @@
 ---
-title: AMP Practice
 date: '2014-06-22 16:00:00'
+id: '8662478274314201'
 tags:
 - amp
 - practice
 - zone
+title: AMP Practice
 ---
 
 We worked on deep throws and defense in the air, then switched to 5v5 and 6v6 scrimmage, then worked on zone (ATC and 1-3-3). All the drills felt very productive and I liked the pace. We went hard up front in the deep drills, running a good amount of sprints with little rest. Then in the scrimmages, we had enough subs to wholesale every point, so we got a good amount of rest. I felt like I was pretty much fully rested for each point. The zone work and scrimmages were pretty good, though with no wind, it tough to replicate zone conditions. I gave into throwing loopy over-the-top throws a few times even though I would not throw them in a real zone game. Still, it was good to go through the reps. We even played with an extra defender and the O still managed to score a decent number of times. 

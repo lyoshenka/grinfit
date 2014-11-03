@@ -1,8 +1,9 @@
 ---
-title: Tabata Pullups and Pushups
+id: '4516734693070797'
 tags:
 - cardio
 - tabata
+title: Tabata Pullups and Pushups
 ---
 
 - Pullups: {% w 9,6,5,4,4,5,5,4 %}

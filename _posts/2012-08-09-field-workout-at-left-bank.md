@@ -1,6 +1,7 @@
 ---
-title: Field Workout at Left Bank
+id: '4324532100133646'
 tags: []
+title: Field Workout at Left Bank
 ---
 
 Did a fairly intense workout with Ross, Patrick, Norm, Diana, Saltz and Keg. It's similar to the PonyShape workouts we did last year.

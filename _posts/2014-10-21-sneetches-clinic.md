@@ -1,9 +1,10 @@
 ---
-title: Sneetches Clinic
 date: '2014-10-21 22:02:59'
+id: '9003896938096783'
 tags:
 - coaching
 - haverford
+title: Sneetches Clinic
 ---
 
 Came out to Haverford to help coach the Sneetches for a day. We did the Gauntlet drill in slow motion, focusing on body positioning and footwork. Then we

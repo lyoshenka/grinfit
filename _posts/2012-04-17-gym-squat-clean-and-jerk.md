@@ -1,7 +1,8 @@
 ---
-title: 'Gym: Squat, Clean and Jerk'
+id: '3172289571299228'
 tags:
 - gym
+title: 'Gym: Squat, Clean and Jerk'
 ---
 
 - Squat: 5/190lb, 5/195lb, 5/200lb

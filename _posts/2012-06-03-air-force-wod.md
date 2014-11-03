@@ -1,6 +1,7 @@
 ---
-title: Air Force WOD
+id: '3703342674570181'
 tags: []
+title: Air Force WOD
 ---
 
 Using a 65lb bar, for time:

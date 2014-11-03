@@ -1,7 +1,8 @@
 ---
-title: 'Gym: Squats, Cleans, Dips, Putting'
+id: '5457283111606281'
 tags:
 - gym
+title: 'Gym: Squats, Cleans, Dips, Putting'
 ---
 
 - Squats: {% w 3x5@133 %}

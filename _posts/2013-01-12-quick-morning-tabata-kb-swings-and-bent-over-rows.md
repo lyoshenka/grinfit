@@ -1,8 +1,9 @@
 ---
-title: 'Quick Morning Tabata: KB Swings and Bent-Over Rows'
+id: '3445318031631829'
 tags:
 - cardio
 - tabata
+title: 'Quick Morning Tabata: KB Swings and Bent-Over Rows'
 ---
 
 - KB Swings: {% w 10, 10, 9, 9, 9, 9, 9, 9 %}

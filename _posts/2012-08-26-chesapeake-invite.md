@@ -1,6 +1,7 @@
 ---
-title: Chesapeake Invite
+id: '1730010235318749'
 tags: []
+title: Chesapeake Invite
 ---
 
 Played Chesapeake Invite with my new team - Termite's Entourage. This was our first real tournament together and we didn't have our full roster together, but we still kicked a lot of ass. We came in seeded 13th out of 16, but finished 5th (5-3 overall record). Our best game was probably against Drag'n Thrust. We lost to them 14-12, but it was close the whole way and we gave them the hardest game of their weekend (they ended up winning the tourney in a game against Slow White). We also had a huge comeback against Cahoots, going down 4-10 before winning on universe point 12-11 (after a very timely timeout call by Slater). 

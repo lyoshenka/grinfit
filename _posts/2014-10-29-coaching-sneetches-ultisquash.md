@@ -1,10 +1,11 @@
 ---
-title: Coaching Sneetches, Ultisquash
 date: '2014-10-29 09:55:15'
+id: '8878847063952915'
 tags:
 - coaching
 - haverford
 - ultisquash
+title: Coaching Sneetches, Ultisquash
 ---
 
 Sara got a few AMPers to come to Haverford and help coach the Sneetches. We worked on upline dump defense and then pulling. I brought Diana’s iPad and the

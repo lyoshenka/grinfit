@@ -1,8 +1,9 @@
 ---
-title: Ultisquash and Gym
+id: '5581774891595173'
 tags:
 - gym
 - ultisquash
+title: Ultisquash and Gym
 ---
 
 Played an hour and a half of ultisquash. We had a good group, probably about 20 people. Ashley came and played for the first time. I'd say he picked it up pretty quickly. He's played basketball before, so he has the right instincts.

@@ -1,6 +1,7 @@
 ---
-title: Ben Wiggins AMA on Reddit
+id: '1579223426431348'
 tags: []
+title: Ben Wiggins AMA on Reddit
 ---
 
 Haven't been doing much work lately (rehabbing my shoulder, plus lots of work at work), but I've been reading/watching/thinking about ultimate a lot. Here's a great [AMA from Ben Wiggins](http://www.reddit.com/r/ultimate/comments/zrt6u/i_am_ben_wiggins_3time_club_national_champion/). It's full of good advice and thoughts on the current state of ultimate and where it's headed. For example, here's an answer about handler training:

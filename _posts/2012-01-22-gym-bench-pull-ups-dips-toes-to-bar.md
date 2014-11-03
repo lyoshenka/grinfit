@@ -1,7 +1,8 @@
 ---
-title: 'Gym: Bench, Pull Ups, Dips, Toes to Bar'
+id: '6350067681910194'
 tags:
 - gym
+title: 'Gym: Bench, Pull Ups, Dips, Toes to Bar'
 ---
 
 - Bench: 5,5,4/155lb (again!)

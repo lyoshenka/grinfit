@@ -1,7 +1,8 @@
 ---
-title: 'Gym: Deadlift, Push Press, Wide Pull Ups'
+id: '4462595620338337'
 tags:
 - gym
+title: 'Gym: Deadlift, Push Press, Wide Pull Ups'
 ---
 
 - Deadlift 3x5/215lb

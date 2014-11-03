@@ -1,7 +1,8 @@
 ---
-title: 'Gym: Bench, Deadlift, Pullups'
+id: '5825169617749758'
 tags:
 - gym
+title: 'Gym: Bench, Deadlift, Pullups'
 ---
 
 - Bench: 3/170, 6/160, 6/150

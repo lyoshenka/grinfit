@@ -1,7 +1,8 @@
 ---
-title: 'Gym: Squats, Pullups, Pushups'
+id: '2810953671474333'
 tags:
 - gym
+title: 'Gym: Squats, Pullups, Pushups'
 ---
 
 - Squat: {% w 5@133/154/176 %}

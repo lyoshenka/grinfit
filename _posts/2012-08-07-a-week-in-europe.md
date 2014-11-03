@@ -1,7 +1,8 @@
 ---
-title: A Week in Europe
+id: '4165512371133928'
 tags:
 - vacation
+title: A Week in Europe
 ---
 
 I spent the last week traveling and sightseeing in Europe with Diana. Here's some of the things I did that may count as workouts:

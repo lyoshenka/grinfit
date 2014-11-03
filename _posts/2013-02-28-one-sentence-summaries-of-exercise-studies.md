@@ -1,6 +1,7 @@
 ---
-title: One-sentence Summaries of Exercise Studies
+id: '7340612135855388'
 tags: []
+title: One-sentence Summaries of Exercise Studies
 ---
 
 A list of one-or-two-sentence summaries from some recent [S&CR.com](http://www.strengthandconditioningresearch.com) posts:

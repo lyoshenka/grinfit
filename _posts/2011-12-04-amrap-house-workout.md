@@ -1,6 +1,7 @@
 ---
-title: AMRAP House Workout
+id: '9988697538955034'
 tags: []
+title: AMRAP House Workout
 ---
 
 5 rounds of AMRAP of:

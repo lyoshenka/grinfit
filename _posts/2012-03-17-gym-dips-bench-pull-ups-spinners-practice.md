@@ -1,8 +1,9 @@
 ---
-title: 'Gym: Dips, Bench, Pull ups & Spinners Practice'
+id: '3174824178903707'
 tags:
 - gym
 - ultimate
+title: 'Gym: Dips, Bench, Pull ups & Spinners Practice'
 ---
 
 Gym Friday

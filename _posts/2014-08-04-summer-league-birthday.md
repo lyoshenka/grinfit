@@ -1,8 +1,9 @@
 ---
-title: Summer League + Birthday
 date: '2014-08-04 22:41:34'
+id: '3981427264031738'
 tags:
 - summer-league
+title: Summer League + Birthday
 ---
 
 Played a close and intense summer league game against Norm's team. They have a good team - they were missing their best guy and girl and we still had a really hard time against them. Pretty much the whole game, we were within 1 or 2 points of each other. We got the first break, but they got it back a few points later. They took half 8-7 and we traded till 11-10 or so. Then we scored several breaks to bring it to 14-12, but they came back to 14s. Finally we closed the game out 15-14. 

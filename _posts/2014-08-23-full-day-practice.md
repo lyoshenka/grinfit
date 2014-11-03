@@ -1,9 +1,10 @@
 ---
-title: Full-Day Practice
 date: '2014-08-23 09:23:17'
+id: '7213290746028673'
 tags:
 - amp
 - practice
+title: Full-Day Practice
 ---
 
 Long day of practice with AMP: 9am-1pm, then break for lunch, then 2pm-5pm. On top of that it rained for most of the day, which sapped some of my energy towards the end. I felt great until about 3 or 4, then started to feel drained. I think a lot of the O was feeling similar, and it showed in our game.

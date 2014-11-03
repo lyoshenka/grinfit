@@ -1,7 +1,8 @@
 ---
-title: 'Gym: Deadlifts, Push Press, Pullups'
+id: '5670284780654295'
 tags:
 - gym
+title: 'Gym: Deadlifts, Push Press, Pullups'
 ---
 
 - Deadlift: 5/245lb, 5/245lb, 5/255lb

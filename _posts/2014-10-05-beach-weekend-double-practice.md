@@ -1,10 +1,11 @@
 ---
-title: Beach Weekend Double Practice
 date: '2014-10-05 16:00:00'
+id: '3243810953087140'
 tags:
 - amp
 - beach
 - practice
+title: Beach Weekend Double Practice
 ---
 
 Combo double practice and beach weekend. There wasn’t much actual beach going on because it was cold and rainy, but I did jump in the ocean after practice

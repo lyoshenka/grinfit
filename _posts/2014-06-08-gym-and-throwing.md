@@ -1,10 +1,11 @@
 ---
-title: Gym and Throwing
 date: '2014-06-08 18:35:38'
+id: '5755797054462533'
 tags:
 - gym
 - penn-park
 - throwing
+title: Gym and Throwing
 ---
 
 I returned to FitGym after a two-year hiatus at the Pumpatorium. They've added a few new things - non-bent bars and a new squat cage, plus a kettlebell area upstairs. I started off easy:

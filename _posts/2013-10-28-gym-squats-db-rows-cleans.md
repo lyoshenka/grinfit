@@ -1,7 +1,8 @@
 ---
-title: 'Gym: Squats, DB Rows, Cleans'
+id: '3870475504680770'
 tags:
 - gym
+title: 'Gym: Squats, DB Rows, Cleans'
 ---
 
 - Squats: {% w 3x5@177 %}

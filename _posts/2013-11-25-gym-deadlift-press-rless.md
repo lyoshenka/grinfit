@@ -1,7 +1,8 @@
 ---
-title: 'Gym: Deadlift, Press, RLESS'
+id: '2919839505380950'
 tags:
 - gym
+title: 'Gym: Deadlift, Press, RLESS'
 ---
 
 - Deadlift: {% w 5@133/177/199/199 %}

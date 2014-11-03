@@ -1,10 +1,11 @@
 ---
-title: AMP Practice and Summer League
 date: '2014-06-28 11:30:53'
+id: '5041085079405610'
 tags:
 - amp
 - practice
 - summer-league
+title: AMP Practice and Summer League
 ---
 
 Worked on many different things at practice. I was less happy with my performance this time, mostly because of the many throwing mistakes I had. There were at least 3 easy backhands that I should have completed but I just threw them away. Besides that, I played OK. The deep throwing practice was useful, and we spent most of the rest of the time scrimmaging with different formats: zone only, 1 score or 2 turns, double-score, etc. 

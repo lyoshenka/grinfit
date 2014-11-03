@@ -1,7 +1,8 @@
 ---
-title: Breaking in the Gym at Work
+id: '8601119800198325'
 tags:
 - gym
+title: Breaking in the Gym at Work
 ---
 
 We're getting some exercise equipment to put in the basement at work. Gonna save on gym fees this year. The gym is called the Pumpatorium, and so far we have a bar, weights (in kgs) and a bench. The squat rack is on it's way, and then we'll just need a platform to lift on and we're pretty set for a while.

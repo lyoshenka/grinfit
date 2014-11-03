@@ -1,7 +1,8 @@
 ---
-title: Mercer A League
+id: '9526689311155904'
 tags:
 - ultimate
+title: Mercer A League
 ---
 
 Played my first game of Mercer A League this year. We played Illuminati in a pretty easy game. We won 15-4, then played some more pickup after the game.

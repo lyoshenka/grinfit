@@ -1,11 +1,12 @@
 ---
-title: Double Practice + Camping
 date: '2014-08-03 20:00:00'
+id: '7161574407749533'
 tags:
 - amp
 - camping
 - fun
 - practice
+title: Double Practice + Camping
 ---
 
 ## Practice

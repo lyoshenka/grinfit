@@ -1,12 +1,13 @@
 ---
-title: Molar Bears Mosh
 date: '2014-11-02 20:00:00'
+id: '1739614981573244'
 tags:
 - mosh
 - notes
 - tips
 - tournament
 - ultimate
+title: Molar Bears Mosh
 ---
 
 Had an excellent time playing with the Molar Bears at Mosh this weekend. For a first-year team, we set the bar pretty high for level of play, level of

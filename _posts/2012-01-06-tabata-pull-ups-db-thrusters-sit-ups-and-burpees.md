@@ -1,8 +1,9 @@
 ---
-title: Tabata Pull Ups, DB Thrusters, Sit Ups and Burpees
+id: '9561695339643769'
 tags:
 - cardio
 - tabata
+title: Tabata Pull Ups, DB Thrusters, Sit Ups and Burpees
 ---
 
 - Pull Ups: {% w 6, 5, 5, 5, 5, 4, 4, 4 %} (38)

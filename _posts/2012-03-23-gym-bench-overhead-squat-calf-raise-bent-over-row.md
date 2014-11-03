@@ -1,7 +1,8 @@
 ---
-title: 'Gym: Bench, Overhead Squat, Calf Raise, Bent-Over Row'
+id: '1276743932216251'
 tags:
 - gym
+title: 'Gym: Bench, Overhead Squat, Calf Raise, Bent-Over Row'
 ---
 
 - Bench: 3/170lb,  4/160lb,  6/150lb

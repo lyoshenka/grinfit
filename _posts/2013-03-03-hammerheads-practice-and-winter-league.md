@@ -1,7 +1,8 @@
 ---
-title: Hammerheads Practice and Winter League
+id: '4267010910838546'
 tags:
 - ultimate
+title: Hammerheads Practice and Winter League
 ---
 
 Venose talked me into going to a Hammerheads practice. It wasn't terrible, but it was definitely a waste of time for me. We scrimmaged a lot, which was nice, but I don't see myself playing for them, not even occasionally.

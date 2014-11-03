@@ -1,9 +1,10 @@
 ---
-title: Summer League + Some Drills
 date: '2014-07-22 22:43:06'
+id: '2892928220047413'
 tags:
 - drills
 - summer-league
+title: Summer League + Some Drills
 ---
 
 Ran a few drills with Devlin and Glazer before our game. Did the 10-cut drill 3 times, then did the triangle cutting drill (cut deep, cut under, slash break, cut deep again, all while watching the throwing and cutting off their fakes) 2 times each on the forehand and backhand side.
