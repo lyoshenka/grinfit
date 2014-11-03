@@ -16,6 +16,9 @@ end
 
 desc 'For testing stuff'
 task :test do
+  getPostsInOrder().reverse().each() do |file|
+    savePost(file, getPost(file))
+  end
 end
 
 
@@ -222,6 +225,17 @@ end
 
 def savePost(filename, post)
   require 'yaml'
+
+  # check for ID, create if necessary
+  if (!post['meta'].has_key?('id'))
+#    require 'digest/md5'
+#    post['meta']['id'] = Digest::MD5.hexdigest(rand().to_s)
+    post['meta']['id'] = rand(10 ** 16).to_s.rjust(16,'0')
+  end
+
+  # alphabetize metadata
+  post['meta'] = Hash[post['meta'].sort_by{|k, _| k}]
+
   content = post['meta'].to_yaml.strip() + "\n---\n\n" + post['body'].sub(/^\n+/,'')
   File.open(filename, 'w') { |file| file.write(content) }
 end
@@ -238,8 +252,8 @@ def parseArgs(filenum: true, endstring: true)
     if !firstArg.nil? && (firstArg[0] == '/' && File.exist?(firstArg) || File.exist?(postsDir()+'/'+firstArg))
       args[:filename] = postsDir()+'/' +File.basename(firstArg)
     elsif is_i?(firstArg)
-      nthFile = firstArg.to_i >= 1 ? firstArg.to_i-1 : 0
-      args[:filename] = getPostsInOrder.fetch(nthFile).strip
+      postId = firstArg.to_i >= 1 ? firstArg.to_i-1 : 0
+      args[:filename] = getPostById(postId).strip
     else
       args[:filename] = getPostsInOrder.first.strip
       skipFirstArg = false
@@ -254,6 +268,16 @@ def parseArgs(filenum: true, endstring: true)
   args
 end
 
+def getPostById(id)
+  post = getPost(file)
+  if post['meta']['id'].starts_with(id)
+    return file
+  end
+
+  puts "Post with id #{id} does not exist"
+  abort
+end
+
 
 def postsDir()
   File.expand_path(File.dirname(__FILE__)) + '/_posts'
@@ -261,12 +285,10 @@ end
 
 def listPosts(limit=10)
   require 'colorize'
-  num = 1
   getPostsInOrder().first(limit).each() do |file|
     post = getPost(file)
     tags = post['meta']['tags'].to_a.empty? ? '' : (' [' + post['meta']['tags'].join(' ') + ']')
-    printf "%2d)  %s%s\n" % [num, File.basename(file), tags.yellow]
-    num += 1
+    printf "%s  %s%s\n" % [post['meta']['id'].slice(0,8), File.basename(file), tags.yellow]
   end
 end
 
@@ -278,10 +300,6 @@ def makeFilename(date,title)
   postsDir() + '/' +
   (date.respond_to?(:strftime) ? date.strftime('%Y-%m-%d') : date) +
   '-' + title.gsub(/\.md$/,'').downcase().gsub(/[^a-z0-9_]+/,'-') + '.md'
-end
-
-def is_filenum?(str)
-  is_i?(str) && str.to_i() >= 1 && str.to_i() <= 10
 end
 
 def is_i?(str)
