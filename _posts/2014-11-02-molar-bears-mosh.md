@@ -29,10 +29,8 @@ fun, and finish in the tourney (lost in the finals). The wind was rough and the 
 - I threw Diana a honey goal. She played with her boot on and still got Ds and was effective.
 - the costumes. next year, no jerseys
 
-> Bicuspids bite
-> Molars crush
-> Bears love cold
-> Let’s win Mosh
+> Bicuspids bite, molars crush<br>
+> Bears love cold. Let’s win Mosh
 
 ### Takeaways
 
