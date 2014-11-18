@@ -11,9 +11,9 @@ title: Coaching Sneetches, Ultisquash
 Sara got a few AMPers to come to Haverford and help coach the Sneetches. We worked on upline dump defense and then pulling. I brought Diana’s iPad and the
 Ubersense app, which was really helpful in showing the girls where they were missing out on extra torque on their pulls.
 
-> We play better when we eat our Cheddar.
-> We never miss when we eat our Swiss.
-> We get the D when we eat our Brie.
+> We play better when we eat our Cheddar.<br>
+> We never miss when we eat our Swiss.<br>
+> We get the D when we eat our Brie.<br>
 > We win the party when we eat Havarti.
 
 After practice, we went over to the squash courts and played over an hour of ultisquash. It was good to get back into the game. We had a wide range of
