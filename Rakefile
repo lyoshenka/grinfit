@@ -13,11 +13,21 @@ task :default do
   exec('rake -T');
 end
 
-
 desc 'For testing stuff'
 task :test do
   getPostsInOrder().first(4).each() do |file|
     savePost(file, getPost(file))
+  end
+end
+
+desc 'Fill in missing post ids'
+task :fixids do
+  getPostsInOrder().each() do |file|
+    post = getPost(file)
+    if (!post['meta'].has_key?('id'))
+      puts "Setting ID for " + file
+      savePost(file, post)
+    end
   end
 end
 
