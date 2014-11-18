@@ -16,7 +16,7 @@ end
 
 desc 'For testing stuff'
 task :test do
-  getPostsInOrder().reverse().each() do |file|
+  getPostsInOrder().first(4).each() do |file|
     savePost(file, getPost(file))
   end
 end
