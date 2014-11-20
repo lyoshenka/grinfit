@@ -12,6 +12,8 @@ class MyHeaders
   def call(env)
     status, headers, body = @app.call(env)
     headers['Connection'] = 'keep-alive'
+    headers['X-Frame-Options'] = 'DENY' # this is an older way of doing the below
+    headers['Content-Security-Policy'] = "frame-ancestors 'none'"
     if headers.has_key?('Content-Type') and headers['Content-Type'] == 'text/html'
       headers['Content-Type'] = 'text/html; charset=utf-8'
     end

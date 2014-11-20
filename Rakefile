@@ -40,9 +40,9 @@ task :retouch do
   end
 end
 
-desc 'Build site locally and serve it at localhost:9292'
+desc 'Build site locally and serve it at localhost:4000'
 task :preview do
-  exec('bundle exec jekyll --server')
+  exec('bundle exec jekyll serve --watch')
 end
 
 
