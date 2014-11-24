@@ -42,7 +42,8 @@ end
 
 desc 'Build site locally and serve it at localhost:4000'
 task :preview do
-  exec('bundle exec jekyll serve --watch')
+  #exec('bundle exec jekyll serve --watch')
+  exec('jekyll build && bundle exec thin start -R config.ru')
 end
 
 

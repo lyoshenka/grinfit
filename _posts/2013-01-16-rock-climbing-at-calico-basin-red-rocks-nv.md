@@ -1,5 +1,5 @@
 ---
-date: "‘2013-01-16 16:00:00’"
+date: "2013-01-16 16:00:00"
 id: '4385075948952764'
 tags: []
 title: Rock Climbing at Calico Basin, Red Rocks, NV

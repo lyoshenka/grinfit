@@ -8,6 +8,8 @@ paginate: 20
 # maruku has a bug with the first line in the post starting with a colon
 # https://github.com/mojombo/jekyll/issues/126
 markdown: rdiscount
+rdiscount:
+  extensions: ['smart']
 
 title: "GrinFit"
 tagline: "Sprints, weights, ultimate."
