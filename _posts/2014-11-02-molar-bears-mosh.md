@@ -18,10 +18,10 @@ fun, and finish in the tourney (lost in the finals). The wind was rough and the 
 - drinking tea on the sideline
 - recruiting for the team turned out awesome
 - everyone was very positive, had a lot of fun and partied pretty hard (though separately). need to have unified party next time.
-- every team except Trey’s played pick-6
+- every team except Trey's played pick-6
 - the rollers-are-live rule was fantastic in strong wind
 - my wind throws have gotten better, and my throwing turns came more from lazy throws
-- we beat Trey’s team on universe
+- we beat Trey's team on universe
 - jeremy skied 3 guys in the endzone while wearing fairy wings
 - jeremy dropped a hand-on-hip hammer for an upwind break in the finals
 - papa owes me a buffalo
@@ -30,7 +30,7 @@ fun, and finish in the tourney (lost in the finals). The wind was rough and the 
 - the costumes. next year, no jerseys
 
 > Bicuspids bite, molars crush<br>
-> Bears love cold. Let’s win Mosh
+> Bears love cold. Let's win Mosh
 
 ### Takeaways
 
@@ -42,8 +42,8 @@ fun, and finish in the tourney (lost in the finals). The wind was rough and the 
   - millersville adjusted to our strategy at half. we didnt. we should have tried to play more handler-y O going downwind, and I should have called
     handlers (scottie and brown) to play upwind O points.
   - I should have put myself into the cup to stop their crashes
-- as the captain, I did a good job keeping the vibe positive but I did not attend to the team’s needs. I got caught up playing and talking from the
-  sideline, but I needed to take a step back (multiple times throughout the game) and ask myself “what does the team need? what have I done already and
-  what am I not doing yet?”
+- as the captain, I did a good job keeping the vibe positive but I did not attend to the team's needs. I got caught up playing and talking from the
+  sideline, but I needed to take a step back (multiple times throughout the game) and ask myself "what does the team need? what have I done already and
+  what am I not doing yet?"
 - catch my Ds, then run them back for goals
 - continue to work on throws in the wind, esp flicks and hammers and short-range throws

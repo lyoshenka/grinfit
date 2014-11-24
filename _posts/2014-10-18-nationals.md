@@ -13,7 +13,7 @@ have beaten.
 
 On Thursday, we started off strong with a close game against CLX. We had the opportunity to win it, but some late-game turnovers (two by me) gave them the
 lead back and we lost 13-11. We rebounded and fought hard to win 11-9 against 7 Figures, then crushed Cosa 15-4 in the last game. On Friday, we lost our
-pre-quarters game 15-10 to Slow White, beat D’oh 15-11, then took down Polar Bears 14-8. The Polar Bears win was extra satisfying because we clearly saw
+pre-quarters game 15-10 to Slow White, beat D'oh 15-11, then took down Polar Bears 14-8. The Polar Bears win was extra satisfying because we clearly saw
 our defense working well. For the first half of the game, we shut down their deep cuts with strong physical defense. In the second half, they started to
 bring all their cuts under and across, and we took advantage by playing tighter and getting a bunch of Ds. I think we scored 3 or 4 breaks in a row in the
 second half. For our last game Sat morning, we were up a few breaks on Santa Maria but they came back to win on universe (13-12). 
