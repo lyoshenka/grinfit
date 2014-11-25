@@ -3,9 +3,14 @@ require 'chronic'
 require 'colorize'
 
 
+#
+# Constants (configure these as you wish)
+#
+
 POSTS_DIR = '_posts'
 EDITOR = 'vi'
 TIMEZONE = 'America/New_York'
+
 
 #
 # Generally useful tasks
@@ -37,7 +42,7 @@ end
 # 
 
 
-desc 'List latest posts'
+desc 'List posts (recently modified posts first)'
 task :ls do
   listPosts(is_i?(ARGV[1]) ? ARGV[1].to_i : 20)
   preventErrorsForCommandLineArgs()
@@ -207,7 +212,7 @@ task :fixids do
 end
 
 
-desc 'Touch last 20 posts so "rake ls" lists them in date order'
+desc 'Touch last 20 posts so "rake ls" lists them in the correct order'
 task :retouch do
   puts "This is gonna take 20 seconds"
   Dir.glob(postsDir()+'/*').sort_by{|f| f}.last(20).each() do |file|
