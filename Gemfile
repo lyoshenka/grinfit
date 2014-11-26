@@ -3,7 +3,6 @@ ruby "2.1.2"
 
 gem 'bundler'
 gem 'rack-contrib', :require => 'rack/contrib/try_static'
-#gem 'rack-redirect'
 gem 'thin'
 gem 'jekyll'
 gem 'RedCloth'
