@@ -37,9 +37,9 @@ end
 
 
 
-# 
+#
 # Creating/Editing Posts
-# 
+#
 
 
 desc 'List posts (recently modified posts first)'
@@ -60,7 +60,7 @@ task :new do
 
   setTZ()
   now = Time.now()
-  
+
   filename = makeFilename(now, title)
 
   if File.exists?(filename)
@@ -78,6 +78,7 @@ task :edit do
   args = parseArgs(endstring: false)
   exec(EDITOR + ' ' + args[:filename]);
 end
+
 
 desc 'Change the title of a post'
 task :rename do
@@ -253,12 +254,19 @@ def changeDateTime(filename, string, dateOrTime)
 
   newDateTime = Chronic.parse(newDateTimeString);
 
+  if (dateOrTime == :date)
+    newFilename = makeFilename(newDateTime, post['meta']['title']);
+    if File.exists?(newFilename)
+      print "!!! File named #{newFilename} already exists !!!\n"
+      return
+    end
+  end
+
   post['meta']['date'] = newDateTime.strftime('%F %T');
   puts postDateTime.strftime("%F %T") + ' => ' + newDateTime.strftime('%F %T')
   savePost(filename, post)
 
   if (dateOrTime == :date)
-    newFilename = makeFilename(newDateTime, post['meta']['title']);
     puts "#{filename} => #{newFilename}"
     File.rename(filename,newFilename);
   end
