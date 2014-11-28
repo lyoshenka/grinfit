@@ -1,3 +1,13 @@
+---
+date: '2014-11-27 11:00:00'
+id: '7052993312472680'
+tags:
+- 5k
+- race
+- running
+title: Thanksgiving 5K
+---
+
 Ran the Gobble Wobble 5K in Abington with Diana, Nico and Emily. My goal
 was to stay with Nico for as long as I could, but I lost him a few minutes
 in. There were a bunch of ultimate players too - I ran with Purifico for a
