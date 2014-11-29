@@ -1,1 +1,0 @@
-Stretched quads and hamstrings, then did tendinitis PT.
