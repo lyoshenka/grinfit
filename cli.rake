@@ -205,7 +205,7 @@ desc 'Fill in missing post ids'
 task :fixids do
   getPostsInOrder().each() do |file|
     post = getPost(file)
-    if (!post['meta'].has_key?('id'))
+    if (!post['meta'].has_key?('_id_'))
       puts "Setting ID for " + file
       savePost(file, post)
     end
@@ -305,7 +305,7 @@ def listPosts(limit=10)
   getPostsInOrder().first(limit).each() do |file|
     post = getPost(file)
     tags = post['meta']['tags'].to_a.empty? ? '' : (' [' + post['meta']['tags'].join(' ') + ']')
-    printf "%s %s%s\n" % [post['meta']['id'].slice(0,6).blue, File.basename(file), tags.yellow]
+    printf "%s %s%s\n" % [post['meta']['_id_'].slice(0,6).blue, File.basename(file), tags.yellow]
   end
 end
 
@@ -318,7 +318,7 @@ end
 def getPostById(id)
   getPostsInOrder().each() do |file|
     post = getPost(file)
-    if post['meta']['id'].start_with?(id.to_s)
+    if post['meta']['_id_'].start_with?(id.to_s)
       return file
     end
   end
@@ -339,10 +339,10 @@ end
 
 def savePost(filename, post)
   # check for ID, create if necessary
-  if (!post['meta'].has_key?('id'))
+  if (!post['meta'].has_key?('_id_'))
 #    require 'digest/md5'
-#    post['meta']['id'] = Digest::MD5.hexdigest(rand().to_s)
-    post['meta']['id'] = rand(10 ** 16).to_s.ljust(16,'0')
+#    post['meta']['_id_'] = Digest::MD5.hexdigest(rand().to_s)
+    post['meta']['_id_'] = rand(10 ** 16).to_s.ljust(16,'0')
   end
 
   # alphabetize metadata

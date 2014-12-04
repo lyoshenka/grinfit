@@ -1,5 +1,5 @@
 ---
-id: '1673892577178003'
+_id_: '1673892577178003'
 tags:
 - kaimana
 title: Kaimana Friday
