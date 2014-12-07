@@ -19,3 +19,5 @@ https://www.youtube.com/watch?v=mkuilW-z7vo)
 3x 5-10-5 in each direction. Recorded my last few. I look very upright
 throughout the drill, especially when I'm slowing down. Need to work on
 getting low on the turn.
+
+Bonus: [why work on footwork](http://www.youtube.com/watch?v=CQLMRusBAko)
