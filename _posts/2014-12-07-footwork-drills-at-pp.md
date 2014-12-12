@@ -1,6 +1,10 @@
 ---
-title: 'Footwork Drills at PP'
+_id_: '6608223022364607'
 date: '2014-12-07 22:50:14'
+tags:
+- footwork
+- penn-park
+title: Footwork Drills at PP
 ---
 
 Warmed up with a few simple plyos and did jab step and crossover step on
