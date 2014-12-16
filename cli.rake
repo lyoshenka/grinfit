@@ -177,7 +177,7 @@ end
 desc 'Add tag'
 task :tag do
   args = parseArgs()
-  tags = args[:rest].split(' ')
+  tags = args[:rest].downcase().split(' ')
   post = getPost(args[:filename])
   post['meta']['tags'] = post['meta']['tags'].to_a().concat(tags).uniq().sort()
   savePost(args[:filename], post)
@@ -188,7 +188,7 @@ end
 desc 'Remove tag'
 task :untag do
   args = parseArgs()
-  tags = args[:rest].split(' ')
+  tags = args[:rest].downcase().split(' ')
   post = getPost(args[:filename])
   post['meta']['tags'] = tags.empty? ? [] : post['meta']['tags'].to_a().reject{ |tag| tags.include?(tag) }
   savePost(args[:filename], post)
