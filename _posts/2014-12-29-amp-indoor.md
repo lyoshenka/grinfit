@@ -1,7 +1,10 @@
 ---
-title: 'Amp Indoor'
-date: '2014-12-29 02:28:45'
 _id_: '8353000026103133'
+date: '2014-12-29 02:28:45'
+tags:
+- amp
+- indoor
+title: Amp Indoor
 ---
 
 Amp indoor session. Started off well, fun to be playing again. But shortly
