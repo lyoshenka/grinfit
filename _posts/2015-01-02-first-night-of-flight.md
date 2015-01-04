@@ -1,7 +1,9 @@
 ---
-title: 'First Night of Flight'
-date: '2015-01-02 18:57:51'
 _id_: '7840559339655146'
+date: '2015-01-02 18:57:51'
+tags:
+- ultimate
+title: First Night of Flight
 ---
 
 Overnight tourney in Pittsburgh. Not sure how much I'll play, but if I
