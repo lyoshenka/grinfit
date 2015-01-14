@@ -1,7 +1,10 @@
 ---
-title: 'BenJ Gym Sesh'
-date: '2015-01-13 04:37:02'
 _id_: '6404157231976087'
+date: '2015-01-13 04:37:02'
+tags:
+- gym
+- spinners
+title: BenJ Gym Sesh
 ---
 
 Ben Johnson is organizing a group workout session for the spinners guy.
