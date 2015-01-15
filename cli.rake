@@ -22,12 +22,12 @@ task :default do
   exec('rake -T');
 end
 
-desc 'Build and serve site locally'
+desc 'Build and serve site locally via Jekyll'
 task :serve do
   exec('bundle exec jekyll serve --watch')
 end
 
-desc 'Build and serve site locally'
+desc 'Build and serve via Thin'
 task :run do
   exec('jekyll build && bundle exec thin start -R config.ru')
 end
