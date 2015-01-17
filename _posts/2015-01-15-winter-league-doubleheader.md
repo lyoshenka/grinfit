@@ -1,7 +1,10 @@
 ---
-title: 'Winter League Doubleheader'
-date: '2015-01-17 14:00:06'
 _id_: '9892024725192111'
+date: '2015-01-15 14:00:06'
+tags:
+- indoor
+- winter-league
+title: Winter League Doubleheader
 ---
 
 Played against Bills team and Delaware in winter league. The first game was
