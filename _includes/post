@@ -1,8 +1,8 @@
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <h1 class="post-header">
     <div class="time-link">
-      <a href="{{ postObject.url }}">
-        <time datetime="{{ postObject.date | date: "%F %T" }}" title="{{ postObject.date | date: "%B %d, %Y" }}" itemprop="datePublished">
+      <a href="{{ postObject.url }}" title="{{ postObject.date | date: "%B %d, %Y" }}">
+        <time datetime="{{ postObject.date | date: "%F %T" }}" itemprop="datePublished">
           {{ postObject.date | date: "%b %d" }}
         </time>
       </a>
