@@ -7,7 +7,11 @@ tags:
 title: Spinners Gym
 ---
 
-Started Phase 2 of the program. Not sure what exactly that means, except that exercises got harder. Here are the new sheets and my numbers:
+Started Phase 2 of the program. Not sure what exactly that means, except that exercises got harder. Here's the new workout:
+
+{% img :link benj-gym-warmup-2.jpg Warmup, Agility, Conditioning %}
+
+{% img :link benj-gym-lifting-2.jpg Lifting %}
 
 ### Warmup
 
