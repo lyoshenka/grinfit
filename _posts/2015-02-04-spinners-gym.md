@@ -17,7 +17,7 @@ Started Phase 2 of the program. Not sure what exactly that means, except that ex
 
 Rolling, stretches, glutivation.
 
-# On the Turf
+### On the Turf
 
 Shuffles, side runs, ladders, worked on lateral skip progression.
 
