@@ -6,3 +6,5 @@ tags:
 title: Spinners Practice
 ---
 
+Worked on around breaks, cut timing. Scrimmaged for at least an hour. I played well and had good throws, but also got beat at times. The field size is
+very confusing.
