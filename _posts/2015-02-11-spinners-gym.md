@@ -37,3 +37,5 @@ Relay sled push. 225lb on the sled, about 15 yards, 5 pushes per person. Ben and
 between them for the final push. Great way to end the day.
 
 1 2 3 Tha's it
+
+Also, started taking creatine today. Doing the simple 5mg/day plan, no loading.
