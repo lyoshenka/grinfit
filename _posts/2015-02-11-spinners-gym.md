@@ -25,10 +25,10 @@ Shuffles, side runs, ladders, lateral skips. Emphasized lateral skips for height
 ## Lifting
 
 - DB Snatch: {% w 3x5@50lb %}
-- Front Squat: {% w 3x5@140lb %}
+- Front Squat: {% w 8,6,4@140lb %}
 - Chip Up: {% w 2x5@25lb, 10@BW %}
 - 1-Arm KB Press: {% w 3x6@35lb %}
-- 1-Leg Valslide Eccentric Hamstring Curl: {% w 3x5 %}
+- 1-Leg Valslide Eccentric Hamstring Curl: {% w 3x6 %}
 - Bosu Ball Rollout: {% w 2x5 %}
 
 ## Conditioning
