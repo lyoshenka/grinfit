@@ -29,7 +29,7 @@ Inchworms, skips, frankensteins, backward runs, etc.
 - RFESS: {% w 3x5@110lb (both legs) %}
 - DB Row: {% w 3x8@65lb %}
 - SLDL: {% w 2x8@35 %}
-- Weighted Bodysaw: {% w 2x8@25lb,8@35lb %}
+- Weighted Bodysaw: {% w 2x10@25lb,10@35lb %}
 
 ## Conditioning
 
