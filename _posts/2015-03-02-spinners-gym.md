@@ -7,6 +7,8 @@ tags:
 title: Spinners Gym
 ---
 
+Last day of Stage 2.
+
 ## Warmup
 
 Rolling, stretches, glutivation.
