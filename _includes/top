@@ -3,13 +3,13 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>{{ page.title }} - {{ site.title }}</title>
+    <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="author" content="{{ site.author.name }}" />
+    <meta name="description" content="{{ site.title }}: {{ site.tagline }}" />
 
-    <!-- <link href="/atom.xml" rel="alternate" title="{{ site.title }}" type="application/atom+xml" /> -->
-    <link href="http://feeds.feedburner.com/grinfit" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
+    <link href="/atom.xml" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
+    {% comment %}<link href="http://feeds.feedburner.com/grinfit" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />{% endcommend %}
 
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href="/css/style.css" rel="stylesheet" type="text/css">
 
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->

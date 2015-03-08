@@ -3,6 +3,7 @@
       </footer>
     </div>
 
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     <script src="/js/jQl.min.js"></script>
     <script>
       jQl.loadjQ('/js/jquery-2.1.1.min.js');
