@@ -28,7 +28,7 @@ Rolling, stretches, glutivation.
 
 - KB Swing: {% w 3x10@44lb %}
 - Front Squat: {% w 5@115lb, 5@135lb, 12@150lb %} (65/75/85% training 1RM)
-- Weighted Pushup: {% 5@35,35,45lb %}
+- Weighted Pushup: {% w 5@35,35,45lb %}
 - Chest Supported KB Row Hold: {% w 3x5@35lb %} ()5-sec hold)
 - Bi-lateral Sliding Hamstring Curl: {% w 3x8@10lb %}
 - Bosu Ball Rollout: {% w 2x10 %}
