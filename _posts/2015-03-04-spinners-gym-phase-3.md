@@ -1,6 +1,9 @@
 ---
 _id_: '2792121250781581'
-date: '2015-03-07 19:05:27'
+date: '2015-03-04 19:05:27'
+tags:
+- gym
+- spinners
 title: Spinners Gym - Phase 3
 ---
 
@@ -29,7 +32,7 @@ Rolling, stretches, glutivation.
 - KB Swing: {% w 3x10@44lb %}
 - Front Squat: {% w 5@115lb, 5@135lb, 12@150lb %} (65/75/85% training 1RM)
 - Weighted Pushup: {% w 5@35,35,45lb %}
-- Chest Supported KB Row Hold: {% w 3x5@35lb %} ()5-sec hold)
+- Chest Supported KB Row Hold: {% w 3x5@35lb %} (5-sec hold)
 - Bi-lateral Sliding Hamstring Curl: {% w 3x8@10lb %}
 - Bosu Ball Rollout: {% w 2x10 %}
 
