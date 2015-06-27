@@ -1,6 +1,9 @@
 ---
 _id_: '4496598882242297'
 date: '2015-03-30 16:00:00'
+tags:
+- tournament
+- ultimate
 title: A Most Triumphant Fools Fest
 ---
 

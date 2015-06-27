@@ -1,7 +1,11 @@
 ---
-title: 'Sri Lanka + Malaysia Summary'
-date: '2015-05-13 11:48:58'
 _id_: '8879349108658551'
+date: '2015-05-13 11:48:58'
+tags:
+- tournament
+- travel
+- ultimate
+title: Sri Lanka + Malaysia Summary
 ---
 
 ## Sri Lanka

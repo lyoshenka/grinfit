@@ -6,6 +6,7 @@ tags:
 - throwing
 - tournament
 - travel
+- ultimate
 title: Summary Of The Last 1.5 Months
 ---
 
