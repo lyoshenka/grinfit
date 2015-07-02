@@ -1,7 +1,11 @@
 ---
-title: 'Footwork, Lateral Work and Throwing'
-date: '2015-06-28 23:49:50 UTC'
 _id_: '4908429601570713'
+date: 2015-06-28 23:49:50 UTC
+tags:
+- footwork
+- ladder
+- throwing
+title: Footwork, Lateral Work and Throwing
 ---
 
 Met Miriam at Bayview Park for a quick workout. Did a bunch of ladder

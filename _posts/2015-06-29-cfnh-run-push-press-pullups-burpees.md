@@ -1,7 +1,9 @@
 ---
-title: 'CFNH: Run, Push Press, Pullups, Burpees'
-date: '2015-06-29 19:15:30 UTC'
 _id_: '4152938681914262'
+date: 2015-06-29 19:15:30 UTC
+tags:
+- crossfit
+title: 'CFNH: Run, Push Press, Pullups, Burpees'
 ---
 
 ## Warmup
