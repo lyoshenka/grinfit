@@ -2,6 +2,7 @@
 _id_: '4675279110341568'
 tags:
 - cardio
+- t25
 title: T25 Total Body Circuit
 ---
 

@@ -3,6 +3,7 @@ date: '2014-06-30 11:28:23'
 _id_: '7206839866448620'
 tags:
 - cardio
+- t25
 - swimming
 title: T25 Cardio and Swimming
 ---
