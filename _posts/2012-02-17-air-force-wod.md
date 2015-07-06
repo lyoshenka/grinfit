@@ -1,6 +1,7 @@
 ---
 _id_: '2282568979228690'
-tags: []
+tags: 
+  - crossfit
 title: Air Force WOD
 ---
 
