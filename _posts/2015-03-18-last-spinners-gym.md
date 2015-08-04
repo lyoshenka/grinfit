@@ -41,4 +41,4 @@ Rolling, stretches, glutivation.
 
 8x5yd crossover shuffle - 10 seconds on, 10 seconds off.
 
-Tha's it!
+Da's it!
