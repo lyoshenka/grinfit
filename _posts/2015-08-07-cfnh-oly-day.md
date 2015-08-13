@@ -1,7 +1,9 @@
 ---
-title: 'CFNH: Oly Day'
-date: '2015-08-07 22:24:44 UTC'
 _id_: '6295172713246030'
+date: 2015-08-07 22:24:44 UTC
+tags:
+- crossfit
+title: 'CFNH: Oly Day'
 ---
 
 ## Strength/Skill Work
