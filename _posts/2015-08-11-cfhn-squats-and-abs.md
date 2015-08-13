@@ -28,4 +28,4 @@ For Time:
 - 20 Tuck Ups
 - 200m Run
 
-Did it in {% 12:29 %} with 115lb on the bar. Cleaning/pressing the bar off the floor before each set was an interesting new twist.
+Did it in {% w 12:29 %} with 115lb on the bar. Cleaning/pressing the bar off the floor before each set was an interesting new twist.
