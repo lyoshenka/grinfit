@@ -1,7 +1,10 @@
 ---
-title: 'Regionals with Metro North'
-date: '2015-09-18 23:08:02 UTC'
 _id_: '7953137530418748'
+date: 2015-09-18 23:08:02 UTC
+tags:
+- regionals
+- ultimate
+title: Regionals with Metro North
 ---
 
 My first Northeast regionals experience. Pool play on Saturday was fairly
