@@ -1,10 +1,11 @@
 ---
 _id_: '4196367938484144'
-tags: []
+tags:
+ - nationals
 title: Nationals
 ---
 
-Nationals this year was very fun and also somewhat disappointing. We did not achieve our goal of making semis and most likely failed to qualify for Worlds. However, we played well most of the time and had some great games (especially vs. Slow White in pre-quarters). Personally I'm happy with how I played. I didn't get much PT on Thursday, but played a lot on Friday. I got equal time on the O line and the D line, which is a first for me since college. I only had 2 turns (one less than last Nationals), though they were both in our most important game (quarters vs. Wildcard). I also didn't have any solid Ds (one got caught by a different player, another was really a drop by the O guy and not my D). Despite being -2 on my scale, I think my game was solid and I did the right thing most of the time. 
+Nationals this year was very fun and also somewhat disappointing. We did not achieve our goal of making semis and most likely failed to qualify for Worlds. However, we played well most of the time and had some great games (especially vs. Slow White in pre-quarters). Personally I'm happy with how I played. I didn't get much PT on Thursday, but played a lot on Friday. I got equal time on the O line and the D line, which is a first for me since college. I only had 2 turns (one less than last Nationals), though they were both in our most important game (quarters vs. Wildcard). I also didn't have any solid Ds (one got caught by a different player, another was really a drop by the O guy and not my D). Despite being -2 on my scale, I think my game was solid and I did the right thing most of the time.
 
 The main things I need to work on are still throws, speed, and anticipation on D.
 
