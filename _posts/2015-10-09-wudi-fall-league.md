@@ -1,7 +1,10 @@
 ---
-title: 'Wudi fall league'
-date: '2015-10-09 03:41:21 UTC'
 _id_: '5151196001817286'
+date: 2015-10-09 03:41:21 UTC
+tags:
+- indoor
+- ultimate
+title: Wudi fall league
 ---
 
 First night of fall league. Met my team, which turned out to be pretty
