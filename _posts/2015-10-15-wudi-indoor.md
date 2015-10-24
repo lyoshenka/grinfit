@@ -1,6 +1,9 @@
 ---
 _id_: '8003789997897954'
 date: '2015-10-15 21:27:59'
+tags:
+- indoor
+- ultimate
 title: WUDI Indoor
 ---
 
