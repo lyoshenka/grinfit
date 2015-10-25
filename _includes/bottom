@@ -3,7 +3,10 @@
       </footer>
     </div>
 
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700'
+          integrity='sha384-0VkP9t/MfKeF6UeTO8NEI2ZK3QOT11jR6n0Q2FgiX7ecX4rXAUSMqJdkQ5H6BlkI'
+          crossorigin="anonymous"
+          rel='stylesheet' type='text/css'>
     <script src="/js/jQl.min.js"></script>
     <script>
       jQl.loadjQ('/js/jquery-2.1.1.min.js');
