@@ -1,7 +1,10 @@
 ---
-title: 'Woodbridge Finals'
-date: '2015-11-22 22:05:06 UTC'
 _id_: '5883901864122998'
+date: 2015-11-22 22:05:06 UTC
+tags:
+- indoor
+- ultimate
+title: Woodbridge Finals
 ---
 
 Played two games against fairly weak teams to win Woodbridge league. Our

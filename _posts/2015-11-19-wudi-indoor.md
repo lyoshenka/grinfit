@@ -1,7 +1,10 @@
 ---
-title: 'WUDI Indoor'
-date: '2015-11-22 22:03:32 UTC'
 _id_: '4910193141609477'
+date: '2015-11-19 22:03:32'
+tags:
+- indoor
+- ultimate
+title: WUDI Indoor
 ---
 
 Started our first game with only 3 people. Had to pick up some friends for
