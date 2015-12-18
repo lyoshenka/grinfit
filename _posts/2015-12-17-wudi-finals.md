@@ -1,10 +1,10 @@
 ---
-title: 'WUDI Finals'
-date: '2015-12-18 06:04:25 UTC'
-tags:
-    - indoor
-    - ultimate
 _id_: '2523955438380622'
+date: '2015-12-17 06:04:25'
+tags:
+- indoor
+- ultimate
+title: WUDI Finals
 ---
 
 Lost two close games to finish 4th for the season. Both were solid games.
