@@ -9,6 +9,7 @@ _id_: '4794348846322053'
 5 Russian curls
 
 3 rounds of:
+
 - 5 Full-body Ab Rollouts
 - 4 Single-log Squats
 - 3 Pull-ups (35lb)
