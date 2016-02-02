@@ -10,9 +10,23 @@ build:
 
 deploy:
   steps:
-    - heroku-deploy:
-        heroku_key: HEROKU_KEY
-        key-name: HEROKU_KEY
+#    - heroku-deploy:
+#        heroku_key: HEROKU_KEY
+#        key-name: HEROKU_KEY
+
+    - add-to-known_hosts:
+        hostname: $GIT_DEPLOY_HOST
+
+    - add-ssh-key:
+        keyname: DOKKU_KEY
+
+    - script:
+        name: push to dokku
+        code: |
+          echo "Pushing to: $GIT_DEPLOY_USER@$GIT_DEPLOY_HOST:$GIT_DEPLOY_APP"
+          git remote add dokku $GIT_DEPLOY_USER@$GIT_DEPLOY_HOST:$GIT_DEPLOY_APP
+          git push dokku HEAD:master -f
+
 
   after-steps:
     - email-notify:
@@ -23,4 +37,4 @@ deploy:
         username: grinfit@grin.io
         password: $EMAIL_PASSWORD
         host: smtp.gmail.com:587
-        
+
