@@ -1,10 +1,10 @@
 ---
-title: 'Trumbull Indoor'
-date: '2016-02-02 14:36:13 UTC'
-tags:
-    - indoor
-    - metronorth
 _id_: '1077326318879603'
+date: '2016-02-01 14:36:13'
+tags:
+- indoor
+- metronorth
+title: Trumbull Indoor
 ---
 
 Highest-level Trumbull game yet. Didn't have many subs, and everyone was
