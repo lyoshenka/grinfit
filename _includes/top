@@ -20,11 +20,10 @@
         <h1><a href="/">{{ site.title }}</a></h1>
         <div class="tagline">
           {{ site.tagline }}
-          <a class="email" href="mailto:{{ site.author.email }}">@</a>
         </div>
         <span class="search-box">
           <input type="text" id="search"></input>
-          <span class="clear-icon">&#10799;</span>
+          <span class="clear-icon">&#x2715;</span>
         </span>
 {% comment %}
         <div class="notice">
@@ -32,4 +31,5 @@
         </div>
 {% endcomment %}
       </header>
+      <div id="loading" style="visibility: hidden"></div>
       <!-- <img src="progress.gif" style="display:none" id="search-progress"/> -->

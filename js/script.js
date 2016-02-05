@@ -59,8 +59,12 @@ $(function() {
         i = 0,
         resultsDiv = $('#search-results');
 
+
     if (term) {
       if (term != grinfit.lastSearchTerm) {
+
+        $('#loading').css('visibility', 'visible');
+
         grinfit.lastSearchTerm = term;
         for (i in grinfit.searchCache) {
           var post = grinfit.searchCache[i];
@@ -82,6 +86,10 @@ $(function() {
         else {
           resultsDiv.append('<div id="no-results">No results.</div>');
         }
+
+        //setTimeout(function() { // for testing
+        $('#loading').css('visibility', 'hidden');
+        //}, 250);
       }
     }
     else {
@@ -89,6 +97,7 @@ $(function() {
       $('.js-hide-on-search').show();
       $('.js-invis-on-search').css('visibility', 'visible');
     }
+
     //$('#search-progress').hide();
   };
 
