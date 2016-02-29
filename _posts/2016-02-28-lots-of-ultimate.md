@@ -1,11 +1,11 @@
 ---
-title: 'Lots of Ultimate'
-date: '2016-02-29 00:07:43 UTC'
-tags:
-    - indoor
-    - pickup
-    - ultimate
 _id_: '6078604265168526'
+date: '2016-02-28 00:07:43'
+tags:
+- indoor
+- pickup
+- ultimate
+title: Lots of Ultimate
 ---
 
 Double header at Woodbridge, then 2 hours of outdoor pickup. Felt great to
