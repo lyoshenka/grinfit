@@ -3,6 +3,8 @@ _id_: '4923366148336580'
 date: '2016-04-13 19:07:12'
 tags:
 - amrap
+- oly
+- oxidative
 - snatch
 title: 'CFNH: Snatch and Wallballs'
 ---

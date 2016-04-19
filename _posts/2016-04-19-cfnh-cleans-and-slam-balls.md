@@ -3,6 +3,8 @@ _id_: '4011244784045242'
 date: '2016-04-19 17:01:25'
 tags:
 - cleans
+- oly
+- phosphagen
 title: 'CFNH: Cleans and Slam Balls'
 ---
 
