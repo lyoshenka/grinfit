@@ -33,6 +33,6 @@ clean.
 
 Rest 1:30 between each round.
 
-My total work time was {% w 9:48 %}
+My total work time was {% w 5:18 %}
 
 Finished off with 4 muscle ups.
