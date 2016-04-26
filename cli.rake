@@ -53,6 +53,15 @@ end
 task :list => :ls
 
 
+desc 'Show a post'
+task :show do
+  args = parseArgs(endstring: false)
+  exec('cat ' + args[:filename]);
+  preventErrorsForCommandLineArgs()
+end
+task :list => :ls
+
+
 desc 'Create a new post with the given title and open it in the editor'
 task :new do
   args = parseArgs(filenum: false)
