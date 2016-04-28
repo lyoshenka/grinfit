@@ -22,8 +22,7 @@ Anytime a movement is not done unbroken, it is a 2 Burpee penalty.
 
 The goal of this WOD is to eliminate "sudden rests" - the feeling that you have to stop right now and you can't do any more reps. The idea
 is that you should be planning your rest in every WOD, and keeping a bit in the tank for that last-minute kick. We were allowed to rest
-between exercises, but suddenly stopping an exercise would be a penaly. It actually seemed to work out pretty well. I got through {% w 6
-rounds + 8 reps %} of the WOD. I felt tired at the end, but not super dead. I did go a bit harder at the very end, but didn't have all that
-much "kick" left.
+between exercises, but suddenly stopping an exercise would be a penaly. It actually seemed to work out pretty well. I got through {% w 6 rounds + 8 reps %}
+of the WOD. I felt tired at the end, but not super dead. I did go a bit harder at the very end, but didn't have all that much "kick" left.
 
 Finished up with a bit of butterfly pullup practice. I used to be better at those.
