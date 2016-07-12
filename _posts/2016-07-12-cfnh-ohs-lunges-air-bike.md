@@ -4,7 +4,7 @@ date: '2016-07-12 19:22:54'
 tags:
 - oly
 - phosphagen
-title: OHS, Lunges, Air Bike
+title: 'CFNH: OHS, Lunges, Air Bike'
 ---
 
 ## Strength

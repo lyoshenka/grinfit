@@ -4,7 +4,7 @@ date: '2016-06-17 16:25:07'
 tags:
 - glycolytic
 - squat
-title: Squats and Squat-like Things
+title: 'CFNH: Squats and Squat-like Things'
 ---
 
 ## Strength / Skill Work

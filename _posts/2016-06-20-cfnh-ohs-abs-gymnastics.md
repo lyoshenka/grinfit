@@ -5,7 +5,7 @@ tags:
 - glycolytic
 - gymnastics
 - oly
-title: OHS, Abs, Gymnastics
+title: 'CFNH: OHS, Abs, Gymnastics'
 ---
 
 ## Strength / Skill Work
