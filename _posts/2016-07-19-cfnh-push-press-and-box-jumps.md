@@ -30,7 +30,7 @@ I started at 30in but bumped up to {% w 33in %} after the second set. I was fini
 - 2 Box Jumps
 - etc
 
-I got through exactly {% 7 rounds %} in 3min.
+I got through exactly {% w 7 rounds %} in 3min.
 
 After a 3min rest, we did...
 
