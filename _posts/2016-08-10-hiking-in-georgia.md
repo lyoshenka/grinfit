@@ -1,6 +1,10 @@
 ---
 _id_: '9543450460273626'
 date: '2016-08-10 13:25:50'
+tags:
+- hiking
+- travel
+- vacation
 title: Hiking in Georgia
 ---
 

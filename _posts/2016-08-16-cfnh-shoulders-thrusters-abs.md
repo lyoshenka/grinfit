@@ -11,8 +11,8 @@ title: 'CFNH: Shoulders, Thrusters, Abs'
 
 4 rounds of:
 
-- 12 Dumbbell Shoulder Press, building ({% w 15lb db %})
-- 12 Barbell Russian Twist, building (built to {% w 65lb %})
+- 12 Dumbbell Shoulder Press @ {% w 15lb db %}
+- 12 Barbell Russian Twist, building to {% w 65lb %}
 
 
 
@@ -22,8 +22,8 @@ title: 'CFNH: Shoulders, Thrusters, Abs'
 
 Each round, do 3 sets of :20 on, :40 off of a movement. Then rest 1:00. Score is total reps for each movement.
 
-- Thrusters (75lb bar)
-- Russian Twists (35lb KB)
+- Thrusters @ {% w 75lb %}
+- Russian Twists @ {% w 35lb KB %}
 - Pushups (or scale down to Shoulder Taps)
 - Burpees (or scale down to Reverse V Ups)
 
