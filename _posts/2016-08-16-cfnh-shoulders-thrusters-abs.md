@@ -27,4 +27,4 @@ Each round, do 3 sets of :20 on, :40 off of a movement. Then rest 1:00. Score is
 - Pushups (or scale down to Shoulder Taps)
 - Burpees (or scale down to Reverse V Ups)
 
-{% w 9,9,8 %} thrusters, {% w 28,32,32 %} twists, {% w 16,4+26,0+46 %} pushups+taps, {% 3,6,6 %} v ups.
+{% w 9,9,8 %} thrusters, {% w 28,32,32 %} twists, {% w 16,4+26,0+46 %} pushups+taps, {% w 3,6,6 %} v ups.
