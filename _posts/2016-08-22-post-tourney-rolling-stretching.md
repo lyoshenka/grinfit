@@ -1,6 +1,10 @@
 ---
 _id_: '5453265713621128'
 date: '2016-08-22 16:31:04'
+tags:
+- recovery
+- rolling
+- stretching
 title: Post-Tourney Rolling/Stretching
 ---
 
