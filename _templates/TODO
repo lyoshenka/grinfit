@@ -1,0 +1,3 @@
+- create templates to start blog posts from
+- create `rake template` command
+- create `rake copy` command to copy existing post
