@@ -5,7 +5,7 @@ title: Tabata @ Home
 ---
 
 Tabatas:
-- Bridge
+- Front Bridge
 - Bicycles
 - Pushups: {% w 8,8,8,7,3,4,3,5 %}
 - 5-sec Squats
