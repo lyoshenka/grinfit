@@ -4,4 +4,4 @@ date: '2017-06-04 15:00:15'
 title: New Home Gym
 ---
 
-{% img :link squat-rack.jpg Squat Rack %}
+{% img squat-rack.jpg Squat Rack %}
