@@ -2,8 +2,9 @@
 _id_: '8209772520788986'
 date: '2017-06-15 19:16:35'
 tags:
+- lifting
 - stronglifts
-title: SL5x5 A
+title: Stronglifts 5x5 A
 ---
 
 Shoulder is finally feeling good enough to bench (just the bar).
