@@ -62,6 +62,33 @@ end
 task :list => :ls
 
 
+desc 'New stronglifts post'
+task :sl do
+  args = parseArgs(filenum: false)
+  letter = args[:rest].upcase
+  if not ['A', 'B'].include? letter
+    abort "Usage: rake sl [a | b]\n"
+  end
+
+  setTZ()
+  now = Time.now()
+
+  title = "Stronglifts 5x5 " + letter.upcase
+  filename = makeFilename(now, title)
+
+  if File.exists?(filename)
+    print "File already exists\n"
+    next
+  end
+
+  slA = "- Bench:    {% w 5x5@lb %}\n- Row:      {% w 5x5@lb %}\n"
+  slB = "- Press:    {% w 5x5@lb %}\n- Deadlift: {% w 5x5@lb %}\n"
+  body = "- Squat:    {% w 5x5@lb %}\n" + (letter == 'A' ? slA : slB) + "- Pullups:  {% w 5x5@lb %}\n"
+
+  savePost(filename, {'meta' => {'title' => title, 'date' => now.strftime('%F %T'), 'tags' => ['lifting', 'stronglifts']}, 'body' => body})
+  exec(EDITOR + ' ' + filename)
+end
+
 desc 'Create a new post with the given title and open it in the editor'
 task :new do
   args = parseArgs(filenum: false)
