@@ -5,6 +5,7 @@ title: Tabata @ Home
 ---
 
 Tabatas:
+
 - Front Bridge
 - Bicycles
 - Pushups: {% w 8,8,8,7,3,4,3,5 %}
