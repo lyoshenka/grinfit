@@ -89,6 +89,23 @@ task :sl do
   exec(EDITOR + ' ' + filename)
 end
 
+
+desc 'Copy an existing post to today and open for editing'
+task :copy do
+  args = parseArgs()
+  post = getPost(args[:filename])
+  now = Time.now()
+  post['meta']['date'] = now.strftime('%F %T')
+  filename = makeFilename(now, post['meta']['title'])
+  if File.exists?(filename)
+    print "File already exists\n"
+    next
+  end
+  savePost(filename, post)
+  exec(EDITOR + ' ' + filename)
+end
+
+
 desc 'Create a new post with the given title and open it in the editor'
 task :new do
   args = parseArgs(filenum: false)
