@@ -95,6 +95,7 @@ task :copy do
   args = parseArgs()
   post = getPost(args[:filename])
   now = Time.now()
+  post['meta']['_id_'] = newID()
   post['meta']['date'] = now.strftime('%F %T')
   filename = makeFilename(now, post['meta']['title'])
   if File.exists?(filename)
@@ -396,9 +397,7 @@ end
 def savePost(filename, post)
   # check for ID, create if necessary
   if (!post['meta'].has_key?('_id_'))
-#    require 'digest/md5'
-#    post['meta']['_id_'] = Digest::MD5.hexdigest(rand().to_s)
-    post['meta']['_id_'] = rand(10 ** 16).to_s.ljust(16,'0')
+    post['meta']['_id_'] = newID()
   end
 
   # alphabetize metadata
@@ -425,6 +424,9 @@ def is_i?(str)
   !!(str =~ /^[-+]?[0-9]+$/)
 end
 
+def newID()
+  rand(10 ** 16).to_s.ljust(16,'0')
+end
 
 def preventErrorsForCommandLineArgs()
   # Rake treats each arg as a task, so we make fake tasks for each arg. Then it wont error.
