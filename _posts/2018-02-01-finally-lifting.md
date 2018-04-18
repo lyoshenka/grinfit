@@ -3,6 +3,7 @@ _id_: '1848435454056317'
 date: '2018-02-01 14:38:00'
 tags:
 - lifting
+- yoga
 title: Finally, Lifting
 ---
 
