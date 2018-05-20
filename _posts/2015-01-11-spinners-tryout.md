@@ -4,7 +4,7 @@ date: '2015-01-11 23:00:00'
 tags:
 - indoor
 - spinners
-- tryout
+- tryouts
 title: Spinners Tryout
 ---
 

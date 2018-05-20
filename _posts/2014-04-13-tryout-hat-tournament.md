@@ -1,7 +1,7 @@
 ---
 _id_: '7707726639519759'
 tags:
-- tryout
+- tryouts
 - ultimate
 title: Tryout Hat Tournament
 ---

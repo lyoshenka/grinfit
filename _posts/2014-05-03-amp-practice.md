@@ -4,7 +4,7 @@ _id_: '7517119805658765'
 tags:
 - amp
 - injury
-- tryout
+- tryouts
 title: Amp Practice
 ---
 

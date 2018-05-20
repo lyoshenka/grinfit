@@ -2,7 +2,7 @@
 _id_: '2985155584532714'
 tags:
 - amp
-- tryout
+- tryouts
 - ultimate
 title: First Drills Tryout
 ---
