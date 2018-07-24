@@ -1,6 +1,11 @@
-box: wercker/rvm
+box:
+  id: ruby:latest
 build:
   steps:
+    - inokappa/rvm-install:
+      version: 2.1.2
+#    - rvm-use:
+#      version: 2.1.2
     - script:
         name: echo ruby information
         code: |
