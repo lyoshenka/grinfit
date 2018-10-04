@@ -216,6 +216,7 @@ http://fit.grin.io/page39/index.html
 http://fit.grin.io/page40/index.html
 http://fit.grin.io/page41/index.html
 
+http://fit.grin.io/2018-10-04/mini-and-shuttles
 http://fit.grin.io/2018-07-22/lifting
 http://fit.grin.io/2018-07-12/lifting
 http://fit.grin.io/2018-06-14/shuttles
