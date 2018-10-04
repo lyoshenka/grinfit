@@ -35,7 +35,7 @@ end
 
 desc 'Commit to git and push'
 task :push do
-  exec('git add -A && git commit -m "New post" && git push && jekyll build && ./deploy.sh')
+  exec('git add -A && git commit -m "new content" && git push && jekyll build && ./deploy.sh')
 end
 
 
