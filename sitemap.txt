@@ -175,6 +175,7 @@ http://fit.grin.io/goalty/index.html
 http://fit.grin.io/stronglifts/index.html
 http://fit.grin.io/zoya/index.html
 http://fit.grin.io/yoga/index.html
+http://fit.grin.io/circuit/index.html
 http://fit.grin.io/page2/index.html
 http://fit.grin.io/page3/index.html
 http://fit.grin.io/page4/index.html
@@ -216,6 +217,7 @@ http://fit.grin.io/page39/index.html
 http://fit.grin.io/page40/index.html
 http://fit.grin.io/page41/index.html
 
+http://fit.grin.io/2018-12-18/kb-circuit
 http://fit.grin.io/2018-10-04/mini-and-shuttles
 http://fit.grin.io/2018-07-22/lifting
 http://fit.grin.io/2018-07-12/lifting

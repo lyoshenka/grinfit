@@ -3,13 +3,32 @@
  <title>GrinFit</title>
  <link href="http://fit.grin.io/atom.xml" rel="self"/>
  <link href="http://fit.grin.io/"/>
- <updated>2018-10-04T12:57:37-04:00</updated>
+ <updated>2018-12-18T12:01:38-05:00</updated>
  <id>http://fit.grin.io</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>KB Circuit</title>
+   <link href="http://fit.grin.io/2018-12-18/kb-circuit"/>
+   <updated>2018-12-18T12:00:01-05:00</updated>
+   <id>5618898097251099</id>
+   <content type="html">&lt;p&gt;3 rounds of:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;5 KB Halos each way&lt;/li&gt;
+&lt;li&gt;10 One-arm KB Swings per arm&lt;/li&gt;
+&lt;li&gt;5 KB Press per arm&lt;/li&gt;
+&lt;li&gt;10 Pushups&lt;/li&gt;
+&lt;li&gt;5 KB DLs per arm&lt;/li&gt;
+&lt;li&gt;5 One-Legged Squats per leg&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Mini and Shuttles</title>
