@@ -3,13 +3,22 @@
  <title>GrinFit</title>
  <link href="http://fit.grin.io/atom.xml" rel="self"/>
  <link href="http://fit.grin.io/"/>
- <updated>2018-12-18T12:01:38-05:00</updated>
+ <updated>2018-12-20T09:33:41-05:00</updated>
  <id>http://fit.grin.io</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>KB Circuit</title>
+   <link href="http://fit.grin.io/2018-12-20/kb-circuit"/>
+   <updated>2018-12-20T09:32:49-05:00</updated>
+   <id>4820895280569918</id>
+   <content type="html">&lt;p&gt;Same circuit as &lt;a href=&quot;https://fit.grin.io/2018-12-18/kb-circuit/&quot;&gt;Dec 18th&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>KB Circuit</title>
