@@ -1,1 +1,1 @@
-http://fit.grin.io
+https://fit.grin.io
