@@ -2,3 +2,4 @@ _site/*
 *.swp
 *.lck
 .bundle
+.sass-cache

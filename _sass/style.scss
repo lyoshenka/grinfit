@@ -1,9 +1,5 @@
-// REMEMBER: files in vendor folder are ignored by Jekyll, but they can still be imported by Less
-
 // http://www.paulirish.com/2012/box-sizing-border-box-ftw/
 * { -moz-box-sizing: border-box; box-sizing: border-box; }
-
-@import "vendor/normalize.less";
 
 
 
@@ -22,7 +18,7 @@ ul {
 // Fix for jumping scrollbar: https://aykevl.nl/2014/09/fix-jumping-scrollbar
 @media screen and (min-width: 35em) {
   html {
-    margin-left: calc(~"100vw - 100%");
+    margin-left: calc(#{"100vw - 100%"});
     margin-right: 0;
   }
 }
@@ -37,14 +33,14 @@ svg {
 
 // Fluid Typography ===================================================
 
-@base-font-size: 18px;
-@base-line-height: @base-font-size * 1.55;
+$base-font-size: 18px;
+$base-line-height: $base-font-size * 1.55;
 
-.text(@size) {
-  @rem: unit(@size) / unit(@base-font-size);
-  font-size: unit(@rem,rem);
-  & when (@size > @base-line-height) {
-    line-height: unit(@rem,rem);
+@mixin text($size){
+  $rem: unit($size) / unit($base-font-size);
+  font-size: unit($rem,rem);
+  & when ($size > $base-line-height) {
+    line-height: unit($rem,rem);
   }
 }
 
@@ -52,42 +48,42 @@ svg {
 
 // Colors & Variables ===================================================
 
-@text: #3A3738;
-@text-light: #807d7e;
-@header: #275EA3;
-@link: #ab000f;  // #e04c0d;
-@highlight: #f5f091; //#ffd61f; //#e8e6ed;
-@background: #f5f4ef;
-@background-dark: darken(@background, 5%);
-@exercise-numbers: #036bf0;
+$text: #3A3738;
+$text-light: #807d7e;
+$header: #275EA3;
+$link: #ab000f;  // #e04c0d;
+$highlight: #f5f091; //#ffd61f; //#e8e6ed;
+$background: #f5f4ef;
+$background-dark: darken($background, 5%);
+$exercise-numbers: #036bf0;
 
-@date-column-width: 70px;
-@small-screen-width: 550px; // anything less, and the searchbar overlaps the title
+$date-column-width: 70px;
+$small-screen-width: 550px; // anything less, and the searchbar overlaps the title
 
 
 
 // Font Families ===================================================
 
-@text-font: 'Droid Sans', 'Open Sans', Verdana, Geneva, 'DejaVu Sans', sans-serif;
-@header-font: Georgia, "Times New Roman", Times, serif;
-@quote-font: @header-font;
-@mono-font: Consolas, Lucida Console, DejaVu Sans Mono, Courier New, monospace;
+$text-font: 'Droid Sans', 'Open Sans', Verdana, Geneva, 'DejaVu Sans', sans-serif;
+$header-font: Georgia, "Times New Roman", Times, serif;
+$quote-font: $header-font;
+$mono-font: Consolas, Lucida Console, DejaVu Sans Mono, Courier New, monospace;
 
 
 
 // Misc ===================================================
 
 html {
-  font-size: @base-font-size;
-  line-height: @base-line-height;
-  font-family: @text-font;
-  color: @text;
-  background-color: @background;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-family: $text-font;
+  color: $text;
+  background-color: $background;
 }
 
 #container {
   margin: 1rem auto 0;
-  max-width: 600px + @date-column-width;
+  max-width: 600px + $date-column-width;
   padding: 20px;
 }
 
@@ -96,9 +92,9 @@ html {
 }
 
 .workout-unit {
-  color: @text-light;
+  color: $text-light;
   .number {
-    color: @exercise-numbers;
+    color: $exercise-numbers;
   }
 }
 
@@ -112,11 +108,11 @@ img {
 
 
 // Headers ===================================================
-// Modular Scale: 18px @ 1:1.333,  27px @ 1:1.333
+// Modular Scale: 18px $ 1:1.333,  27px $ 1:1.333
 // http://modularscale.com/scale/?px1=18&px2=27&ra1=1.333&ra2=0
 
 h1,h2,h3 {
-  font-family: @header-font;
+  font-family: $header-font;
 //  font-weight: bold; // i think they are bold by default from user-agent styling
   text-rendering: optimizelegibility;
   margin: 0 0 1rem;
@@ -127,7 +123,8 @@ header {
   position: relative;
 
   h1 {
-    .text(48px);
+    font-size:2.66666667rem;
+    line-height:2.66666667rem;
     text-transform: uppercase;
   }
 
@@ -137,32 +134,33 @@ header {
 }
 
 h1 {
-  .text(32px);
-  color: @header;
+  font-size:1.77777778rem;
+  line-height:1.77777778rem;
+  color: $header;
 
   &.post-header {
-    margin-left: @date-column-width;
+    margin-left: $date-column-width;
   }
 
   a {
-    color: @header; // so link color doesnt override it
+    color: $header; // so link color doesnt override it
   }
 
   .time-link {
     width: 60px;
-    margin-left: -@date-column-width + 3;
+    margin-left: -$date-column-width + 3;
     display: inline-block;
     a {
-      color: @text-light;
+      color: $text-light;
       time {
-        .text(15px);
+        font-size:.83333333rem;
         vertical-align: top;
         white-space: nowrap;
       }
     }
   }
 }
-@media (max-width: @small-screen-width) {
+@media (max-width: $small-screen-width) {
   h1.post-header {
     margin-left: inherit;
   }
@@ -175,10 +173,10 @@ h1 {
 
 
 h2 {
- .text(24px);
+  font-size: 1.33333333rem;
 }
 h3 {
- .text(18px);
+  font-size: 1rem;
 }
 
 footer {
@@ -202,9 +200,9 @@ p, .content {
 }
 
 .content {
-  margin-left: @date-column-width;
+  margin-left: $date-column-width;
 }
-@media (max-width: @small-screen-width) {
+@media (max-width: $small-screen-width) {
   .content {
     margin-left: 0;
   }
@@ -215,10 +213,10 @@ p {
 }
 
 .tags {
-  .text(16px);
-  color: @text-light;
+  font-size:.88888889rem;
+  color: $text-light;
   a {
-    color: @text-light;
+    color: $text-light;
   }
 }
 
@@ -228,23 +226,23 @@ pre {
 }
 
 pre, code {
-  font-family: @mono-font;
+  font-family: $mono-font;
   font-size: .844rem; // about 15px
   white-space: pre;
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: @background-dark;
+  background-color: $background-dark;
 }
 
 blockquote {
-  font-family: @quote-font;
+  font-family: $quote-font;
 }
 
 hr {
   margin: 1rem 0;
   border: 0;
-  .text(18px);
+  font-size: 1rem;
   height: 1rem;
   text-align: center;
 
@@ -286,11 +284,11 @@ ul li::before {
 
 a {
   text-decoration: none;
-  color: @link;
+  color: $link;
   cursor: pointer;
 
   &:hover {
-    background-color: @highlight;
+    background-color: $highlight;
   }
 }
 
@@ -325,12 +323,12 @@ a {
 
 // Search Box ===================================================
 
-.transition(@property, @duration) {
-  transition: @property @duration ease 0s;
-  -webkit-transition: @property @duration ease 0s;
-  -moz-transition: @property @duration ease 0s;
-  -ms-transition: @property @duration ease 0s;
-  -o-transition: @property @duration ease 0s;
+@mixin transition($property, $duration){
+  transition: $property $duration ease 0s;
+  -webkit-transition: $property $duration ease 0s;
+  -moz-transition: $property $duration ease 0s;
+  -ms-transition: $property $duration ease 0s;
+  -o-transition: $property $duration ease 0s;
 }
 
 .search-box {
@@ -341,13 +339,13 @@ a {
   #search {
     //http://www.bloggermint.com/2011/06/css3-search-box-inspired-by-apple-com/
 
-    //background: url('/img/search.svg') no-repeat 10px 8px @background;
+    //background: url('/img/search.svg') no-repeat 10px 8px $background;
     //background-size: 14px 14px;
-    background: url('/img/search-white.png') no-repeat 10px 8px @background;
-    border: 1px solid @background-dark;
-    .text(14px);
+    background: url('/img/search-white.png') no-repeat 10px 8px $background;
+    border: 1px solid $background-dark;
+    font-size: .77777778rem;
     line-height: 18px;
-    color: @text;
+    color: $text;
     width: 215px;
     padding: 6px 27px 6px 35px;
     margin: 0;
@@ -358,14 +356,14 @@ a {
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
-    .transition(all, 0.7s);
+    @include transition(all, 0.7s);
   }
 
   // js-focused gets added on first focus so we can lock the searchbar in the open position
   // not doing the whole transition in JS because it's smoother with css (i think. esp for image)
   #search:focus, #search.js-focused {
     outline: 0;
-    background: url('/img/search-dark.png') no-repeat 10px 8px lighten(@background, 10%);
+    background: url('/img/search-dark.png') no-repeat 10px 8px lighten($background, 10%);
     color: #6a6f75;
     width: 265px;
   }
@@ -377,44 +375,44 @@ a {
     cursor: pointer;
     margin-right: -12px;
     vertical-align: text-top;
-    .text(18px);
+    font-size: 1rem;
   }
 }
 
 // put search bar under title on narrow screens
-@media (max-width: @small-screen-width) {
+@media (max-width: $small-screen-width) {
   .search-box {
     position: static;
   }
 }
 
 #no-results {
-  .text(20px);
-  color: lighten(@text,40%);
+  font-size:1.11111111rem;
+  color: lighten($text,40%);
   font-style: italic;
 }
 
 
 /*
 .loading {
-  -webkit-animation: button-spin .6s linear;
-  animation: button-spin .6s linear;
+  -webkit-animation: button-adjust-hue .6s linear;
+  animation: button-adjust-hue .6s linear;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 */
 
-.stripes(@color1, @color2) {
+@mixin stripes($color1, $color2){
   background: linear-gradient(90deg,
-    @color1 10%, @color2 10%,
-    @color2 20%, @color1 20%,
-    @color1 30%, @color2 30%,
-    @color2 40%, @color1 40%,
-    @color1 50%, @color2 50%,
-    @color2 60%, @color1 60%,
-    @color1 70%, @color2 70%,
-    @color2 80%, @color1 80%,
-    @color1 90%, @color2 90%
+    $color1 10%, $color2 10%,
+    $color2 20%, $color1 20%,
+    $color1 30%, $color2 30%,
+    $color2 40%, $color1 40%,
+    $color1 50%, $color2 50%,
+    $color2 60%, $color1 60%,
+    $color1 70%, $color2 70%,
+    $color2 80%, $color1 80%,
+    $color1 90%, $color2 90%
   );
   background-size: 250% 250%;
   animation: Stripe 2s linear infinite reverse;
@@ -428,7 +426,7 @@ a {
 #loading {
   width: 100%;
   height: 2px;
-  .stripes(@header,@highlight);
+  @include stripes($header,$highlight);
 }
 
 
@@ -444,3 +442,4 @@ a {
 header .notice {
   margin-top: 1rem;
 }
+

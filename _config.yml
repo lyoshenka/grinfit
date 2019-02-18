@@ -2,8 +2,8 @@
 permalink: /:year-:month-:day/:title
 
 exclude: ["README.md", "config.ru", "Gemfile*", "Rakefile", "*.rake", "wercker.yml", "CHECKS", "bin", "vendor"]
-highlighter: pygments
 paginate: 20
+paginate_path: "/page:num/"
 
 # maruku has a bug with the first line in the post starting with a colon
 # https://github.com/mojombo/jekyll/issues/126
@@ -28,5 +28,13 @@ defaults:
     values:
       layout: "post"
 
-gems:
+plugins:
   - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-paginate
+
+jekyll-archives:
+  enabled: ['tags']
+  layout: tag
+  permalinks:
+    tag: '/:name/'
