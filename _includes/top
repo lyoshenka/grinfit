@@ -8,10 +8,12 @@
     <meta name="description" content="{{ site.title }}: {{ site.tagline }}" />
 
     <link href="/atom.xml" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
-    {% comment %}<link href="http://feeds.feedburner.com/grinfit" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />{% endcomment %}
 
+    <link href='//fonts.googleapis.com/css?family=Droid+Sans:400,700' crossorigin="anonymous" rel='stylesheet' type='text/css'>
     <link href="/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="/css/style.css" rel="stylesheet" type="text/css">
+
+
 
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   </head>
