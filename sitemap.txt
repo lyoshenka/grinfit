@@ -320,6 +320,7 @@ https://fit.grin.io/stretching/
 https://fit.grin.io/bodyweight/
 https://fit.grin.io/goalty/
 https://fit.grin.io/stronglifts/
+https://fit.grin.io/stronglifts/page2/
 https://fit.grin.io/zoya/
 https://fit.grin.io/yoga/
 https://fit.grin.io/circuit/
@@ -365,6 +366,7 @@ https://fit.grin.io/page39/
 https://fit.grin.io/page40/
 https://fit.grin.io/page41/
 
+https://fit.grin.io/2019-02-22/stronglifts-5x5-a
 https://fit.grin.io/2019-02-15/stronglifts-5x5-a
 https://fit.grin.io/2019-02-13/stronglifts-5x5-b
 https://fit.grin.io/2019-02-10/stronglifts-5x5-a
