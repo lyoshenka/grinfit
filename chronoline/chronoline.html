@@ -17,7 +17,7 @@ title: Chronoline
 <script>
 
 var events = [
-{% for post in site.posts %}{dates: [new Date({{ post.date | date: "%Y, %-m-1, %-d" }})], title: "{{ post.title }}"}{% unless forloop.last %},{% endunless %}
+{% for post in site.posts %}{dates: [new Date("{{ post.date | date: "%Y-%m-%d" }}")], title: "{{ post.title }}"}{% unless forloop.last %},{% endunless %}
 {% endfor %}];
 
 var timeline = new Chronoline(document.getElementById("target1"), events,
