@@ -82,8 +82,8 @@ task :sl do
   end
 
   slA = "- Bench:    {% w 5x5@lb %}\n- Row:      {% w 5x5@lb %}\n"
-  slB = "- Press:    {% w 5x5@lb %}\n- Deadlift: {% w 3x5@lb %}\n"
-  body = "- Squat:    {% w 5x5@lb %}\n" + (letter == 'A' ? slA : slB) + "- Pullups:  {% w 5x5@lb %}\n"
+  slB = "- Press:    {% w 5x5@lb %}\n- Deadlift: {% w 1x5@lb %}\n"
+  body = "- RLESS:    {% w 5x5@lb %}\n" + (letter == 'A' ? slA : slB) + "- Pullups:  {% w 5x5@lb %}\n"
 
   savePost(filename, {'meta' => {'title' => title, 'date' => now.strftime('%F %T'), 'tags' => ['lifting', 'stronglifts']}, 'body' => body})
   exec(EDITOR + ' ' + filename)
