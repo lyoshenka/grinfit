@@ -3,13 +3,41 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2019-03-01T14:09:15-05:00</updated>
+ <updated>2019-03-06T13:03:58-05:00</updated>
  <id>https://fit.grin.io</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Stronglifts 5x5 B</title>
+   <link href="https://fit.grin.io/2019-03-06/stronglifts-5x5-b"/>
+   <updated>2019-03-06T13:03:02-05:00</updated>
+   <id>3953732917550631</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;RLESS:    &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;@&lt;span class=&quot;number&quot;&gt;90&lt;/span&gt;lb &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;DB Press: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;@&lt;span class=&quot;number&quot;&gt;40&lt;/span&gt;lb &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Deadlift: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;@&lt;span class=&quot;number&quot;&gt;255&lt;/span&gt;lb &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Pullups:  &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;10&lt;/span&gt; &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Stronglifts 5x5 A</title>
+   <link href="https://fit.grin.io/2019-03-03/stronglifts-5x5-a"/>
+   <updated>2019-03-03T13:02:33-05:00</updated>
+   <id>3693183164971984</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;RLESS:    &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;@&lt;span class=&quot;number&quot;&gt;85&lt;/span&gt;lb &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Bench:    &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;@&lt;span class=&quot;number&quot;&gt;40&lt;/span&gt;lb &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Stronglifts 5x5 B</title>
