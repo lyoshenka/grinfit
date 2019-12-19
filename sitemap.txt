@@ -368,6 +368,7 @@ https://fit.grin.io/page40/
 https://fit.grin.io/page41/
 https://fit.grin.io/page42/
 
+https://fit.grin.io/2019-12-19/kb-circuit
 https://fit.grin.io/2019-12-12/unlogged-workouts
 https://fit.grin.io/2019-03-17/stronglifts-5x5-a
 https://fit.grin.io/2019-03-15/stronglifts-5x5-b
