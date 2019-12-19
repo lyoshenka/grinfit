@@ -59,7 +59,6 @@ task :show do
   exec('cat ' + args[:filename]);
   preventErrorsForCommandLineArgs()
 end
-task :list => :ls
 
 
 desc 'New stronglifts post'
@@ -368,7 +367,8 @@ end
 
 
 def getPostsInOrder()
-  Dir.glob(postsDir()+'/*').sort_by{|f| File.mtime(f)}.reverse()
+  #Dir.glob(postsDir()+'/*').sort_by{|f| File.mtime(f)}.reverse()
+  Dir.glob(postsDir()+'/*').sort_by{|f| File.basename(f)}.reverse()
 end
 
 
