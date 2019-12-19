@@ -7,4 +7,4 @@ tags:
 title: KB Circuit
 ---
 
-Same circuit as [Dec 18th](https://fit.grin.io/2018-12-18/kb-circuit/).
+Same circuit as [Dec 18th](https://fit.grin.io/2018-12-18/kb-circuit).
