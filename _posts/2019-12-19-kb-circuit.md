@@ -4,7 +4,7 @@ date: '2019-12-19 15:28:36'
 tags:
 - circuit
 - kettlebell
-title: kb circuit
+title: KB Circuit
 ---
 
 3 rounds with a 35lb kettlebell:
