@@ -3,7 +3,7 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2019-12-19T15:29:48-05:00</updated>
+ <updated>2020-01-07T16:12:22-05:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
@@ -12,7 +12,28 @@
 
  
  <entry>
-   <title>kb circuit</title>
+   <title>KB Circuit</title>
+   <link href="https://fit.grin.io/2020-01-07/kb-circuit"/>
+   <published>2020-01-07T16:11:46-05:00</published>
+   <updated>2020-01-07T16:11:46-05:00</updated>
+   <id>3976732461100069</id>
+   <content type="html">&lt;p&gt;3 rounds with a 35lb kettlebell:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;5 KB Halos each way&lt;/li&gt;
+&lt;li&gt;10 One-arm KB Swings per arm&lt;/li&gt;
+&lt;li&gt;10 Pushups&lt;/li&gt;
+&lt;li&gt;5 KB DLs per arm&lt;/li&gt;
+&lt;li&gt;10 KB Goblet Squats&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Was easier this time than the last. I only paused once during the last set of pushups.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>KB Circuit</title>
    <link href="https://fit.grin.io/2019-12-19/kb-circuit"/>
    <published>2019-12-19T15:28:36-05:00</published>
    <updated>2019-12-19T15:28:36-05:00</updated>
