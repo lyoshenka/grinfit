@@ -1,6 +1,9 @@
 ---
 _id_: '7629559156719211'
 date: '2019-02-17 14:01:40'
+tags:
+- lifting
+- stronglifts
 title: Stronglifts B
 ---
 

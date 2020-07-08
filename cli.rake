@@ -237,7 +237,7 @@ task :tag do
   post = getPost(args[:filename])
   post['meta']['tags'] = post['meta']['tags'].to_a().concat(tags).uniq().sort()
   savePost(args[:filename], post)
-  listPosts(1)
+  printPostLine(args[:filename])
 end
 
 
@@ -248,7 +248,7 @@ task :untag do
   post = getPost(args[:filename])
   post['meta']['tags'] = tags.empty? ? [] : post['meta']['tags'].to_a().reject{ |tag| tags.include?(tag) }
   savePost(args[:filename], post)
-  listPosts(1)
+  printPostLine(args[:filename])
 end
 
 
@@ -357,11 +357,16 @@ def parseArgs(filenum: true, endstring: true)
 end
 
 
+def printPostLine(file)
+  post = getPost(file)
+  tags = post['meta']['tags'].to_a.empty? ? '' : (' [' + post['meta']['tags'].join(' ') + ']')
+  printf "%s %s%s\n" % [post['meta']['_id_'].slice(0,6).blue, File.basename(file), tags.yellow]
+end
+
+
 def listPosts(limit=10)
   getPostsInOrder().first(limit).each() do |file|
-    post = getPost(file)
-    tags = post['meta']['tags'].to_a.empty? ? '' : (' [' + post['meta']['tags'].join(' ') + ']')
-    printf "%s %s%s\n" % [post['meta']['_id_'].slice(0,6).blue, File.basename(file), tags.yellow]
+    printPostLine(file)
   end
 end
 
