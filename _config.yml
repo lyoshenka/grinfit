@@ -12,7 +12,7 @@ rdiscount:
   extensions: ['smart']
 
 title: "GrinFit"
-tagline: "Sprints, weights, ultimate."
+tagline: "Sprints, weights, ultimate"
 author:
   name:  Grin
   email: alex@grin.io
