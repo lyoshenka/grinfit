@@ -3,7 +3,9 @@ GEM
   specs:
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
+    chronic (0.10.2)
     colorator (1.1.0)
+    colorize (0.8.1)
     concurrent-ruby (1.1.4)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -63,6 +65,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  chronic (~> 0.10.2)
+  colorize (~> 0.8.1)
   jekyll (~> 3.8.5)
   jekyll-archives
   jekyll-paginate
