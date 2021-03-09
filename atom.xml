@@ -3,13 +3,23 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-03-04T10:08:35-05:00</updated>
+ <updated>2021-03-09T13:28:55-05:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Tabata KB Swings and Pushups</title>
+   <link href="https://fit.grin.io/2021-03-09/tabata-kb-swings-and-pushups"/>
+   <published>2021-03-09T13:27:45-05:00</published>
+   <updated>2021-03-09T13:27:45-05:00</updated>
+   <id>7808611860035384</id>
+   <content type="html">&lt;p&gt;Two 4-minute tabatas, alternating push-ups and 35lb kb swings.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Deadlifts</title>
