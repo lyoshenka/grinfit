@@ -3,13 +3,27 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-03-09T13:28:55-05:00</updated>
+ <updated>2021-03-16T09:59:39-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Home Gym</title>
+   <link href="https://fit.grin.io/2021-03-16/home-gym"/>
+   <published>2021-03-16T09:59:01-04:00</published>
+   <updated>2021-03-16T09:59:01-04:00</updated>
+   <id>6274911127699543</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;Deadlift: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;@&lt;span class=&quot;number&quot;&gt;255&lt;/span&gt;lb &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Bench: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;@&lt;span class=&quot;number&quot;&gt;145&lt;/span&gt;lb &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Tabata KB Swings and Pushups</title>
