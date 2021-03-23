@@ -3,13 +3,43 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-03-16T09:59:39-04:00</updated>
+ <updated>2021-03-23T09:32:20-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Home Gym</title>
+   <link href="https://fit.grin.io/2021-03-20/home-gym"/>
+   <published>2021-03-20T10:59:36-04:00</published>
+   <updated>2021-03-20T10:59:36-04:00</updated>
+   <id>2487475157246349</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;Deadlift: 3x5@260lb&lt;/li&gt;
+&lt;li&gt;Bench: 3x5@150lb&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Home Gym</title>
+   <link href="https://fit.grin.io/2021-03-18/home-gym"/>
+   <published>2021-03-18T10:58:06-04:00</published>
+   <updated>2021-03-18T10:58:06-04:00</updated>
+   <id>9366366658902725</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;rless: 3x5@25lb dbs&lt;/li&gt;
+&lt;li&gt;pullups: 3x8&lt;/li&gt;
+&lt;li&gt;pushups: 3x15&lt;/li&gt;
+&lt;li&gt;hpc: 3x5@105lb&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Home Gym</title>
