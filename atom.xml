@@ -3,13 +3,43 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-03-23T09:32:20-04:00</updated>
+ <updated>2021-03-25T13:53:38-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Home Gym</title>
+   <link href="https://fit.grin.io/2021-03-25/home-gym"/>
+   <published>2021-03-25T13:53:25-04:00</published>
+   <updated>2021-03-25T13:53:25-04:00</updated>
+   <id>3264888272644461</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;Deadlift: 3x5@265lb&lt;/li&gt;
+&lt;li&gt;Bench: 3x5@155lb&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Home Gym</title>
+   <link href="https://fit.grin.io/2021-03-23/home-gym"/>
+   <published>2021-03-23T17:35:00-04:00</published>
+   <updated>2021-03-23T17:35:00-04:00</updated>
+   <id>1284470424388567</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;rless: 3x5@30lb dbs&lt;/li&gt;
+&lt;li&gt;pullups: 3x8&lt;/li&gt;
+&lt;li&gt;pushups: 3x15&lt;/li&gt;
+&lt;li&gt;hpc: 2x5@95lb, then my son woke up&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Home Gym</title>
