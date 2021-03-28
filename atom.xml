@@ -3,13 +3,29 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-03-25T13:53:38-04:00</updated>
+ <updated>2021-03-28T12:46:09-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Home Gym</title>
+   <link href="https://fit.grin.io/2021-03-28/home-gym"/>
+   <published>2021-03-28T12:42:05-04:00</published>
+   <updated>2021-03-28T12:42:05-04:00</updated>
+   <id>3402366613544950</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;RLESS: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;@&lt;span class=&quot;number&quot;&gt;35&lt;/span&gt;lb &lt;/span&gt; dumbbells&lt;/li&gt;
+&lt;li&gt;pullups: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;8&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;8&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;10&lt;/span&gt; &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;pushups: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;15&lt;/span&gt; &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;HPC: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;@&lt;span class=&quot;number&quot;&gt;110&lt;/span&gt;lb &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Home Gym</title>

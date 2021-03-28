@@ -272,6 +272,7 @@ https://fit.grin.io/lifting/
 https://fit.grin.io/lifting/page2/
 https://fit.grin.io/lifting/page3/
 https://fit.grin.io/lifting/page4/
+https://fit.grin.io/lifting/page5/
 https://fit.grin.io/sharkfuckers/
 https://fit.grin.io/pushday/
 https://fit.grin.io/birthday/
@@ -369,6 +370,7 @@ https://fit.grin.io/page41/
 https://fit.grin.io/page42/
 https://fit.grin.io/page43/
 
+https://fit.grin.io/2021-03-28/home-gym
 https://fit.grin.io/2021-03-25/home-gym
 https://fit.grin.io/2021-03-23/home-gym
 https://fit.grin.io/2021-03-20/home-gym
