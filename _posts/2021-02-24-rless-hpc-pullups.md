@@ -1,9 +1,9 @@
 ---
-title: 'Home Gym'
-date: '2021-02-24 14:13:57 UTC'
-tags:
-    - lifting
 _id_: '1730418010303982'
+date: 2021-02-24 14:13:57 UTC
+tags:
+- lifting
+title: RLESS, HPC, Pullups
 ---
 
 - rless: 3x5@20lb db

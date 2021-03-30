@@ -3,7 +3,7 @@ _id_: '3402366613544950'
 date: '2021-03-28 12:42:05'
 tags:
 - lifting
-title: Home Gym
+title: RLESS, Pullups, Pushups, HPC
 ---
 
 - RLESS: {% w 3x5@35lb %} dumbbells

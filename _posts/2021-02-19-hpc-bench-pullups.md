@@ -3,7 +3,7 @@ _id_: '6691632689878016'
 date: '2021-02-19 09:17:54'
 tags:
 - lifting
-title: Home Gym
+title: HPC, Bench, Pullups
 ---
 
 - HPC: 3x5@95lb
