@@ -3,13 +3,27 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-03-28T12:46:09-04:00</updated>
+ <updated>2021-03-30T11:29:08-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Home Gym</title>
+   <link href="https://fit.grin.io/2021-03-30/home-gym"/>
+   <published>2021-03-30T11:27:37-04:00</published>
+   <updated>2021-03-30T11:27:37-04:00</updated>
+   <id>8988784915062782</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;Deadlift: 3x5@270lb&lt;/li&gt;
+&lt;li&gt;Bench: 3x5@160lb&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Home Gym</title>
