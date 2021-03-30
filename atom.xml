@@ -3,7 +3,7 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-03-30T11:29:08-04:00</updated>
+ <updated>2021-03-30T11:32:43-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
@@ -12,8 +12,8 @@
 
  
  <entry>
-   <title>Home Gym</title>
-   <link href="https://fit.grin.io/2021-03-30/home-gym"/>
+   <title>Deadlift, Bench</title>
+   <link href="https://fit.grin.io/2021-03-30/deadlift-bench"/>
    <published>2021-03-30T11:27:37-04:00</published>
    <updated>2021-03-30T11:27:37-04:00</updated>
    <id>8988784915062782</id>
@@ -26,8 +26,8 @@
  </entry>
  
  <entry>
-   <title>Home Gym</title>
-   <link href="https://fit.grin.io/2021-03-28/home-gym"/>
+   <title>RLESS, Pullups, Pushups, HPC</title>
+   <link href="https://fit.grin.io/2021-03-28/rless-pullups-pushups-hpc"/>
    <published>2021-03-28T12:42:05-04:00</published>
    <updated>2021-03-28T12:42:05-04:00</updated>
    <id>3402366613544950</id>
@@ -42,8 +42,8 @@
  </entry>
  
  <entry>
-   <title>Home Gym</title>
-   <link href="https://fit.grin.io/2021-03-25/home-gym"/>
+   <title>Deadlift, Bench</title>
+   <link href="https://fit.grin.io/2021-03-25/deadlift-bench"/>
    <published>2021-03-25T13:53:25-04:00</published>
    <updated>2021-03-25T13:53:25-04:00</updated>
    <id>3264888272644461</id>
@@ -56,8 +56,8 @@
  </entry>
  
  <entry>
-   <title>Home Gym</title>
-   <link href="https://fit.grin.io/2021-03-23/home-gym"/>
+   <title>RLESS, Pullups, Pushups, HPC</title>
+   <link href="https://fit.grin.io/2021-03-23/rless-pullups-pushups-hpc"/>
    <published>2021-03-23T17:35:00-04:00</published>
    <updated>2021-03-23T17:35:00-04:00</updated>
    <id>1284470424388567</id>
@@ -72,8 +72,8 @@
  </entry>
  
  <entry>
-   <title>Home Gym</title>
-   <link href="https://fit.grin.io/2021-03-20/home-gym"/>
+   <title>Deadlift, Bench</title>
+   <link href="https://fit.grin.io/2021-03-20/deadlift-bench"/>
    <published>2021-03-20T10:59:36-04:00</published>
    <updated>2021-03-20T10:59:36-04:00</updated>
    <id>2487475157246349</id>
@@ -86,8 +86,8 @@
  </entry>
  
  <entry>
-   <title>Home Gym</title>
-   <link href="https://fit.grin.io/2021-03-18/home-gym"/>
+   <title>RLESS, Pullups, Pushups, HPC</title>
+   <link href="https://fit.grin.io/2021-03-18/rless-pullups-pushups-hpc"/>
    <published>2021-03-18T10:58:06-04:00</published>
    <updated>2021-03-18T10:58:06-04:00</updated>
    <id>9366366658902725</id>
@@ -102,8 +102,8 @@
  </entry>
  
  <entry>
-   <title>Home Gym</title>
-   <link href="https://fit.grin.io/2021-03-16/home-gym"/>
+   <title>Deadlift, Bench</title>
+   <link href="https://fit.grin.io/2021-03-16/deadlift-bench"/>
    <published>2021-03-16T09:59:01-04:00</published>
    <updated>2021-03-16T09:59:01-04:00</updated>
    <id>6274911127699543</id>
@@ -151,8 +151,8 @@ weighing 41lb.&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>Home Gym</title>
-   <link href="https://fit.grin.io/2021-02-24/home-gym"/>
+   <title>RLESS, HPC, Pullups</title>
+   <link href="https://fit.grin.io/2021-02-24/rless-hpc-pullups"/>
    <published>2021-02-24T09:13:57-05:00</published>
    <updated>2021-02-24T09:13:57-05:00</updated>
    <id>1730418010303982</id>
@@ -166,8 +166,8 @@ weighing 41lb.&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>Home Gym</title>
-   <link href="https://fit.grin.io/2021-02-22/home-gym"/>
+   <title>Deadlift, Pullups, Bench</title>
+   <link href="https://fit.grin.io/2021-02-22/deadlift-pullups-bench"/>
    <published>2021-02-22T14:16:45-05:00</published>
    <updated>2021-02-22T14:16:45-05:00</updated>
    <id>1935423069113160</id>
@@ -181,8 +181,8 @@ weighing 41lb.&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>Home Gym</title>
-   <link href="https://fit.grin.io/2021-02-19/home-gym"/>
+   <title>HPC, Bench, Pullups</title>
+   <link href="https://fit.grin.io/2021-02-19/hpc-bench-pullups"/>
    <published>2021-02-19T09:17:54-05:00</published>
    <updated>2021-02-19T09:17:54-05:00</updated>
    <id>6691632689878016</id>
