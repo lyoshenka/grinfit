@@ -59,6 +59,7 @@ task :show do
   exec('cat ' + args[:filename]);
   preventErrorsForCommandLineArgs()
 end
+task :cat => :show
 
 
 desc 'New stronglifts post'
