@@ -3,13 +3,27 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-04-01T09:33:01-04:00</updated>
+ <updated>2021-04-06T14:22:11-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Deadlift, Bench</title>
+   <link href="https://fit.grin.io/2021-04-06/deadlift-bench"/>
+   <published>2021-04-06T14:22:01-04:00</published>
+   <updated>2021-04-06T14:22:01-04:00</updated>
+   <id>4078100211502485</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;Deadlift: 3x5@275lb&lt;/li&gt;
+&lt;li&gt;Bench: 3x5@165lb&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>RLESS, Pullups, Pushups, HPC</title>
