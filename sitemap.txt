@@ -370,8 +370,9 @@ https://fit.grin.io/page41/
 https://fit.grin.io/page42/
 https://fit.grin.io/page43/
 
+https://fit.grin.io/2021-04-08/hpc-rless-pullups-l-hold
 https://fit.grin.io/2021-04-06/deadlift-bench
-https://fit.grin.io/2021-04-01/rless-pullups-pushups-hpc
+https://fit.grin.io/2021-04-01/rless-pullups-pushups
 https://fit.grin.io/2021-03-30/deadlift-bench
 https://fit.grin.io/2021-03-28/rless-pullups-pushups-hpc
 https://fit.grin.io/2021-03-25/deadlift-bench

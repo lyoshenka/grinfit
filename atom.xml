@@ -3,13 +3,29 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-04-06T14:22:11-04:00</updated>
+ <updated>2021-04-08T11:52:14-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>HPC, RLESS, Pullups, L-Hold</title>
+   <link href="https://fit.grin.io/2021-04-08/hpc-rless-pullups-l-hold"/>
+   <published>2021-04-08T11:50:57-04:00</published>
+   <updated>2021-04-08T11:50:57-04:00</updated>
+   <id>9654245029619858</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;Hang Power Cleans: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;@&lt;span class=&quot;number&quot;&gt;115&lt;/span&gt;lb &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;RLESS: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;@&lt;span class=&quot;number&quot;&gt;45&lt;/span&gt;lb &lt;/span&gt; dumbbells&lt;/li&gt;
+&lt;li&gt;Pullups: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;10&lt;/span&gt; &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;L-Hold: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;sec &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Deadlift, Bench</title>
@@ -26,8 +42,8 @@
  </entry>
  
  <entry>
-   <title>RLESS, Pullups, Pushups, HPC</title>
-   <link href="https://fit.grin.io/2021-04-01/rless-pullups-pushups-hpc"/>
+   <title>RLESS, Pullups, Pushups</title>
+   <link href="https://fit.grin.io/2021-04-01/rless-pullups-pushups"/>
    <published>2021-04-01T09:32:40-04:00</published>
    <updated>2021-04-01T09:32:40-04:00</updated>
    <id>4715629701495406</id>
