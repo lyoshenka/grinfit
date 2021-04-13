@@ -150,6 +150,7 @@ https://fit.grin.io/stronglifts/
 https://fit.grin.io/zoya/
 https://fit.grin.io/yoga/
 https://fit.grin.io/circuit/
+https://fit.grin.io/volleyball/
 https://fit.grin.io/gym/
 https://fit.grin.io/gym/page2/
 https://fit.grin.io/gym/page3/
@@ -326,6 +327,7 @@ https://fit.grin.io/stronglifts/page2/
 https://fit.grin.io/zoya/
 https://fit.grin.io/yoga/
 https://fit.grin.io/circuit/
+https://fit.grin.io/volleyball/
 https://fit.grin.io/sitemap.xml
 https://fit.grin.io/page2/
 https://fit.grin.io/page3/
@@ -370,6 +372,9 @@ https://fit.grin.io/page41/
 https://fit.grin.io/page42/
 https://fit.grin.io/page43/
 
+https://fit.grin.io/2021-04-13/hpc-rless-pullups-l-hold
+https://fit.grin.io/2021-04-11/deadlift-bench
+https://fit.grin.io/2021-04-10/volleyball
 https://fit.grin.io/2021-04-08/hpc-rless-pullups-l-hold
 https://fit.grin.io/2021-04-06/deadlift-bench
 https://fit.grin.io/2021-04-01/rless-pullups-pushups
