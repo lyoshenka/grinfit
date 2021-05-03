@@ -371,7 +371,9 @@ https://fit.grin.io/page40/
 https://fit.grin.io/page41/
 https://fit.grin.io/page42/
 https://fit.grin.io/page43/
+https://fit.grin.io/page44/
 
+https://fit.grin.io/2021-05-02/deadlift-bench
 https://fit.grin.io/2021-04-22/hpc-rless-pullups-l-hold
 https://fit.grin.io/2021-04-20/deadlift-bench
 https://fit.grin.io/2021-04-18/hpc-rless-pullups-l-hold
