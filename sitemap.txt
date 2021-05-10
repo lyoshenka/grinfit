@@ -145,7 +145,6 @@ https://fit.grin.io/off-program/
 https://fit.grin.io/ropeclimb/
 https://fit.grin.io/stretching/
 https://fit.grin.io/bodyweight/
-https://fit.grin.io/goalty/
 https://fit.grin.io/stronglifts/
 https://fit.grin.io/zoya/
 https://fit.grin.io/yoga/
@@ -321,7 +320,6 @@ https://fit.grin.io/off-program/
 https://fit.grin.io/ropeclimb/
 https://fit.grin.io/stretching/
 https://fit.grin.io/bodyweight/
-https://fit.grin.io/goalty/
 https://fit.grin.io/stronglifts/
 https://fit.grin.io/stronglifts/page2/
 https://fit.grin.io/zoya/
@@ -373,6 +371,8 @@ https://fit.grin.io/page42/
 https://fit.grin.io/page43/
 https://fit.grin.io/page44/
 
+https://fit.grin.io/2021-05-09/goalty
+https://fit.grin.io/2021-05-08/hpc-pushups-pullups
 https://fit.grin.io/2021-05-06/deadlift-bench
 https://fit.grin.io/2021-05-04/hpc-pushups-pullups
 https://fit.grin.io/2021-05-02/deadlift-bench
