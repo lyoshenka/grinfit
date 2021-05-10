@@ -2,7 +2,7 @@
 _id_: '2784895294460966'
 date: '2017-05-23 08:38:47'
 tags:
-- goalty
+- goaltimate
 title: Goalty @ Fairfield
 ---
 
