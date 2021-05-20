@@ -3,13 +3,33 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-05-11T09:51:28-04:00</updated>
+ <updated>2021-05-20T10:57:13-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Deadlift</title>
+   <link href="https://fit.grin.io/2021-05-20/deadlift"/>
+   <published>2021-05-20T10:56:57-04:00</published>
+   <updated>2021-05-20T10:56:57-04:00</updated>
+   <id>2098193049513794</id>
+   <content type="html">&lt;p&gt;&lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;@&lt;span class=&quot;number&quot;&gt;305&lt;/span&gt;lb &lt;/span&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Throwing With Shellie</title>
+   <link href="https://fit.grin.io/2021-05-19/throwing-with-shellie"/>
+   <published>2021-05-19T10:53:41-04:00</published>
+   <updated>2021-05-19T10:53:41-04:00</updated>
+   <id>1347297503288010</id>
+   <content type="html">&lt;p&gt;Then lunch at Darwins on Cambridge St&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Tabata KB Swings</title>
