@@ -3,13 +3,23 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-05-20T10:57:13-04:00</updated>
+ <updated>2021-05-25T12:49:08-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Quick KB Workout</title>
+   <link href="https://fit.grin.io/2021-05-25/quick-kb-workout"/>
+   <published>2021-05-25T12:48:31-04:00</published>
+   <updated>2021-05-25T12:48:31-04:00</updated>
+   <id>4615278497906083</id>
+   <content type="html">&lt;p&gt;Halos, press, swings, squats.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Deadlift</title>
