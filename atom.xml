@@ -3,13 +3,24 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-05-25T12:49:08-04:00</updated>
+ <updated>2021-05-28T09:54:12-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Shuttles</title>
+   <link href="https://fit.grin.io/2021-05-27/shuttles"/>
+   <published>2021-05-27T09:52:47-04:00</published>
+   <updated>2021-05-27T09:52:47-04:00</updated>
+   <id>8989083680713598</id>
+   <content type="html">&lt;p&gt;Ladder warmup, then &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;150&lt;/span&gt;yd shuttles &lt;/span&gt; on a 25yd course. Hit about 29 seconds on each. The last two were really rough. I felt myself
+seriously slowing down at the end.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Quick KB Workout</title>
