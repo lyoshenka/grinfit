@@ -3,7 +3,7 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-05-28T09:54:12-04:00</updated>
+ <updated>2021-06-01T10:28:58-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
@@ -13,11 +13,26 @@
  
  <entry>
    <title>Shuttles</title>
+   <link href="https://fit.grin.io/2021-06-01/shuttles"/>
+   <published>2021-06-01T10:27:52-04:00</published>
+   <updated>2021-06-01T10:27:52-04:00</updated>
+   <id>5306745630408346</id>
+   <content type="html">&lt;p&gt;Ladder warmup, then &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;150&lt;/span&gt;yd shuttles &lt;/span&gt; on a 25yd course. Rest 2m between reps.&lt;/p&gt;
+
+&lt;p&gt;Hit about 31 seconds on each. The course was a bit longer, but now I picked out some landmarks to make it consistent: from the second crack in the
+wall to the second hole past the stairs. The longer rests helped me feel less awful.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Shuttles</title>
    <link href="https://fit.grin.io/2021-05-27/shuttles"/>
    <published>2021-05-27T09:52:47-04:00</published>
    <updated>2021-05-27T09:52:47-04:00</updated>
    <id>8989083680713598</id>
-   <content type="html">&lt;p&gt;Ladder warmup, then &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;150&lt;/span&gt;yd shuttles &lt;/span&gt; on a 25yd course. Hit about 29 seconds on each. The last two were really rough. I felt myself
+   <content type="html">&lt;p&gt;Ladder warmup, then &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;150&lt;/span&gt;yd shuttles &lt;/span&gt; on a 25yd course. Rest 90s between reps.&lt;/p&gt;
+
+&lt;p&gt;Hit about 29 seconds on each. The last two were really rough. I felt myself
 seriously slowing down at the end.&lt;/p&gt;
 </content>
  </entry>
