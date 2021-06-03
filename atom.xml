@@ -3,13 +3,27 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-06-01T10:28:58-04:00</updated>
+ <updated>2021-06-03T12:45:45-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Shuttles</title>
+   <link href="https://fit.grin.io/2021-06-03/shuttles"/>
+   <published>2021-06-03T12:44:42-04:00</published>
+   <updated>2021-06-03T12:44:42-04:00</updated>
+   <id>1364128677709799</id>
+   <content type="html">&lt;p&gt;Ladder warmup, then &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;150&lt;/span&gt;yd shuttles &lt;/span&gt; on a 25yd course. Rest 2m between reps, plus throwing with Diana.&lt;/p&gt;
+
+&lt;p&gt;Hit about 31 seconds on each.&lt;/p&gt;
+
+&lt;p&gt;Threw some long hucks at the end.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Shuttles</title>
