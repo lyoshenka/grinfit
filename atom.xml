@@ -3,13 +3,28 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-06-10T10:37:58-04:00</updated>
+ <updated>2021-06-15T12:00:56-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Shuttles and Shuffles</title>
+   <link href="https://fit.grin.io/2021-06-15/shuttles-and-5-10-5s"/>
+   <published>2021-06-15T11:58:39-04:00</published>
+   <updated>2021-06-15T11:58:39-04:00</updated>
+   <id>2006391079639573</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;shuttles: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;150&lt;/span&gt;yd &lt;/span&gt;. 50yd course (from the first hole past the bench to the end of the wall). 2m rest for the first 3, then 90s rest for the next 3. Hit 24-25s each.&lt;/li&gt;
+&lt;li&gt;3 min rest&lt;/li&gt;
+&lt;li&gt;shuffles: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;ydx&lt;span class=&quot;number&quot;&gt;30&lt;/span&gt;sec &lt;/span&gt;. 90s rest.&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Shuttles and 5-10-5s</title>
