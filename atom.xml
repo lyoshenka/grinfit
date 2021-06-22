@@ -3,13 +3,30 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-06-15T12:00:56-04:00</updated>
+ <updated>2021-06-22T11:11:04-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>shuttles</title>
+   <link href="https://fit.grin.io/2021-06-22/shuttles"/>
+   <published>2021-06-22T11:08:49-04:00</published>
+   <updated>2021-06-22T11:08:49-04:00</updated>
+   <id>1685993225485283</id>
+   <content type="html">&lt;p&gt;shuttles:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;150&lt;/span&gt;yd on a &lt;span class=&quot;number&quot;&gt;25&lt;/span&gt;yd course &lt;/span&gt;. 90s rest. Hit 31s each.&lt;/li&gt;
+&lt;li&gt;3 min rest&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;300&lt;/span&gt;yd on a &lt;span class=&quot;number&quot;&gt;50&lt;/span&gt;yd course &lt;/span&gt;. 90s rest. Hit 26s on both.&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Shuttles and Shuffles</title>
