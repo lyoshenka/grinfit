@@ -3,13 +3,33 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-06-22T11:11:04-04:00</updated>
+ <updated>2021-07-01T12:01:42-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>shuttles</title>
+   <link href="https://fit.grin.io/2021-07-01/shuttles"/>
+   <published>2021-07-01T12:01:09-04:00</published>
+   <updated>2021-07-01T12:01:09-04:00</updated>
+   <id>1988727593738652</id>
+   <content type="html">&lt;p&gt;shuttles: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;8&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;150&lt;/span&gt;yd on a &lt;span class=&quot;number&quot;&gt;25&lt;/span&gt;yd course &lt;/span&gt;. 90s rest. Hit 30s for each.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>shuttles</title>
+   <link href="https://fit.grin.io/2021-06-29/shuttles"/>
+   <published>2021-06-29T12:00:14-04:00</published>
+   <updated>2021-06-29T12:00:14-04:00</updated>
+   <id>9610087611439988</id>
+   <content type="html">&lt;p&gt;shuttles: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;6&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;150&lt;/span&gt;yd on a &lt;span class=&quot;number&quot;&gt;25&lt;/span&gt;yd course &lt;/span&gt;. 90s rest. Hit 28s for the first 3, 30s for the last 3.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>shuttles</title>
