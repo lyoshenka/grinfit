@@ -3,13 +3,30 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-07-06T12:07:59-04:00</updated>
+ <updated>2021-09-26T11:47:12-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Quick Gym</title>
+   <link href="https://fit.grin.io/2021-09-26/quick-gym"/>
+   <published>2021-09-26T11:45:48-04:00</published>
+   <updated>2021-09-26T11:45:48-04:00</updated>
+   <id>4954706602435912</id>
+   <content type="html">&lt;p&gt;Just to get started.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Deadlift: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;@&lt;span class=&quot;number&quot;&gt;135&lt;/span&gt;lb &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Bench: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;@&lt;span class=&quot;number&quot;&gt;95&lt;/span&gt;lb &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;RLESS: &lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;10&lt;/span&gt; &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Shuttles and Shuffles</title>

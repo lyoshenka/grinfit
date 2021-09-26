@@ -372,7 +372,9 @@ https://fit.grin.io/page41/
 https://fit.grin.io/page42/
 https://fit.grin.io/page43/
 https://fit.grin.io/page44/
+https://fit.grin.io/page45/
 
+https://fit.grin.io/2021-09-26/quick-gym
 https://fit.grin.io/2021-07-05/shuttles-and-shuffles
 https://fit.grin.io/2021-07-01/shuttles
 https://fit.grin.io/2021-06-29/shuttles
