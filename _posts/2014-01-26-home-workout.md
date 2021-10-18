@@ -2,7 +2,7 @@
 _id_: '4411484143411364'
 tags:
 - burpees
-- cario
+- cardio
 title: Home Workout
 ---
 
