@@ -3,13 +3,43 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-09-26T11:47:12-04:00</updated>
+ <updated>2021-10-18T09:45:58-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>T25 Total Body</title>
+   <link href="https://fit.grin.io/2021-10-18/t25-total-body"/>
+   <published>2021-10-18T09:44:34-04:00</published>
+   <updated>2021-10-18T09:44:34-04:00</updated>
+   <id>4618481834997646</id>
+   <content type="html">&lt;p&gt;Plus cold shower.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Goalty</title>
+   <link href="https://fit.grin.io/2021-10-17/goalty"/>
+   <published>2021-10-17T09:44:10-04:00</published>
+   <updated>2021-10-17T09:44:10-04:00</updated>
+   <id>4081624888858130</id>
+   <content type="html">&lt;p&gt;1.5 hours of goalty&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Goalty</title>
+   <link href="https://fit.grin.io/2021-10-10/goalty"/>
+   <published>2021-10-10T09:43:15-04:00</published>
+   <updated>2021-10-10T09:43:15-04:00</updated>
+   <id>5716065199064166</id>
+   <content type="html">&lt;p&gt;An hour or so of goalty&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Quick Gym</title>

@@ -30,7 +30,6 @@ https://fit.grin.io/beach/
 https://fit.grin.io/party/
 https://fit.grin.io/indoor/
 https://fit.grin.io/burpees/
-https://fit.grin.io/cario/
 https://fit.grin.io/phoenix/
 https://fit.grin.io/tryouts/
 https://fit.grin.io/tournament/
@@ -196,7 +195,6 @@ https://fit.grin.io/indoor/
 https://fit.grin.io/indoor/page2/
 https://fit.grin.io/indoor/page3/
 https://fit.grin.io/burpees/
-https://fit.grin.io/cario/
 https://fit.grin.io/phoenix/
 https://fit.grin.io/tryouts/
 https://fit.grin.io/tournament/
@@ -374,6 +372,9 @@ https://fit.grin.io/page43/
 https://fit.grin.io/page44/
 https://fit.grin.io/page45/
 
+https://fit.grin.io/2021-10-18/t25-total-body
+https://fit.grin.io/2021-10-17/goalty
+https://fit.grin.io/2021-10-10/goalty
 https://fit.grin.io/2021-09-26/quick-gym
 https://fit.grin.io/2021-07-05/shuttles-and-shuffles
 https://fit.grin.io/2021-07-01/shuttles
