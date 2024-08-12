@@ -3,13 +3,32 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2021-10-18T09:45:58-04:00</updated>
+ <updated>2024-08-12T19:06:41-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Quick KB Circuit</title>
+   <link href="https://fit.grin.io/2024-08-12/quick-kb-circuit"/>
+   <published>2024-08-12T19:02:55-04:00</published>
+   <updated>2024-08-12T19:02:55-04:00</updated>
+   <id>3930953040324371</id>
+   <content type="html">&lt;p&gt;3 rounds with a 35lb kb:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;5 per side halos&lt;/li&gt;
+&lt;li&gt;10 per side swings&lt;/li&gt;
+&lt;li&gt;20 goblet squats&lt;/li&gt;
+&lt;li&gt;5 per side press&lt;/li&gt;
+&lt;li&gt;10 pushups&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>T25 Total Body</title>
