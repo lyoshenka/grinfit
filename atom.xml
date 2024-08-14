@@ -3,13 +3,29 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2024-08-12T19:06:41-04:00</updated>
+ <updated>2024-08-14T09:05:40-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Deadlifts and Pullups</title>
+   <link href="https://fit.grin.io/2024-08-14/deadlifts-and-pullups"/>
+   <published>2024-08-14T09:04:07-04:00</published>
+   <updated>2024-08-14T09:04:07-04:00</updated>
+   <id>4178037010296990</id>
+   <content type="html">&lt;p&gt;3 rounds of:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;185&lt;/span&gt;lb &lt;/span&gt; deadlift&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt; &lt;/span&gt; pullups&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Quick KB Circuit</title>
