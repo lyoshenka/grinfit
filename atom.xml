@@ -3,13 +3,32 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2024-08-14T09:05:40-04:00</updated>
+ <updated>2024-08-15T12:16:37-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>KB Circuit</title>
+   <link href="https://fit.grin.io/2024-08-15/kb-circuit"/>
+   <published>2024-08-15T12:14:23-04:00</published>
+   <updated>2024-08-15T12:14:23-04:00</updated>
+   <id>1191846584291072</id>
+   <content type="html">&lt;p&gt;3 rounds with a 35lb kb of:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;5 halos each way&lt;/li&gt;
+&lt;li&gt;20 goblet squats&lt;/li&gt;
+&lt;li&gt;8 single-leg RDLs per leg&lt;/li&gt;
+&lt;li&gt;20 one-arm KB swings per arm&lt;/li&gt;
+&lt;li&gt;5 KB press per arm&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Deadlifts and Pullups</title>
