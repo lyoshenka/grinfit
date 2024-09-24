@@ -3,13 +3,34 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2024-08-22T07:17:48-04:00</updated>
+ <updated>2024-09-24T10:29:30-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>KB Circuit</title>
+   <link href="https://fit.grin.io/2024-09-24/kb-circuit"/>
+   <published>2024-09-24T10:28:53-04:00</published>
+   <updated>2024-09-24T10:28:53-04:00</updated>
+   <id>2906576484924956</id>
+   <content type="html">&lt;p&gt;1 round with a 44lb kb of:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;5 halos each way&lt;/li&gt;
+&lt;li&gt;20 goblet squats&lt;/li&gt;
+&lt;li&gt;20 pushups&lt;/li&gt;
+&lt;li&gt;8 single-leg RDLs per leg&lt;/li&gt;
+&lt;li&gt;20 one-arm KB swings per arm&lt;/li&gt;
+&lt;li&gt;5 KB press per arm (35lb kb)&lt;/li&gt;
+&lt;li&gt;10 eccentric calf raises (aka calf lowers?)&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>KB Circuit</title>
