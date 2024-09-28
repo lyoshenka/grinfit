@@ -3,7 +3,7 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2024-09-28T14:41:08-04:00</updated>
+ <updated>2024-09-28T14:50:52-04:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
@@ -29,6 +29,16 @@
 &lt;li&gt;5 eccentric calf raises (35lb)&lt;/li&gt;
 &lt;/ul&gt;
 
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Lunch Goalty</title>
+   <link href="https://fit.grin.io/2024-09-27/lunch-goalty"/>
+   <published>2024-09-27T14:49:38-04:00</published>
+   <updated>2024-09-27T14:49:38-04:00</updated>
+   <id>9161864747957163</id>
+   <content type="html">&lt;p&gt;an hour of goalty at lunch. it was pretty hot and we had just one sub for both teams combined.&lt;/p&gt;
 </content>
  </entry>
  
