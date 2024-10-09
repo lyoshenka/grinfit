@@ -12,6 +12,7 @@ I realized that I need a habit of working out daily. While looking for a pattern
 I'm tweaking it as I work on my setup (needed a new pullup bar and dip setup).
 
 Warmup
+
 - foam rolling
 - 2 minutes on the erg
 - 5/side worlds greatest stretch
@@ -22,14 +23,17 @@ Warmup
 - 10 bar deadlifts
 
 3 rounds of:
+
 - 5 shrimp squats
 - 4 pullups
 
 3 rounds of:
+
 - 6 135lb RDLs
 - 6 [pseudo planche pushups](https://www.youtube.com/watch?v=Cdmg0CfMZeo)
 
 3 rounds of:
+
 - 25sec Copenhagen plank per side
 - 10sec tucked hanging leg hold
 
