@@ -1,7 +1,8 @@
 source "https://rubygems.org"
-ruby "2.5.3"
+ruby "3.4.7"
 
-gem "jekyll", "~> 3.8.5"
+gem "jekyll", "~> 4.3"
+gem "logger"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -22,8 +23,9 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-gem 'rdiscount'
+# rdiscount is no longer supported by Jekyll 4.x
+# gem 'rdiscount'
 
-gem "chronic", "~> 0.10.2"
+gem "chronic", "~> 0.10"
 
-gem "colorize", "~> 0.8.1"
+gem "colorize", "~> 0.8"

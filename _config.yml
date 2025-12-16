@@ -7,9 +7,14 @@ paginate_path: "/page:num/"
 
 # maruku has a bug with the first line in the post starting with a colon
 # https://github.com/mojombo/jekyll/issues/126
-markdown: rdiscount
-rdiscount:
-  extensions: ['smart']
+markdown: kramdown
+kramdown:
+  input: GFM
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  typographic_symbols:
+    ellipsis: ...
+    em_dash: —
+    en_dash: –
 
 title: "GrinFit"
 tagline: "Sprints, weights, ultimate"
@@ -30,11 +35,16 @@ defaults:
 
 plugins:
   - jekyll-sitemap
-  - jekyll-archives
   - jekyll-paginate
+  - jekyll-archives
 
 jekyll-archives:
   enabled: ['tags']
   layout: tag
   permalinks:
     tag: '/:name/'
+
+
+sass:
+  style: expanded
+  sass_dir: _sass

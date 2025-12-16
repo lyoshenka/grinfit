@@ -396,7 +396,7 @@ def getPost(filename)
   if (parts.count() != 3)
     abort('Could not parse post ' + filename.to_s)
   end
-  {'meta' => YAML.load(parts[1]), 'body' => parts[2]}
+  {'meta' => YAML.unsafe_load(parts[1]), 'body' => parts[2]}
 end
 
 

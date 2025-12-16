@@ -3,11 +3,9 @@ layout: default
 ---
 
 <div id="posts" class="js-hide-on-search">
-{% for postObject in paginator.posts %}
+{% for postObject in page.posts %}
   {% assign postContent = postObject.content %}
   {% include post %}
 {% endfor %}
 </div>
 <div id="search-results"></div>
-
-{% include pagination %}
