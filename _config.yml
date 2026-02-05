@@ -1,7 +1,7 @@
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:year-:month-:day/:title
 
-exclude: ["README.md", "config.ru", "Gemfile*", "Rakefile", "*.rake", "wercker.yml", "CHECKS", "bin", "vendor"]
+exclude: ["README.md", "AGENTS.md", "config.ru", "Gemfile*", "Rakefile", "*.rake", "*.sh", "Procfile", "wercker.yml", "CHECKS", "bin", "vendor"]
 paginate: 20
 paginate_path: "/page:num/"
 

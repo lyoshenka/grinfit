@@ -76,7 +76,7 @@ task :sl do
   title = "Stronglifts 5x5 " + letter.upcase
   filename = makeFilename(now, title)
 
-  if File.exists?(filename)
+  if File.exist?(filename)
     print "File already exists\n"
     next
   end
@@ -98,7 +98,7 @@ task :copy do
   post['meta']['_id_'] = newID()
   post['meta']['date'] = now.strftime('%F %T')
   filename = makeFilename(now, post['meta']['title'])
-  if File.exists?(filename)
+  if File.exist?(filename)
     print "File already exists\n"
     next
   end
@@ -107,12 +107,12 @@ task :copy do
 end
 
 
-desc 'Create a new post with the given title and open it in the editor'
+desc 'Create a new post with the given title and open it in the editor (use noedit=1 to skip editor)'
 task :new do
   args = parseArgs(filenum: false)
   title = args[:rest]
   if title.empty?
-    abort "Usage: rake new POST TITLE GOES HERE\n"
+    abort "Usage: rake new POST TITLE GOES HERE\n       Use noedit=1 to skip opening the editor\n"
   end
 
   setTZ()
@@ -120,13 +120,17 @@ task :new do
 
   filename = makeFilename(now, title)
 
-  if File.exists?(filename)
+  if File.exist?(filename)
     print "File already exists\n"
     next
   end
 
   savePost(filename, {'meta' => {'title' => title, 'date' => now.strftime('%F %T')}, 'body' => ''})
-  exec(EDITOR + ' ' + filename)
+  if ENV['noedit'] == '1'
+    puts filename
+  else
+    exec(EDITOR + ' ' + filename)
+  end
 end
 
 
@@ -149,7 +153,7 @@ task :rename do
   oldFilename = args[:filename]
   newFilename = makeFilename(oldFilename.match(/\d{4}-\d{2}-\d{2}/)[0], title)
 
-  if File.exists?(newFilename)
+  if File.exist?(newFilename)
     print "!!! File with new name already exists !!!\n"
     next
   end
@@ -313,7 +317,7 @@ def changeDateTime(filename, string, dateOrTime)
 
   if (dateOrTime == :date)
     newFilename = makeFilename(newDateTime, post['meta']['title']);
-    if File.exists?(newFilename)
+    if File.exist?(newFilename)
       print "!!! File named #{newFilename} already exists !!!\n"
       return
     end
