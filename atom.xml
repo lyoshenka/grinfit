@@ -3,13 +3,35 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2026-02-05T08:56:07-05:00</updated>
+ <updated>2026-02-06T09:37:01-05:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Superset and Copenhagen Plank Tabata</title>
+   <link href="https://fit.grin.io/2026-02-06/superset-and-copenhagen-plank-tabata"/>
+   <published>2026-02-06T09:28:18-05:00</published>
+   <updated>2026-02-06T09:28:18-05:00</updated>
+   <id>6380333062174348</id>
+   <content type="html">&lt;p&gt;3 rounds superset:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;6&lt;/span&gt;@&lt;span class=&quot;number&quot;&gt;50&lt;/span&gt;lb &lt;/span&gt; rear leg elevated split squats&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;8&lt;/span&gt; &lt;/span&gt; ring pushups&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;8&lt;/span&gt; &lt;/span&gt; ring rows&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tabata (3 min) alternating side Copenhagen plank&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Tabatas and Handstands</title>
