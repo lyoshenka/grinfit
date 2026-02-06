@@ -13,7 +13,7 @@ title: 'CFHN: Squats and Abs'
 - Ab Rollouts 3x10
 
 Used 170lb for the squats and 25lb plates on a bar for the rollout. Rollouts were harder than what I'm used to with the ab wheel.
- 
+
 ## WOD
 
 For Time:
