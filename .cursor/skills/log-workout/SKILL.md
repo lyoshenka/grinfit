@@ -19,6 +19,8 @@ description: Log a workout or fitness entry. Use when the user wants to record e
    ```
    This creates the post file with proper frontmatter (`_id_`, `date`, `title`) and prints the filename. The `noedit=1` flag prevents opening the editor so you can edit the file directly.
 
+   **WARNING:** Do NOT use `rake edit`, `rake copy`, or `rake sl` — these open vi, which doesn't work with an agent. Always use `noedit=1 rake new` and edit the file directly.
+
 2. **Add content** to the post. Wrap **all** workout numbers in `{% w %}` tags — not just sets/reps/weight combos, but also standalone rep counts:
    ```
    - Squat: {% w 5x5@145lb %}      # 5 sets of 5 reps at 145lb
