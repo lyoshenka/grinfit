@@ -19,6 +19,8 @@ Run the single command that does everything:
 rake push
 ```
 
+**CRITICAL:** Always run `rake push` with `required_permissions: ["all"]` to run outside the sandbox. This command needs full network access for git push and deployment, and may need other system permissions.
+
 This command:
 1. Builds the Jekyll site to `_site/`
 2. Stages all changes with `git add -A`
