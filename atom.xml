@@ -3,13 +3,27 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2026-02-11T10:06:15-05:00</updated>
+ <updated>2026-02-16T11:59:24-05:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
    <email>alex@grin.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Deadlift and Ring Push-ups</title>
+   <link href="https://fit.grin.io/2026-02-16/deadlift-and-ring-push-ups"/>
+   <published>2026-02-16T11:58:01-05:00</published>
+   <updated>2026-02-16T11:58:01-05:00</updated>
+   <id>8491272668779633</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;&lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;@&lt;span class=&quot;number&quot;&gt;185&lt;/span&gt;lb &lt;/span&gt; deadlift&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;workout-unit&quot;&gt;&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;x&lt;span class=&quot;number&quot;&gt;8&lt;/span&gt; &lt;/span&gt; ring push-ups&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Tabata KB Swings, Upper Body Superset, and Deadlifts</title>
