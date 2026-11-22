@@ -22,6 +22,7 @@ author:
   name:  Grin
   email: alex@grin.io
 timezone: "America/New_York"
+future: true
 
 production_url: https://fit.grin.io
 
