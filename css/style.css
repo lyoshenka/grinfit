@@ -251,6 +251,7 @@ a:hover {
   position: absolute;
   top: 7px;
   right: 0;
+  display: inline-block;
 }
 .search-box #search {
   background: url("/img/search-white.png") no-repeat 10px 8px #f5f4ef;
@@ -259,7 +260,7 @@ a:hover {
   line-height: 18px;
   color: #3A3738;
   width: 215px;
-  padding: 6px 27px 6px 35px;
+  padding: 6px 32px 6px 35px;
   margin: 0;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -280,18 +281,19 @@ a:hover {
   width: 265px;
 }
 .search-box .clear-icon {
-  position: relative;
-  right: 27px;
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
   display: none;
   cursor: pointer;
-  margin-right: -12px;
-  vertical-align: text-top;
   font-size: 1rem;
+  line-height: 1;
 }
 
 @media (max-width: 550px) {
   .search-box {
-    position: static;
+    position: relative;
   }
 }
 #no-results {
