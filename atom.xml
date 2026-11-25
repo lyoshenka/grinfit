@@ -3,7 +3,7 @@
  <title>GrinFit</title>
  <link href="https://fit.grin.io/atom.xml" rel="self"/>
  <link href="https://fit.grin.io/"/>
- <updated>2026-11-25T01:23:46-05:00</updated>
+ <updated>2026-11-25T01:26:03-05:00</updated>
  <id>https://fit.grin.io/</id>
  <author>
    <name>Grin</name>
@@ -25,9 +25,11 @@
   &lt;li&gt;♠️: half that many pullups, rounded up&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Any Jack: 20 seconds Copenhagen plank per side
-Any Queen: 6 pike pushups
-Any King: 10 calf raises&lt;/p&gt;
+&lt;p&gt;Any Jack: 20 seconds Copenhagen plank per side&lt;/p&gt;
+
+&lt;p&gt;Any Queen: 6 pike pushups&lt;/p&gt;
+
+&lt;p&gt;Any King: 10 calf raises&lt;/p&gt;
 </content>
  </entry>
  
