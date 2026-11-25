@@ -14,5 +14,7 @@ Ace(1) through 10: do that many reps of
 - ♠️: half that many pullups, rounded up
 
 Any Jack: 20 seconds Copenhagen plank per side
+
 Any Queen: 6 pike pushups
+
 Any King: 10 calf raises
